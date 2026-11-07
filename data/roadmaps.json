@@ -1,0 +1,5706 @@
+[
+ {
+  "id": "snu-current",
+  "name": "서울대학교",
+  "program": "현행 전공 로드맵 (2025학년도 2학기 기준)",
+  "system": "semester",
+  "edge_style": "recommended",
+  "total_requirements": "학과 공식 로드맵을 옮겼다. 전공필수는 통계학, 전산통계 및 실험, 확률의 개념 및 응용, 회귀분석 및 실습, 수리통계 1·2이며 나머지는 전공선택이다. 폐지된 실변수함수론, 통계적품질관리 및 실습, 함수추정의 응용 및 실습은 제외했다.",
+  "notes": [
+   "원안의 '선수이수 권장' 화살표를 그대로 쓰지 않고, 작성자가 정리한 각 과목 강의노트에서 실제로 끌어 쓰는 개념을 세어 다시 그렸다. 같은 학기 칸 안의 화살표는 병행 이수를 권장한다는 뜻이다.",
+   "서울대 수리통계 1은 분포이론과 극한이론(중심극한정리, Slutsky, 순서통계량), 수리통계 2는 최대가능도, 가능도비·Wald·점수 검정, 충분통계량, 베이즈 추론을 다룬다. 이산자료분석·다변량자료분석·생존자료분석은 수리통계 2의 가능도 이론을, 비모수통계는 수리통계 1의 순서통계량·표집분포와 회귀분석(부트스트랩 회귀, 국소다항회귀)을 주로 쓴다.",
+   "선형대수는 회귀분석, 실험계획(멱등행렬, 사영), 다변량(고유값 분해), 통계계산(LU·QR·Cholesky 분해)의 기반이다. 실험계획은 회귀분석의 최소제곱·추가제곱합 이론에도 크게 의존한다.",
+   "시계열분석, 베이즈통계, 확률과정론은 렉노가 없어 일반적인 교과 내용으로 판단했다. 원안의 해석개론→수리통계 1 화살표는 수리통계 1 렉노에서 해석학 개념이 거의 쓰이지 않아 넣지 않았다."
+  ],
+  "sources": [],
+  "courses": [
+   {
+    "id": "c_stat",
+    "code": "",
+    "name_ko": "통계학",
+    "term": "Y1S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "c_cstat",
+    "code": "",
+    "name_ko": "전산통계 및 실험",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "c_prob",
+    "code": "",
+    "name_ko": "확률의 개념 및 응용",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "c_la1",
+    "code": "선형대수학으로 대체 가능",
+    "name_ko": "선형대수학 1",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "c_an1",
+    "code": "해석개론, 해석개론 및 연습 1 가능",
+    "name_ko": "해석개론 1",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "c_la2",
+    "code": "",
+    "name_ko": "선형대수학 2",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "c_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_an2",
+    "code": "해석개론 및 연습 2 가능",
+    "name_ko": "해석개론 2",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "c_an1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_da",
+    "code": "",
+    "name_ko": "자료분석 및 실습",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "c_cstat",
+     "c_stat"
+    ],
+    "weak": [
+     "c_stat"
+    ]
+   },
+   {
+    "id": "c_samp",
+    "code": "",
+    "name_ko": "표본설계 및 조사실습",
+    "term": "Y2S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_stat"
+    ],
+    "weak": [
+     "c_stat"
+    ]
+   },
+   {
+    "id": "c_ms1",
+    "code": "",
+    "name_ko": "수리통계 1",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "c_prob"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_ms",
+    "code": "부전공생만 전공 인정",
+    "name_ko": "수리통계",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "c_prob"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_reg",
+    "code": "",
+    "name_ko": "회귀분석 및 실습",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "c_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_doe",
+    "code": "",
+    "name_ko": "실험계획 및 실습",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_stat",
+     "c_la1",
+     "c_reg"
+    ],
+    "weak": [
+     "c_stat",
+     "c_la1"
+    ]
+   },
+   {
+    "id": "c_numan",
+    "code": "",
+    "name_ko": "수치해석개론",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "c_ms2",
+    "code": "",
+    "name_ko": "수리통계 2",
+    "term": "Y3S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "c_ms1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_cat",
+    "code": "",
+    "name_ko": "이산자료분석 및 실습",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_ms1",
+     "c_reg",
+     "c_ms2"
+    ],
+    "weak": [
+     "c_ms1",
+     "c_reg"
+    ]
+   },
+   {
+    "id": "c_mva",
+    "code": "",
+    "name_ko": "다변량자료분석 및 실습",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_la1",
+     "c_ms1",
+     "c_ms2"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_nla",
+    "code": "",
+    "name_ko": "수치선형대수",
+    "term": "Y3S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "c_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_scomp",
+    "code": "",
+    "name_ko": "통계계산",
+    "term": "Y4S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "c_la1",
+     "c_prob",
+     "c_reg",
+     "c_ms2"
+    ],
+    "weak": [
+     "c_prob",
+     "c_reg",
+     "c_ms2"
+    ]
+   },
+   {
+    "id": "c_dm",
+    "code": "",
+    "name_ko": "데이터마이닝 방법 및 실습",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "c_reg"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_ts",
+    "code": "",
+    "name_ko": "시계열분석 및 실습",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_ms2",
+     "c_reg"
+    ],
+    "weak": [
+     "c_reg"
+    ]
+   },
+   {
+    "id": "c_np",
+    "code": "",
+    "name_ko": "비모수통계 및 실습",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_ms1",
+     "c_reg"
+    ],
+    "weak": [
+     "c_reg"
+    ]
+   },
+   {
+    "id": "c_proc",
+    "code": "",
+    "name_ko": "확률과정론",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "c_prob"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_ada",
+    "code": "",
+    "name_ko": "자료분석 심화 방법론 및 실습",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_reg",
+     "c_dm"
+    ],
+    "weak": [
+     "c_dm"
+    ]
+   },
+   {
+    "id": "c_surv",
+    "code": "",
+    "name_ko": "생존자료분석 및 실습",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "c_ms2"
+    ],
+    "weak": []
+   },
+   {
+    "id": "c_bayes",
+    "code": "",
+    "name_ko": "베이즈통계 및 실습",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "c_ms2"
+    ],
+    "weak": []
+   }
+  ],
+  "prov": "선수관계: 렉노 기준 (강한·약한 권장)",
+  "group": "서울대학교"
+ },
+ {
+  "id": "snu",
+  "name": "서울대학교",
+  "program": "통계학과 전공 로드맵 개편안",
+  "system": "semester",
+  "edge_style": "recommended",
+  "total_requirements": "제안 원안 그대로 옮김. 화살표는 공식 선수과목이 아니라 내용상 권장 순서를 작성자가 표시한 것(점선).",
+  "notes": [],
+  "sources": [],
+  "courses": [
+   {
+    "id": "s_stat",
+    "code": "",
+    "name_ko": "통계학",
+    "term": "Y1S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_comp",
+    "code": "",
+    "name_ko": "컴퓨터의 개념 및 실습",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_cstat",
+    "code": "",
+    "name_ko": "전산통계 및 실험",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_prob",
+    "code": "",
+    "name_ko": "확률의 개념 및 응용",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_la1",
+    "code": "",
+    "name_ko": "선형대수학 1",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_an1",
+    "code": "",
+    "name_ko": "해석개론 1",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_mstat",
+    "code": "",
+    "name_ko": "수리통계",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "s_prob"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_samp",
+    "code": "",
+    "name_ko": "표본조사론",
+    "term": "Y2S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_la2",
+    "code": "",
+    "name_ko": "선형대수학 2",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "s_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_an2",
+    "code": "",
+    "name_ko": "해석개론 2",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "s_an1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_theory",
+    "code": "",
+    "name_ko": "통계이론",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "s_mstat"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_reg",
+    "code": "",
+    "name_ko": "회귀분석",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "s_mstat",
+     "s_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_doe",
+    "code": "",
+    "name_ko": "실험계획법",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "s_la1",
+     "s_reg"
+    ],
+    "weak": [
+     "s_la1"
+    ]
+   },
+   {
+    "id": "s_topo",
+    "code": "",
+    "name_ko": "위상수학개론 1",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_meas",
+    "code": "",
+    "name_ko": "측도이론과 확률",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "s_an2"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_numan",
+    "code": "",
+    "name_ko": "수치해석개론",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_cat",
+    "code": "",
+    "name_ko": "이산자료분석",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "s_reg",
+     "s_theory"
+    ],
+    "weak": [
+     "s_reg"
+    ]
+   },
+   {
+    "id": "s_mva",
+    "code": "",
+    "name_ko": "다변량자료분석",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "recommended": true,
+    "prereqs": [
+     "s_la1",
+     "s_theory"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_np",
+    "code": "",
+    "name_ko": "비모수통계",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "recommended": true,
+    "prereqs": [
+     "s_mstat",
+     "s_reg"
+    ],
+    "weak": [
+     "s_reg"
+    ]
+   },
+   {
+    "id": "s_real",
+    "code": "",
+    "name_ko": "실해석학",
+    "term": "Y3S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "s_an2"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_nla",
+    "code": "",
+    "name_ko": "수치선형대수",
+    "term": "Y3S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "s_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_scomp",
+    "code": "",
+    "name_ko": "통계계산",
+    "term": "Y4S1",
+    "category": "computing",
+    "required": false,
+    "recommended": true,
+    "prereqs": [
+     "s_la1",
+     "s_prob",
+     "s_reg",
+     "s_theory"
+    ],
+    "weak": [
+     "s_prob",
+     "s_reg",
+     "s_theory"
+    ]
+   },
+   {
+    "id": "s_dm",
+    "code": "",
+    "name_ko": "데이터마이닝",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "recommended": true,
+    "prereqs": [
+     "s_reg"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_ts",
+    "code": "",
+    "name_ko": "시계열분석",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "s_reg",
+     "s_theory"
+    ],
+    "weak": [
+     "s_reg"
+    ]
+   },
+   {
+    "id": "s_sml",
+    "code": "",
+    "name_ko": "통계적 기계학습",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "s_la1",
+     "s_mstat"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_r1",
+    "code": "",
+    "name_ko": "통계연구 1",
+    "term": "Y4S1",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "s_proc",
+    "code": "",
+    "name_ko": "확률과정론",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "s_prob"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_adm",
+    "code": "",
+    "name_ko": "고급데이터마이닝",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "s_dm"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_surv",
+    "code": "",
+    "name_ko": "생존자료분석",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "s_theory"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_bayes",
+    "code": "",
+    "name_ko": "베이즈통계",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "recommended": true,
+    "prereqs": [
+     "s_theory"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_dl",
+    "code": "",
+    "name_ko": "딥러닝의 통계적 이해",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "s_la1",
+     "s_mstat"
+    ],
+    "weak": []
+   },
+   {
+    "id": "s_r2",
+    "code": "",
+    "name_ko": "통계연구 2",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "s_r1"
+    ],
+    "weak": []
+   }
+  ],
+  "prov": "화살표: 작성자 표시 (강한·약한 권장)",
+  "group": "서울대학교"
+ },
+ {
+  "id": "snu-proposal",
+  "name": "서울대학교",
+  "program": "최종 제안 로드맵 (작성자안)",
+  "system": "semester",
+  "total_requirements": "통계학과 개설 강의 과목은 20과목(1학기 10, 2학기 10)이다. 여기에 교수 연구실에서 개별 지도를 받는 통계연구 1·2를 매 학기 연다. 현재 실제로 개설 중인 22과목(로드맵 20과목과 통계적 기계학습, 딥러닝의 통계적 이해)보다 강의 과목이 2개 적다. 수리통계(부전공용), 자료분석 및 실습, 자료분석 심화 방법론 및 실습을 폐지하고, 팀 프로젝트형 고급데이터마이닝을 둔다. 전공필수는 현행과 같은 6과목(통계학, 전산통계 및 실험, 확률의 개념 및 응용, 수리통계 1·2, 회귀분석 및 실습)이다. 파란 테두리(수학)는 모두 수리과학부 개설 과목이다.",
+  "notes": [
+   "과목 상자 아래의 작은 글씨는 현행 대비 바뀐 점이다. 굵은 점선은 강한 권장(사실상 선수), 가는 점선은 약한 권장(일부 단원에서 사용)이다. 근거는 렉노에서 실제로 쓰이는 개념, 담당 교수 강의 페이지·강의계획서의 선수 요건, 해외 대학의 선수 요건이다.",
+   "확률(2-1) → 수리통계 1(2-2) → 수리통계 2(3-1)로 이론 핵심을 3학년 1학기까지 끝낸다. 회귀분석은 수리통계 1 다음에 둔다. 선형대수학 1은 수리과학부 개설이라 2학년 1학기에 그대로 둔다.",
+   "자료분석 및 실습은 전산통계 및 실험(시각화·자료 정리)과 데이터마이닝(회귀·정칙화·분류·스플라인)과 대부분 겹쳐 폐지한다. 고유 내용인 인과추론 입문은 실험계획에 흡수한다.",
+   "학기별 강의 과목 수를 맞추려고 표본설계를 2-1로, 확률과정론을 3-1로 옮긴다. 실험계획은 회귀분석 다음 학기인 3-2로 옮긴다. 통계연구 1·2는 4학년 칸에 표시했지만 매 학기 열리며 3학년부터 들을 수 있다.",
+   "베이즈통계는 강의계획서상 몬테카를로·MCMC를 직접 가르치므로 통계계산을 선수로 두지 않는다. 이론 경로 학생은 별도 학부 과목 없이 4학년에 대학원 통계이론 1을 수강하도록 권장하고, 수리통계 2에 결정이론의 틀과 지수족을 보완해 연결한다. 프로젝트 경험은 고급데이터마이닝(팀 프로젝트)과 통계연구 1·2(연구실 연구)로 나누어 제공한다.",
+   "통계적 기계학습과 딥러닝의 통계적 이해는 연속 과목으로 묶는다. 데이터마이닝은 통계적 기계학습의 약한 권장, 통계적 기계학습은 딥러닝의 통계적 이해의 강한 권장 선수다."
+  ],
+  "sources": [],
+  "courses": [
+   {
+    "id": "p_stat",
+    "code": "",
+    "name_ko": "통계학",
+    "term": "Y1S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "p_comp",
+    "code": "타 학과 개설",
+    "name_ko": "컴퓨터의 개념 및 실습",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "p_cstat",
+    "code": "시각화·자료 정리 강화",
+    "name_ko": "전산통계 및 실험",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "p_prob",
+    "code": "",
+    "name_ko": "확률의 개념 및 응용",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "p_samp",
+    "code": "2-2에서 옮김",
+    "name_ko": "표본설계 및 조사실습",
+    "term": "Y2S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "p_stat"
+    ],
+    "weak": [
+     "p_stat"
+    ]
+   },
+   {
+    "id": "p_la1",
+    "code": "수리과학부 개설",
+    "name_ko": "선형대수학 1",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "p_an1",
+    "code": "수리과학부 개설",
+    "name_ko": "해석개론 1",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "p_ms1",
+    "code": "3-1에서 옮김, 확률 복습 축소",
+    "name_ko": "수리통계 1",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "p_prob"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_la2",
+    "code": "수리과학부 개설",
+    "name_ko": "선형대수학 2",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "p_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_an2",
+    "code": "수리과학부 개설",
+    "name_ko": "해석개론 2",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "p_an1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_ms2",
+    "code": "3-2에서 옮김, 결정이론 보완",
+    "name_ko": "수리통계 2",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "p_ms1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_reg",
+    "code": "",
+    "name_ko": "회귀분석 및 실습",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "p_la1",
+     "p_ms1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_proc",
+    "code": "4-2에서 옮김",
+    "name_ko": "확률과정론",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "p_prob"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_meas",
+    "code": "수리과학부 개설",
+    "name_ko": "측도이론과 확률",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "p_an2",
+     "p_prob"
+    ],
+    "weak": [
+     "p_prob"
+    ]
+   },
+   {
+    "id": "p_numan",
+    "code": "수리과학부 개설",
+    "name_ko": "수치해석개론",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [],
+    "weak": []
+   },
+   {
+    "id": "p_dm",
+    "code": "4-1에서 옮김",
+    "name_ko": "데이터마이닝 방법 및 실습",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "p_reg"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_mva",
+    "code": "",
+    "name_ko": "다변량자료분석 및 실습",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "p_la1",
+     "p_ms1",
+     "p_ms2"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_cat",
+    "code": "",
+    "name_ko": "이산자료분석 및 실습",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "p_reg",
+     "p_ms2"
+    ],
+    "weak": [
+     "p_reg"
+    ]
+   },
+   {
+    "id": "p_doe",
+    "code": "3-1에서 옮김, 인과추론 입문 흡수",
+    "name_ko": "실험계획 및 실습",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "p_la1",
+     "p_reg"
+    ],
+    "weak": [
+     "p_la1"
+    ]
+   },
+   {
+    "id": "p_nla",
+    "code": "수리과학부 개설",
+    "name_ko": "수치선형대수",
+    "term": "Y3S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "p_la1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_scomp",
+    "code": "",
+    "name_ko": "통계계산",
+    "term": "Y4S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "p_la1",
+     "p_prob",
+     "p_reg",
+     "p_ms2"
+    ],
+    "weak": [
+     "p_prob",
+     "p_reg",
+     "p_ms2"
+    ]
+   },
+   {
+    "id": "p_sml",
+    "code": "현재 개설 중, 후반 이론 조정",
+    "name_ko": "통계적 기계학습",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "p_la1",
+     "p_ms2",
+     "p_dm"
+    ],
+    "weak": [
+     "p_dm"
+    ]
+   },
+   {
+    "id": "p_ts",
+    "code": "",
+    "name_ko": "시계열분석 및 실습",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "p_reg",
+     "p_ms2"
+    ],
+    "weak": [
+     "p_reg"
+    ]
+   },
+   {
+    "id": "p_np",
+    "code": "",
+    "name_ko": "비모수통계 및 실습",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "p_ms1",
+     "p_reg"
+    ],
+    "weak": [
+     "p_reg"
+    ]
+   },
+   {
+    "id": "p_dl",
+    "code": "현재 개설 중, 학습이론 복습 축소",
+    "name_ko": "딥러닝의 통계적 이해",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "p_la1",
+     "p_ms2",
+     "p_sml"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_bayes",
+    "code": "",
+    "name_ko": "베이즈통계 및 실습",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "p_ms2"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_surv",
+    "code": "",
+    "name_ko": "생존자료분석 및 실습",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "p_ms2"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_res1",
+    "code": "신설, 매 학기 개설 (랩 인턴)",
+    "name_ko": "통계연구 1",
+    "term": "Y4S1",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "p_reg"
+    ],
+    "weak": [
+     "p_reg"
+    ]
+   },
+   {
+    "id": "p_res2",
+    "code": "신설, 매 학기 개설 (연구 심화)",
+    "name_ko": "통계연구 2",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "p_res1"
+    ],
+    "weak": []
+   },
+   {
+    "id": "p_adm",
+    "code": "개편안 수용, 팀 프로젝트형",
+    "name_ko": "고급데이터마이닝",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "p_dm"
+    ],
+    "weak": []
+   }
+  ],
+  "prov": "화살표: 굵은 점선 강한 권장, 가는 점선 약한 권장",
+  "group": "서울대학교"
+ },
+ {
+  "id": "stanford",
+  "name": "Stanford University",
+  "program": "B.S. in Data Science (구 MCS, 2025–26 요건) · 통계 집중 경로",
+  "system": "quarter",
+  "total_requirements": "학부 통계 전공이 따로 없고(통계학과는 부전공만 운영) 2022년 MCS를 이어받은 데이터사이언스 학사가 가장 가깝다. 기초(MATH 51·52, 증명 과목, CS 106A/B, DATASCI 112), 확률·통계 연쇄(STATS 117→118→200), 응용(STATS 217, STATS 191 또는 203), 최적화·선형대수, 윤리, 글쓰기(WIM)·캡스톤으로 구성된다.",
+  "notes": [
+   "쿼터제를 학기 칸에 옮겼다(가을→1학기, 겨울·봄→2학기). 학기 배치는 선수관계에서 추정한 것이다.",
+   "확률론은 2학년 두 쿼터(STATS 117·118, 2024년 STATS 116을 분할), 수리통계(STATS 200)는 3학년 1학기로 서울대안과 진도가 비슷하다.",
+   "실해석·측도론은 필수가 아니다. 측도론적 확률은 대학원(STATS 310)에만 있다.",
+   "전산·CS 비중이 매우 크고(CS 106A/B, DATASCI 112, 알고리즘, 최적화, 데이터 윤리) 캡스톤(DATASCI 120+190)이 필수다."
+  ],
+  "sources": [
+   "https://datasciencemajor.stanford.edu/academics/undergraduate-data-science-bs-program/degree-requirements-2025-2026-data-science-bs",
+   "https://bulletin.stanford.edu/programs/DATSC-BS",
+   "https://datasciencemajor.stanford.edu/news/stats-116-will-be-replaced-stats-117-and-stats-118",
+   "https://statistics.stanford.edu/course-equiv",
+   "https://statistics.stanford.edu/academic-programs/undergraduate-programs/statistics-minor",
+   "https://datasciencemajor.stanford.edu/academics/frequently-asked-questions"
+  ],
+  "courses": [
+   {
+    "id": "MATH51",
+    "code": "MATH 51",
+    "name": "Linear Algebra, Multivariable Calculus, and Modern Applications",
+    "name_ko": "선형대수·다변수미적분",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "CS106A",
+    "code": "CS 106A",
+    "name": "Programming Methodology",
+    "name_ko": "프로그래밍 방법론",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH52",
+    "code": "MATH 52",
+    "name": "Integral Calculus of Several Variables",
+    "name_ko": "다변수 적분학",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH51"
+    ]
+   },
+   {
+    "id": "CS106B",
+    "code": "CS 106B",
+    "name": "Programming Abstractions",
+    "name_ko": "프로그래밍 추상화",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "CS106A"
+    ]
+   },
+   {
+    "id": "DATASCI112",
+    "code": "DATASCI 112",
+    "name": "Principles of Data Science",
+    "name_ko": "데이터과학의 원리",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "CS106A"
+    ]
+   },
+   {
+    "id": "CS103",
+    "code": "CS 103",
+    "name": "Mathematical Foundations of Computing",
+    "name_ko": "전산의 수학적 기초(증명)",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "CS106B"
+    ]
+   },
+   {
+    "id": "MATH53",
+    "code": "MATH 53",
+    "name": "Differential Equations with Linear Algebra, Fourier Methods, and Modern Applications",
+    "name_ko": "미분방정식",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH51"
+    ]
+   },
+   {
+    "id": "STATS117",
+    "code": "STATS 117",
+    "name": "Introduction to Probability Theory",
+    "name_ko": "확률론 I",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH51",
+     "MATH52"
+    ]
+   },
+   {
+    "id": "MATH104",
+    "code": "MATH 104",
+    "name": "Applied Matrix Theory",
+    "name_ko": "응용행렬론",
+    "term": "Y2S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH51"
+    ]
+   },
+   {
+    "id": "STATS118",
+    "code": "STATS 118",
+    "name": "Probability Theory for Statistical Inference",
+    "name_ko": "확률론 II(통계적 추론을 위한)",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATS117"
+    ]
+   },
+   {
+    "id": "STATS191",
+    "code": "STATS 191",
+    "name": "Introduction to Applied Statistics",
+    "name_ko": "응용통계 입문(회귀)",
+    "term": "Y2S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "MSE111",
+    "code": "MS&E 111",
+    "name": "Introduction to Optimization",
+    "name_ko": "최적화 입문",
+    "term": "Y2S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH51"
+    ]
+   },
+   {
+    "id": "STATS200",
+    "code": "STATS 200",
+    "name": "Introduction to Theoretical Statistics",
+    "name_ko": "수리통계(이론통계 입문)",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATS118"
+    ]
+   },
+   {
+    "id": "STATS217",
+    "code": "STATS 217",
+    "name": "Introduction to Stochastic Processes I",
+    "name_ko": "확률과정 I",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATS118"
+    ]
+   },
+   {
+    "id": "STATS202",
+    "code": "STATS 202",
+    "name": "Data Mining and Analysis",
+    "name_ko": "데이터마이닝",
+    "term": "Y3S1",
+    "category": "ml",
+    "required": true,
+    "prereqs": [
+     "STATS117",
+     "MATH51",
+     "CS106A"
+    ]
+   },
+   {
+    "id": "DATASCI120",
+    "code": "DATASCI 120",
+    "name": "Data Narratives (WIM)",
+    "name_ko": "데이터 내러티브(전공 글쓰기)",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "DATASCI112"
+    ]
+   },
+   {
+    "id": "MATH115",
+    "code": "MATH 115",
+    "name": "Functions of a Real Variable",
+    "name_ko": "실해석",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH51"
+    ]
+   },
+   {
+    "id": "STATS203",
+    "code": "STATS 203",
+    "name": "Regression Models and Analysis of Variance",
+    "name_ko": "회귀모형과 분산분석",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "STATS200",
+     "MATH104"
+    ]
+   },
+   {
+    "id": "STATS218",
+    "code": "STATS 218",
+    "name": "Introduction to Stochastic Processes II",
+    "name_ko": "확률과정 II",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STATS217"
+    ]
+   },
+   {
+    "id": "CS161",
+    "code": "CS 161",
+    "name": "Design and Analysis of Algorithms",
+    "name_ko": "알고리즘 설계와 분석",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "CS103",
+     "CS106B",
+     "STATS117"
+    ]
+   },
+   {
+    "id": "CS182",
+    "code": "CS 182",
+    "name": "Ethics, Public Policy, and Technological Change",
+    "name_ko": "기술윤리와 공공정책",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "DATASCI190",
+    "code": "DATASCI 190",
+    "name": "The Data Science Experience (Capstone)",
+    "name_ko": "데이터과학 캡스톤",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "DATASCI120"
+    ]
+   }
+  ],
+  "prov": "선수관계 일부 추정",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 1위"
+ },
+ {
+  "id": "berkeley",
+  "name": "UC Berkeley",
+  "program": "B.A. in Statistics",
+  "system": "semester",
+  "total_requirements": "하위 과정은 MATH 51·52·53·54(2025년 가을 학수번호 개편)와 STAT 20 또는 DATA C8이다. 상위 과정 9과목은 핵심 3(STAT 133 전산, STAT 134 확률, STAT 135 통계), 실습 1과목 이상을 포함한 STAT 선택 3, 응용 클러스터 3으로 이루어진다.",
+  "notes": [
+   "공식 Major Map의 학년 배치를 따르되 학기 구분은 추정했다. ECON 140·COMPSCI 189는 응용 클러스터의 예시로 넣은 것이다.",
+   "상위 핵심이 3과목뿐이고 확률론(STAT 134)은 2학년 2학기~3학년 1학기에 듣는다.",
+   "실해석(MATH 104)은 대학원 진학자에게 권장될 뿐 필수가 아니다.",
+   "전산(STAT 133)이 핵심 필수이고 실습 과목 이수가 의무다. 캡스톤은 없으며 우등논문(STAT H195)이 선택으로 있다."
+  ],
+  "sources": [
+   "https://statistics.berkeley.edu/academics/undergrad/major",
+   "https://statistics.berkeley.edu/academics/undergrad/major/upper-division-requirements-core-and-electives",
+   "https://statistics.berkeley.edu/programs/undergrad/approved-cluster-courses",
+   "https://statistics.berkeley.edu/node/7814",
+   "https://discovery.berkeley.edu/getting-started/major-maps/statistics",
+   "https://guide.berkeley.edu/courses/math"
+  ],
+  "courses": [
+   {
+    "id": "MATH51",
+    "code": "MATH 51",
+    "name": "Calculus I",
+    "name_ko": "미적분학 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "DATAC8",
+    "code": "DATA C8 (or STAT 20)",
+    "name": "Foundations of Data Science",
+    "name_ko": "데이터과학 기초(입문통계)",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH52",
+    "code": "MATH 52",
+    "name": "Calculus II",
+    "name_ko": "미적분학 II",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH51"
+    ]
+   },
+   {
+    "id": "CS61A",
+    "code": "COMPSCI 61A",
+    "name": "The Structure and Interpretation of Computer Programs",
+    "name_ko": "컴퓨터 프로그램의 구조와 해석",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "MATH53",
+    "code": "MATH 53",
+    "name": "Multivariable Calculus",
+    "name_ko": "다변수미적분",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH52"
+    ]
+   },
+   {
+    "id": "MATH54",
+    "code": "MATH 54 (or MATH 56)",
+    "name": "Linear Algebra and Differential Equations",
+    "name_ko": "선형대수와 미분방정식",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH52"
+    ]
+   },
+   {
+    "id": "STAT133",
+    "code": "STAT 133",
+    "name": "Concepts in Computing with Data",
+    "name_ko": "데이터 컴퓨팅",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "DATAC8"
+    ]
+   },
+   {
+    "id": "STAT134",
+    "code": "STAT 134 (or DATA C140)",
+    "name": "Concepts of Probability",
+    "name_ko": "확률론",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH52",
+     "MATH53"
+    ]
+   },
+   {
+    "id": "DATAC100",
+    "code": "DATA C100",
+    "name": "Principles and Techniques of Data Science",
+    "name_ko": "데이터과학의 원리와 기법",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "DATAC8",
+     "CS61A",
+     "MATH54"
+    ]
+   },
+   {
+    "id": "STAT135",
+    "code": "STAT 135",
+    "name": "Concepts of Statistics",
+    "name_ko": "수리통계",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT134",
+     "MATH54"
+    ]
+   },
+   {
+    "id": "MATH104",
+    "code": "MATH 104",
+    "name": "Introduction to Analysis",
+    "name_ko": "해석학 입문(실해석)",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH53",
+     "MATH54"
+    ]
+   },
+   {
+    "id": "STAT150",
+    "code": "STAT 150",
+    "name": "Stochastic Processes",
+    "name_ko": "확률과정",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT134",
+     "MATH54"
+    ]
+   },
+   {
+    "id": "STAT151A",
+    "code": "STAT 151A",
+    "name": "Linear Modeling: Theory and Applications (lab)",
+    "name_ko": "선형모형(회귀)",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT135",
+     "MATH54"
+    ]
+   },
+   {
+    "id": "ECON140",
+    "code": "ECON 140",
+    "name": "Econometrics",
+    "name_ko": "계량경제학(응용 클러스터 예)",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "STAT153",
+    "code": "STAT 153",
+    "name": "Introduction to Time Series (lab)",
+    "name_ko": "시계열분석",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT133",
+     "STAT135"
+    ]
+   },
+   {
+    "id": "STAT154",
+    "code": "STAT 154",
+    "name": "Modern Statistical Prediction and Machine Learning",
+    "name_ko": "통계적 예측과 기계학습",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT133",
+     "STAT134",
+     "STAT135",
+     "MATH53",
+     "MATH54"
+    ]
+   },
+   {
+    "id": "CS189",
+    "code": "COMPSCI 189",
+    "name": "Introduction to Machine Learning",
+    "name_ko": "기계학습 입문(클러스터 예)",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "MATH53",
+     "MATH54",
+     "STAT134",
+     "CS61A"
+    ]
+   },
+   {
+    "id": "STAT156",
+    "code": "STAT 156",
+    "name": "Causal Inference (lab)",
+    "name_ko": "인과추론",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT134",
+     "STAT135"
+    ]
+   },
+   {
+    "id": "STAT159",
+    "code": "STAT 159",
+    "name": "Reproducible and Collaborative Statistical Data Science (lab)",
+    "name_ko": "재현가능 통계 데이터과학",
+    "term": "Y4S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT133",
+     "STAT134",
+     "STAT135"
+    ]
+   },
+   {
+    "id": "STATH195",
+    "code": "STAT H195",
+    "name": "Special Study for Honors Candidates (honors thesis)",
+    "name_ko": "우등 졸업논문(선택)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "STAT135"
+    ]
+   }
+  ],
+  "prov": "선수관계 일부 추정",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 2위"
+ },
+ {
+  "id": "harvard",
+  "name": "Harvard University",
+  "program": "A.B. Statistics (General Track)",
+  "system": "semester",
+  "total_requirements": "약 12과목. 다변수미적분, 선형대수, CS 1과목, Stat 110·111(3학년 말까지), 선형모형(Stat 139/149/244), Stat 100–299 과목 1개가 공통이고, General Track은 Stat 과목 4개와 관련 과목 1개를 더 듣는다. Data Science, 생물통계, 기계학습 트랙이 별도로 있다.",
+  "notes": [
+   "학과 사이트가 자동 접근을 막아 학기 배치는 학생 단체(GUSH) 가이드와 선수관계로 추정했다. Stat 111·139·149·171의 선수관계는 확인된 것이다.",
+   "확률(Stat 110)→추론(Stat 111)→선형모형(Stat 139)이 2학년에 시작하는 등뼈다.",
+   "실해석·측도론은 필수가 아니며 측도론적 확률은 대학원 Stat 210에서 다룬다.",
+   "캡스톤은 없고 1년짜리 우등논문(Stat 99R)이 상위 우등 졸업 요건이다."
+  ],
+  "sources": [
+   "https://statistics.fas.harvard.edu/statistics-concentration-requirements",
+   "https://statistics.fas.harvard.edu/sites/g/files/omnuum10116/files/2025-09/conc_worksheet_general_track.pdf",
+   "https://statistics.fas.harvard.edu/frequently-asked-questions",
+   "https://statistics.fas.harvard.edu/sites/g/files/omnuum10116/files/2025-08/senior_thesis_guidelines_2025.pdf",
+   "https://qrd.college.harvard.edu/?p=545",
+   "https://gushclub.org/GUSH_Guide.pdf"
+  ],
+  "courses": [
+   {
+    "id": "MATH1B",
+    "code": "MATH 1B",
+    "name": "Calculus, Series, and Differential Equations",
+    "name_ko": "미적분학·급수·미분방정식",
+    "term": "Y1S1",
+    "category": "math",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "CS50",
+    "code": "COMPSCI 50",
+    "name": "Introduction to Computer Science",
+    "name_ko": "컴퓨터과학 입문",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH21A",
+    "code": "MATH 21A",
+    "name": "Multivariable Calculus",
+    "name_ko": "다변수 미적분학",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH1B"
+    ]
+   },
+   {
+    "id": "STAT100",
+    "code": "STAT 100",
+    "name": "Introduction to Quantitative Methods for Statistics",
+    "name_ko": "통계 정량방법 입문(응용)",
+    "term": "Y1S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "MATH21B",
+    "code": "MATH 21B",
+    "name": "Linear Algebra and Differential Equations",
+    "name_ko": "선형대수·미분방정식",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH1B"
+    ]
+   },
+   {
+    "id": "STAT110",
+    "code": "STAT 110",
+    "name": "Introduction to Probability",
+    "name_ko": "확률론 입문",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH1B"
+    ]
+   },
+   {
+    "id": "STAT111",
+    "code": "STAT 111",
+    "name": "Introduction to Statistical Inference",
+    "name_ko": "통계적 추론 입문",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT110"
+    ]
+   },
+   {
+    "id": "MATH112",
+    "code": "MATH 112",
+    "name": "Introductory Real Analysis",
+    "name_ko": "해석학 입문",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH21A",
+     "MATH21B"
+    ]
+   },
+   {
+    "id": "STAT139",
+    "code": "STAT 139",
+    "name": "Linear Models",
+    "name_ko": "선형모형",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT110",
+     "MATH21A",
+     "MATH21B"
+    ]
+   },
+   {
+    "id": "CS1090A",
+    "code": "COMPSCI 1090A / STAT 109A",
+    "name": "Data Science 1: Introduction to Data Science",
+    "name_ko": "데이터사이언스 1",
+    "term": "Y3S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "CS50",
+     "STAT110",
+     "MATH21B"
+    ]
+   },
+   {
+    "id": "STAT171",
+    "code": "STAT 171",
+    "name": "Introduction to Stochastic Processes",
+    "name_ko": "확률과정 입문",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT110"
+    ]
+   },
+   {
+    "id": "STAT149",
+    "code": "STAT 149",
+    "name": "Statistical Sleuthing through Generalized Linear Models",
+    "name_ko": "일반화선형모형",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT139"
+    ]
+   },
+   {
+    "id": "CS1810",
+    "code": "COMPSCI 1810",
+    "name": "Machine Learning",
+    "name_ko": "기계학습",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "CS50",
+     "STAT110",
+     "MATH21B"
+    ]
+   },
+   {
+    "id": "STAT195",
+    "code": "STAT 195",
+    "name": "Introduction to Statistical Machine Learning",
+    "name_ko": "통계적 기계학습 입문",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT110",
+     "STAT111",
+     "MATH21B"
+    ]
+   },
+   {
+    "id": "STAT186",
+    "code": "STAT 186",
+    "name": "Introduction to Causal Inference",
+    "name_ko": "인과추론 입문",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT110",
+     "STAT111"
+    ]
+   },
+   {
+    "id": "STAT210",
+    "code": "STAT 210",
+    "name": "Probability I (graduate)",
+    "name_ko": "확률론 I(대학원)",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT110"
+    ]
+   },
+   {
+    "id": "STAT99R",
+    "code": "STAT 99R",
+    "name": "Tutorial - Senior Year (Honors Thesis)",
+    "name_ko": "졸업논문(우등) 튜토리얼",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "STAT111"
+    ]
+   }
+  ],
+  "prov": "선수관계 일부 추정",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 3위"
+ },
+ {
+  "id": "uchicago",
+  "name": "University of Chicago",
+  "program": "B.S. in Statistics (2026–27 요람)",
+  "system": "quarter",
+  "total_requirements": "18과목. 미적분 I–III, 선형대수(STAT 24300 등), B.S. 수학군(해석, 최적화·수치해석, 미분방정식), STAT 24400·24500, STAT 25100, 회귀 1과목, CMSC 14100·14200, 통계 선택 4, 응용분야 3쿼터 연속 과목이 필요하다.",
+  "notes": [
+   "쿼터제를 학기 칸에 옮겼다(가을→1학기, 겨울·봄→2학기). 요람에 학년별 계획이 없어 선수관계와 개설 쿼터로 경로를 구성했다.",
+   "확률(STAT 25100)과 이론 연속(STAT 24400·24500)을 2학년에 모두 마친다. 측도론적 확률은 대학원 선택 과목이다.",
+   "해석학(MATH 20300–20500), 수치선형대수, 최적화를 요구해 해외 사례 중 수학 비중이 가장 크다.",
+   "캡스톤은 없고 학사논문(STAT 29900)이 선택이다. 경제·심리·생물 등 응용분야 3과목 연속 이수가 의무다."
+  ],
+  "sources": [
+   "http://collegecatalog.uchicago.edu/thecollege/statistics/",
+   "https://www.stat.uchicago.edu/~yibi/STATMajorElectives.html",
+   "https://galton.uchicago.edu/~yibi/3QuarterSeq.html"
+  ],
+  "courses": [
+   {
+    "id": "MATH16100",
+    "code": "MATH 16100",
+    "name": "Honors Calculus I",
+    "name_ko": "고급 미적분학 1",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "CMSC14100",
+    "code": "CMSC 14100",
+    "name": "Introduction to Computer Science I",
+    "name_ko": "컴퓨터과학 입문 1",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH16200",
+    "code": "MATH 16200",
+    "name": "Honors Calculus II",
+    "name_ko": "고급 미적분학 2",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH16100"
+    ]
+   },
+   {
+    "id": "MATH16300",
+    "code": "MATH 16300",
+    "name": "Honors Calculus III",
+    "name_ko": "고급 미적분학 3",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH16200"
+    ]
+   },
+   {
+    "id": "CMSC14200",
+    "code": "CMSC 14200",
+    "name": "Introduction to Computer Science II",
+    "name_ko": "컴퓨터과학 입문 2",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "CMSC14100"
+    ]
+   },
+   {
+    "id": "MATH20300",
+    "code": "MATH 20300",
+    "name": "Analysis in Rn I",
+    "name_ko": "Rn 해석학 1",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH16300"
+    ]
+   },
+   {
+    "id": "STAT24300",
+    "code": "STAT 24300",
+    "name": "Numerical Linear Algebra",
+    "name_ko": "수치선형대수",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH16300"
+    ]
+   },
+   {
+    "id": "STAT25100",
+    "code": "STAT 25100",
+    "name": "Introduction to Mathematical Probability",
+    "name_ko": "수리확률론 입문",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH16300"
+    ]
+   },
+   {
+    "id": "MATH20400",
+    "code": "MATH 20400",
+    "name": "Analysis in Rn II",
+    "name_ko": "Rn 해석학 2",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH20300"
+    ]
+   },
+   {
+    "id": "STAT24400",
+    "code": "STAT 24400",
+    "name": "Statistical Theory and Methods I",
+    "name_ko": "통계이론 및 방법 1",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH16300"
+    ]
+   },
+   {
+    "id": "MATH20500",
+    "code": "MATH 20500",
+    "name": "Analysis in Rn III",
+    "name_ko": "Rn 해석학 3",
+    "term": "Y2S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH20400"
+    ]
+   },
+   {
+    "id": "STAT24500",
+    "code": "STAT 24500",
+    "name": "Statistical Theory and Methods II",
+    "name_ko": "통계이론 및 방법 2",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT24300",
+     "STAT24400"
+    ]
+   },
+   {
+    "id": "STAT22400",
+    "code": "STAT 22400",
+    "name": "Applied Regression Analysis",
+    "name_ko": "응용 회귀분석",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "STAT24500"
+    ]
+   },
+   {
+    "id": "STAT28200",
+    "code": "STAT 28200",
+    "name": "Dynamical Systems with Applications",
+    "name_ko": "동역학계와 응용",
+    "term": "Y3S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH20400",
+     "STAT24300"
+    ]
+   },
+   {
+    "id": "STAT26100",
+    "code": "STAT 26100",
+    "name": "Time Dependent Data",
+    "name_ko": "시계열 자료분석",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT24500"
+    ]
+   },
+   {
+    "id": "ECONSEQ",
+    "code": "ECON 20000-20100-20200",
+    "name": "Three-quarter sequence in an applied field (e.g. Elements of Economic Analysis I-III)",
+    "name_ko": "응용분야 3쿼터 연속과목 (예: 경제분석 원론 1-3)",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STAT25300",
+    "code": "STAT 25300",
+    "name": "Introduction to Probability Models",
+    "name_ko": "확률모형 입문",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT25100"
+    ]
+   },
+   {
+    "id": "STAT27725",
+    "code": "STAT 27725",
+    "name": "Machine Learning",
+    "name_ko": "기계학습",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT24300",
+     "STAT24500"
+    ]
+   },
+   {
+    "id": "STAT28000",
+    "code": "STAT 28000",
+    "name": "Optimization",
+    "name_ko": "최적화",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "MATH20500",
+     "STAT24300"
+    ]
+   },
+   {
+    "id": "STAT24620",
+    "code": "STAT 24620",
+    "name": "Multivariate Statistical Analysis: Applications and Techniques",
+    "name_ko": "다변량 통계분석",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT24300",
+     "STAT24500"
+    ]
+   },
+   {
+    "id": "STAT29900",
+    "code": "STAT 29900",
+    "name": "Bachelor's Paper (honors)",
+    "name_ko": "학사 논문 (우등)",
+    "term": "Y4S1",
+    "category": "capstone",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "STAT27420",
+    "code": "STAT 27420",
+    "name": "Introduction to Causality with Machine Learning",
+    "name_ko": "기계학습 기반 인과추론 입문",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT24500",
+     "STAT27725"
+    ]
+   }
+  ],
+  "prov": "선수관계 공식 요람",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 4위"
+ },
+ {
+  "id": "penn",
+  "name": "University of Pennsylvania",
+  "program": "Wharton B.S. in Economics — 통계·데이터과학 집중(Statistics and Data Science Concentration)",
+  "prov": "선수관계 일부 추정",
+  "notes": [
+   "전공이 아닌 집중과정이므로 필수 이수량이 4–6과목에 불과하다. 본 로드맵은 수리통계·계산·기계학습 선택을 덧붙여 '통계학 전공에 가장 가까운' 이수 경로로 재구성한 것이며, 학기 배치는 공식 표준이수안이 없어 선수관계에 따라 추정한 것이다.",
+   "확률론(STAT 4300)은 미적분 II 이수 후 2학년 1학기경 시작하고, 통계적 추론(STAT 4310)은 2학년 2학기, 수리통계학(STAT 4320)은 선택으로 3학년에 이수한다. STAT 4310과 STAT 4320은 별개 과목이며 4320은 집중과정 필수가 아니다.",
+   "해석학·측도론은 요구되지 않는다. 선형대수는 MATH 2400(미적분 III, 선형대수·미분방정식)이 STAT 4330·4800·4830의 선수로 쓰일 뿐 필수가 아니다. 계산 과목(STAT 4050 R, STAT 4770 Python, STAT 4700, STAT 4800)도 모두 선택이다.",
+   "기계학습은 STAT 4710·4230·4830·4850 등으로 3–4학년 선택에 집중 배치되며, 졸업논문·캡스톤 필수는 없다. 프로젝트형 STAT 4920(Community Data Science)이 캡스톤에 가장 가깝다. 카탈로그 26-27판 'Statistics and Data Science, BS'는 와튼 B.S. in Economics의 집중과정 표기이다."
+  ],
+  "sources": [
+   "https://statistics.wharton.upenn.edu/programs/undergraduate/statistics-concentration/",
+   "https://statistics.wharton.upenn.edu/programs/undergraduate/course-descriptions/",
+   "https://catalog.upenn.edu/undergraduate/programs/statistics-data-science-bs/",
+   "https://catalog.upenn.edu/courses/stat/"
+  ],
+  "courses": [
+   {
+    "id": "MATH1400",
+    "code": "MATH 1400",
+    "name": "Calculus, Part I",
+    "name_ko": "미적분학 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STAT1010",
+    "code": "STAT 1010",
+    "name": "Introductory Business Statistics",
+    "name_ko": "경영통계학 입문",
+    "term": "Y1S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "MATH1400"
+    ]
+   },
+   {
+    "id": "MATH1410",
+    "code": "MATH 1410",
+    "name": "Calculus, Part II",
+    "name_ko": "미적분학 II",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH1400"
+    ]
+   },
+   {
+    "id": "STAT4300",
+    "code": "STAT 4300",
+    "name": "Probability",
+    "name_ko": "확률론",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH1410"
+    ]
+   },
+   {
+    "id": "MATH2400",
+    "code": "MATH 2400",
+    "name": "Calculus, Part III (Linear Algebra & Differential Equations)",
+    "name_ko": "미적분학 III(선형대수·미분방정식)",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH1410"
+    ]
+   },
+   {
+    "id": "STAT4310",
+    "code": "STAT 4310",
+    "name": "Statistical Inference",
+    "name_ko": "통계적 추론",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT4300"
+    ]
+   },
+   {
+    "id": "STAT4050",
+    "code": "STAT 4050",
+    "name": "Statistical Computing with R",
+    "name_ko": "R 통계계산",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT4300"
+    ]
+   },
+   {
+    "id": "STAT4320",
+    "code": "STAT 4320",
+    "name": "Mathematical Statistics",
+    "name_ko": "수리통계학",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT4300"
+    ]
+   },
+   {
+    "id": "STAT4770",
+    "code": "STAT 4770",
+    "name": "Introduction to Python for Data Science",
+    "name_ko": "데이터과학을 위한 파이썬 입문",
+    "term": "Y3S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT4310"
+    ]
+   },
+   {
+    "id": "STAT4700",
+    "code": "STAT 4700",
+    "name": "Data Analytics and Statistical Computing",
+    "name_ko": "데이터 분석과 통계계산",
+    "term": "Y3S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT4310"
+    ]
+   },
+   {
+    "id": "STAT4330",
+    "code": "STAT 4330",
+    "name": "Stochastic Processes",
+    "name_ko": "확률과정론",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT4300",
+     "MATH2400"
+    ]
+   },
+   {
+    "id": "STAT4710",
+    "code": "STAT 4710",
+    "name": "Modern Data Mining",
+    "name_ko": "현대 데이터마이닝",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT4310"
+    ]
+   },
+   {
+    "id": "STAT4420",
+    "code": "STAT 4420",
+    "name": "Introduction to Bayesian Data Analysis",
+    "name_ko": "베이즈 자료분석 입문",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT4300",
+     "STAT4310",
+     "STAT4050"
+    ]
+   },
+   {
+    "id": "STAT4800",
+    "code": "STAT 4800",
+    "name": "Advanced Statistical Computing",
+    "name_ko": "고급 통계계산",
+    "term": "Y4S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT4310",
+     "STAT4300",
+     "MATH1410",
+     "MATH2400"
+    ]
+   },
+   {
+    "id": "STAT4830",
+    "code": "STAT 4830",
+    "name": "Numerical Optimization for Data Science and Machine Learning",
+    "name_ko": "데이터과학·기계학습을 위한 수치최적화",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "MATH2400",
+     "STAT4300"
+    ]
+   },
+   {
+    "id": "STAT4230",
+    "code": "STAT 4230",
+    "name": "Applied Machine Learning in Business",
+    "name_ko": "경영 응용 기계학습",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT4310"
+    ]
+   },
+   {
+    "id": "STAT4850",
+    "code": "STAT 4850",
+    "name": "Foundations of Deep Learning with Applications",
+    "name_ko": "딥러닝의 기초와 응용",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT4300",
+     "MATH2400"
+    ]
+   },
+   {
+    "id": "STAT4920",
+    "code": "STAT 4920",
+    "name": "Community Data Science",
+    "name_ko": "지역사회 데이터과학(프로젝트형)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "STAT4310",
+     "STAT4710",
+     "STAT4050"
+    ]
+   }
+  ],
+  "total_requirements": "펜실베이니아대에는 독립된 학부 통계학 전공이 없으므로 와튼 경제학사(B.S. in Economics)의 통계·데이터과학 집중(concentration)을 가장 가까운 과정으로 선택하였다. 집중과정은 STAT 4300(확률론)을 공통 필수로 하고, 옵션 B 기준 STAT 4310(통계적 추론)과 학과 개설 선택 4학점을 이수하는 4–6과목 규모이며, STAT 4300의 선수로 MATH 1410 수준의 미적분이 요구된다. 학과 밖 과목은 1과목까지만 인정된다.",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 4위"
+ },
+ {
+  "id": "cmu",
+  "name": "Carnegie Mellon University",
+  "program": "B.S. in Statistics and Data Science (2026–27 요람)",
+  "system": "semester",
+  "total_requirements": "전공 175–193 유닛. 수학 기초(미적분, 다변수, 선형대수), 자료분석(36-200, 36-202, 고급 자료분석 선택 1), 이론(36-235·236), 전산(프로그래밍 입문, 36-350 통계계산), 방법론(36-401·402), 특강 1과목, 통계 외 집중분야 4과목으로 구성된다.",
+  "notes": [
+   "1–3학년 배치는 요람의 공식 Sample Schedule을 따랐고 4학년 선택 과목만 추정 배치했다.",
+   "이론보다 자료분석을 먼저 가르친다(1학년 36-200·202). 확률·추론은 2학년, 회귀는 3학년이다.",
+   "R 기반 통계계산(36-350)이 2학년 필수이고 실해석·측도론은 요구하지 않는다.",
+   "고객 기반 프로젝트(36-490 학부연구, 36-497 기업 캡스톤)가 고급 자료분석 선택으로 인정된다."
+  ],
+  "sources": [
+   "https://coursecatalog.web.cmu.edu/schools-colleges/dietrichcollegeofhumanitiesandsocialsciences/departmentofstatistics/statistics-data-science-bs/",
+   "https://coursecatalog.web.cmu.edu/schools-colleges/dietrichcollegeofhumanitiesandsocialsciences/departmentofstatistics/courses/",
+   "https://coursecatalog.web.cmu.edu/schools-colleges/melloncollegeofscience/departmentofmathematicalsciences/courses/",
+   "https://www.cmu.edu/dietrich/statistics-datascience/academics/undergraduate/majors/index.html"
+  ],
+  "courses": [
+   {
+    "id": "21-111",
+    "code": "21-111",
+    "name": "Differential Calculus",
+    "name_ko": "미분학",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "36-200",
+    "code": "36-200",
+    "name": "Reasoning with Data",
+    "name_ko": "데이터 기반 추론(기초 자료분석)",
+    "term": "Y1S1",
+    "category": "applied",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "21-112",
+    "code": "21-112",
+    "name": "Integral Calculus",
+    "name_ko": "적분학",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "21-111"
+    ]
+   },
+   {
+    "id": "36-202",
+    "code": "36-202",
+    "name": "Methods for Statistics & Data Science",
+    "name_ko": "통계·데이터사이언스 방법론(중급 자료분석)",
+    "term": "Y1S2",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "36-200"
+    ]
+   },
+   {
+    "id": "15-110",
+    "code": "15-110",
+    "name": "Principles of Computing",
+    "name_ko": "컴퓨팅 원리(프로그래밍 입문)",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "36-235",
+    "code": "36-235",
+    "name": "Probability and Statistical Inference I",
+    "name_ko": "확률 및 통계적 추론 I",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "21-111",
+     "21-112"
+    ]
+   },
+   {
+    "id": "21-256",
+    "code": "21-256",
+    "name": "Multivariate Analysis",
+    "name_ko": "다변수 해석(다변수 미적분)",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "21-112"
+    ]
+   },
+   {
+    "id": "36-315",
+    "code": "36-315",
+    "name": "Statistical Graphics and Visualization",
+    "name_ko": "통계 그래픽스·시각화",
+    "term": "Y2S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "36-200"
+    ]
+   },
+   {
+    "id": "36-236",
+    "code": "36-236",
+    "name": "Probability and Statistical Inference II",
+    "name_ko": "확률 및 통계적 추론 II",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "36-235"
+    ]
+   },
+   {
+    "id": "36-350",
+    "code": "36-350",
+    "name": "Statistical Computing",
+    "name_ko": "통계 계산(R)",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "36-235",
+     "15-110"
+    ]
+   },
+   {
+    "id": "21-240",
+    "code": "21-240",
+    "name": "Matrix Algebra with Applications",
+    "name_ko": "행렬대수와 응용",
+    "term": "Y2S2",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "36-401",
+    "code": "36-401",
+    "name": "Modern Regression",
+    "name_ko": "현대 회귀분석",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "36-236",
+     "21-240"
+    ]
+   },
+   {
+    "id": "36-318",
+    "code": "36-318",
+    "name": "Introduction to Causal Inference",
+    "name_ko": "인과추론 입문(고급 자료분석 선택)",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "36-235"
+    ]
+   },
+   {
+    "id": "36-402",
+    "code": "36-402",
+    "name": "Advanced Methods for Data Analysis",
+    "name_ko": "고급 자료분석 방법론",
+    "term": "Y3S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "36-401"
+    ]
+   },
+   {
+    "id": "36-462",
+    "code": "36-462",
+    "name": "Special Topics: Statistical Machine Learning",
+    "name_ko": "특강: 통계적 기계학습",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "36-401"
+    ]
+   },
+   {
+    "id": "36-410",
+    "code": "36-410",
+    "name": "Introduction to Probability Modeling",
+    "name_ko": "확률모형 입문(확률과정)",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "36-235"
+    ]
+   },
+   {
+    "id": "36-471",
+    "code": "36-471",
+    "name": "Special Topics: Time Series",
+    "name_ko": "특강: 시계열분석",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "36-401"
+    ]
+   },
+   {
+    "id": "36-497",
+    "code": "36-497",
+    "name": "Corporate Capstone Project",
+    "name_ko": "기업 연계 캡스톤",
+    "term": "Y4S1",
+    "category": "capstone",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "36-473",
+    "code": "36-473",
+    "name": "Special Topics: Statistical Principles of Generative AI",
+    "name_ko": "특강: 생성형 AI의 통계적 원리",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "36-402"
+    ]
+   },
+   {
+    "id": "36-490",
+    "code": "36-490",
+    "name": "Undergraduate Research",
+    "name_ko": "학부 연구(고객 연계 프로젝트)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": []
+   }
+  ],
+  "prov": "선수관계 공식 요람",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 6위"
+ },
+ {
+  "id": "duke",
+  "name": "Duke University",
+  "program": "B.S. in Statistical Science (수리통계 집중 경로)",
+  "prov": "선수관계 일부 추정",
+  "notes": [
+   "학기 배치는 학과 공식 'Typical Course of Study'의 경로 1(미적분 선이수 없음)을 따랐으며, 선택과목(STA 325L·313L·310L·465, MATH 431)의 학기와 일부 선수관계(STA 221L·325L·440L·465, MATH 431)는 추정이다.",
+   "확률론(STA 240L)은 2학년 2학기, 통계적 추론(STA 332, 구 STA 432/MATH 343)은 다변수미적분 이후 3학년 2학기, 베이즈 모형(STA 402L)은 4학년 1학기에 배치되어 이론 과목이 서울대보다 늦게 시작된다.",
+   "해석학은 수리통계 집중을 택할 때만 MATH 431/531 1과목이 필수이고 측도론은 요구되지 않는다. 계산은 STA 199L(R 기반 입문)과 핵심 STA 323L(통계계산)이 담당하며 별도 컴퓨터과학 필수는 없다.",
+   "기계학습은 선택 STA 325L(3학년)과 STA 465·561D 등에서 등장한다. 캡스톤 STA 440L(사례연구)은 4학년 필수이고, 우등 졸업논문은 독립연구를 통해 선택적으로 수행한다."
+  ],
+  "sources": [
+   "https://stat.duke.edu/undergraduate/major",
+   "https://stat.duke.edu/undergraduate/major/pathways",
+   "https://undergraduate.bulletins.duke.edu/pages/DplzxtiSYvU1RYkhYQEk",
+   "https://stat.duke.edu/courses/statistical-inference-0",
+   "https://stat.duke.edu/courses/statistical-computing-1",
+   "https://stat.duke.edu/courses/bayesian-statistical-modeling-and-data-analysis-4",
+   "https://undergraduate.bulletins.duke.edu/courses/0259091"
+  ],
+  "courses": [
+   {
+    "id": "MATH21",
+    "code": "MATH 21",
+    "name": "Introductory Calculus I",
+    "name_ko": "미적분학 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH22",
+    "code": "MATH 22",
+    "name": "Introductory Calculus II",
+    "name_ko": "미적분학 II",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH21"
+    ]
+   },
+   {
+    "id": "STA199L",
+    "code": "STA 199L",
+    "name": "Introduction to Data Science and Statistical Thinking",
+    "name_ko": "데이터과학과 통계적 사고 입문",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "MATH221",
+    "code": "MATH 221",
+    "name": "Linear Algebra and Applications",
+    "name_ko": "선형대수학과 응용",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH22"
+    ]
+   },
+   {
+    "id": "STA240L",
+    "code": "STA 240L",
+    "name": "Probability for Statistical Inference, Modeling, and Data Analysis",
+    "name_ko": "통계적 추론·모형화를 위한 확률론",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH22"
+    ]
+   },
+   {
+    "id": "STA221L",
+    "code": "STA 221L",
+    "name": "Regression Analysis: Theory and Applications",
+    "name_ko": "회귀분석: 이론과 응용",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STA199L",
+     "MATH221"
+    ]
+   },
+   {
+    "id": "MATH222",
+    "code": "MATH 222",
+    "name": "Advanced Multivariable Calculus",
+    "name_ko": "고급 다변수 미적분학",
+    "term": "Y3S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH22",
+     "MATH221"
+    ]
+   },
+   {
+    "id": "STA323L",
+    "code": "STA 323L",
+    "name": "Statistical Computing",
+    "name_ko": "통계계산",
+    "term": "Y3S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "STA199L"
+    ]
+   },
+   {
+    "id": "STA332",
+    "code": "STA 332 (MATH 343)",
+    "name": "Statistical Inference",
+    "name_ko": "통계적 추론(수리통계)",
+    "term": "Y3S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STA240L",
+     "MATH222"
+    ]
+   },
+   {
+    "id": "STA325L",
+    "code": "STA 325L",
+    "name": "Machine Learning and Data Mining",
+    "name_ko": "기계학습과 데이터마이닝",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STA221L",
+     "STA240L"
+    ]
+   },
+   {
+    "id": "STA313L",
+    "code": "STA 313L",
+    "name": "Advanced Data Visualization",
+    "name_ko": "고급 데이터 시각화",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STA199L"
+    ]
+   },
+   {
+    "id": "STA402L",
+    "code": "STA 402L",
+    "name": "Bayesian Statistical Modeling and Data Analysis",
+    "name_ko": "베이즈 통계 모형과 자료분석",
+    "term": "Y4S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STA221L",
+     "STA332"
+    ]
+   },
+   {
+    "id": "MATH431",
+    "code": "MATH 431",
+    "name": "Advanced Calculus I (Real Analysis)",
+    "name_ko": "해석학 I",
+    "term": "Y4S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH221",
+     "MATH222"
+    ]
+   },
+   {
+    "id": "STA310L",
+    "code": "STA 310L",
+    "name": "Generalized Linear Models",
+    "name_ko": "일반화선형모형",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STA221L"
+    ]
+   },
+   {
+    "id": "STA465",
+    "code": "STA 465",
+    "name": "Introduction to High Dimensional Data Analysis",
+    "name_ko": "고차원 자료분석 입문",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STA221L",
+     "STA332"
+    ]
+   },
+   {
+    "id": "STA440L",
+    "code": "STA 440L",
+    "name": "Case Studies in the Practice of Statistics",
+    "name_ko": "통계 실무 사례연구(캡스톤)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "STA221L",
+     "STA402L"
+    ]
+   }
+  ],
+  "total_requirements": "듀크대 통계학 이학사는 2024년 가을 이후 입학생 기준 선수 수학 4과목(미적분 I·II, 선형대수, 다변수미적분)과 핵심 6과목(STA 221L, 240L, 323L, 332, 402L, 440L), 선택 3과목으로 구성된다. 선택 집중으로 데이터과학과 수리통계가 있으며, 수리통계 집중은 MATH 221·222 계열과 해석학(MATH 431 또는 531) 1과목을 요구한다. 4학년에 이수하는 STA 440L이 캡스톤 역할을 한다.",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 6위"
+ },
+ {
+  "id": "michigan",
+  "name": "University of Michigan",
+  "program": "Statistics Major (LSA, B.S./B.A.; requirements effective Winter 2023)",
+  "prov": "선수관계 일부 추정",
+  "notes": [
+   "확률론(STATS 425)은 다변수 미적분 이수 후 통상 2학년에 시작하고, 수리통계(STATS 426)는 그 다음 학기인 2~3학년에 이수하는 2학기 이론 연쇄 구조이다.",
+   "실해석학·측도론은 일반 전공에서 필수가 아니며, 아너스 과정에서만 MATH 351 또는 MATH 451(해석학)이 요구된다. 측도론적 확률은 대학원 수준(STATS 510 등)에 해당한다.",
+   "계산 필수는 EECS 183(선수)과 DATASCI 306(통계 계산)이며, 기계학습은 DATASCI 315(통계와 AI)·DATASCI 415(데이터마이닝·통계적 학습) 등 고급통계 선택군에서 3~4학년에 등장한다.",
+   "모든 전공생에게 캡스톤 STATS 485가 필수이고 논문은 아너스(STATS 499)에만 요구된다. 학과가 공식 학기별 이수 예시를 제시하지 않아 학기 배치와 상위 과목 선수관계 일부(DATASCI 306·315·415, STATS 485 등)는 추정이다."
+  ],
+  "sources": [
+   "https://prod.lsa.umich.edu/stats/undergraduate-students/undergraduate-programs/majorstatistics.html",
+   "https://prod.lsa.umich.edu/stats/undergraduate-students/undergraduate-programs/minorstatistics.html",
+   "https://prod.lsa.umich.edu/stats/undergraduate-students/statistics-courses/accelerated-course-selections.html"
+  ],
+  "courses": [
+   {
+    "id": "MATH115",
+    "code": "MATH 115",
+    "name": "Calculus I",
+    "name_ko": "미적분학 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "EECS183",
+    "code": "EECS 183",
+    "name": "Elementary Programming Concepts",
+    "name_ko": "프로그래밍 기초",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH116",
+    "code": "MATH 116",
+    "name": "Calculus II",
+    "name_ko": "미적분학 II",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH115"
+    ]
+   },
+   {
+    "id": "STATS250",
+    "code": "STATS 250",
+    "name": "Introduction to Statistics and Data Analysis",
+    "name_ko": "통계학 및 자료분석 입문",
+    "term": "Y1S2",
+    "category": "core",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH215",
+    "code": "MATH 215",
+    "name": "Calculus III (Multivariable)",
+    "name_ko": "다변수 미적분학",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH116"
+    ]
+   },
+   {
+    "id": "MATH217",
+    "code": "MATH 217",
+    "name": "Linear Algebra",
+    "name_ko": "선형대수학",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH116"
+    ]
+   },
+   {
+    "id": "DATASCI306",
+    "code": "DATASCI 306",
+    "name": "Introduction to Statistical Computing",
+    "name_ko": "통계 계산 입문",
+    "term": "Y2S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "STATS250",
+     "EECS183"
+    ]
+   },
+   {
+    "id": "STATS425",
+    "code": "STATS 425",
+    "name": "Introduction to Probability",
+    "name_ko": "확률론 입문",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH215"
+    ]
+   },
+   {
+    "id": "STATS413",
+    "code": "STATS 413",
+    "name": "Applied Regression Analysis",
+    "name_ko": "응용 회귀분석",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATS250",
+     "MATH217"
+    ]
+   },
+   {
+    "id": "STATS426",
+    "code": "STATS 426",
+    "name": "Introduction to Theoretical Statistics",
+    "name_ko": "이론통계학 입문",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATS425"
+    ]
+   },
+   {
+    "id": "DATASCI315",
+    "code": "DATASCI 315",
+    "name": "Statistics and Artificial Intelligence",
+    "name_ko": "통계학과 인공지능",
+    "term": "Y3S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STATS250",
+     "MATH217",
+     "EECS183"
+    ]
+   },
+   {
+    "id": "MATH451",
+    "code": "MATH 451",
+    "name": "Advanced Calculus I (Real Analysis)",
+    "name_ko": "고급 미적분학 I (해석학)",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH215",
+     "MATH217"
+    ]
+   },
+   {
+    "id": "STATS430",
+    "code": "STATS 430",
+    "name": "Applied Probability",
+    "name_ko": "응용 확률론",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STATS425"
+    ]
+   },
+   {
+    "id": "DATASCI470",
+    "code": "DATASCI 470",
+    "name": "Introduction to the Design of Experiments",
+    "name_ko": "실험계획법 입문",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STATS413"
+    ]
+   },
+   {
+    "id": "DATASCI415",
+    "code": "DATASCI 415",
+    "name": "Data Mining and Statistical Learning",
+    "name_ko": "데이터마이닝과 통계적 학습",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STATS413",
+     "STATS426"
+    ]
+   },
+   {
+    "id": "STATS480",
+    "code": "STATS 480",
+    "name": "Survey Sampling Techniques",
+    "name_ko": "표본조사 기법",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STATS426"
+    ]
+   },
+   {
+    "id": "STATS485",
+    "code": "STATS 485",
+    "name": "Capstone Seminar",
+    "name_ko": "캡스톤 세미나",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "STATS413",
+     "STATS426"
+    ]
+   },
+   {
+    "id": "STATS499",
+    "code": "STATS 499",
+    "name": "Honors Seminar (Thesis)",
+    "name_ko": "아너스 세미나(논문)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "STATS426"
+    ]
+   }
+  ],
+  "total_requirements": "선수과목으로 다변수 미적분(MATH 215 등), 선형대수(MATH 214/217), 프로그래밍(EECS 183), 입문통계(STATS 250 등)를 이수하여야 한다. 전공은 최소 29학점이며, 핵심 과목 STATS 413·425·426·DATASCI 306, 고급통계 3과목(DATASCI 315/406/415/451/470, STATS 430/449/480, MATH/STATS 526 중), 캡스톤 STATS 485, 지도교수 승인 선택과목으로 구성된다. 아너스는 MATH 351/451과 STATS 499(논문)를 추가로 요구한다.",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 6위"
+ },
+ {
+  "id": "uw",
+  "name": "University of Washington",
+  "program": "Bachelor of Science, Statistics (Options: Mathematical Statistics / Applied Statistics / Data Science)",
+  "prov": "선수관계 공식 요람",
+  "notes": [
+   "쿼터제이므로 가을(Autumn) 쿼터를 S1, 겨울·봄(Winter/Spring) 쿼터를 S2로 대응시켰다. 학기 배치는 요람의 개설 쿼터(STAT 341 가을, 342·423·496 겨울, 424·435 봄 등)에 근거한 추정이다.",
+   "확률론(STAT 394)은 미적분 3연쇄 이수 후 2학년에 시작하고, 수리통계는 STAT 341→342 연쇄로 3학년 가을·겨울에 이수하며 회귀(STAT 423)·GLM(STAT 424)으로 바로 이어진다.",
+   "실해석학은 공통 필수가 아니며 수리통계 옵션에서 MATH 300·327·424(해석학) 세트를 택할 때만 요구되고, 측도론은 학부 요건에 없다.",
+   "계산 필수는 CSE 160·163(파이썬)과 STAT 302(R)이며, 통계적 기계학습(STAT 435)이 공통 필수로 3학년 봄에 배치되고, 캡스톤 STAT 496(STAT 424·435 선수)이 전 옵션 필수이다(논문 요건은 없다)."
+  ],
+  "sources": [
+   "https://www.washington.edu/students/gencat/program/S/Statistics-294.html",
+   "https://www.washington.edu/students/crscat/stat.html",
+   "https://www.washington.edu/students/crscat/math.html",
+   "https://www.washington.edu/students/crscat/cse.html",
+   "https://stat.uw.edu/academics/undergraduate"
+  ],
+  "courses": [
+   {
+    "id": "MATH124",
+    "code": "MATH 124",
+    "name": "Calculus with Analytic Geometry I",
+    "name_ko": "미적분학 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "CSE160",
+    "code": "CSE 160",
+    "name": "Data Programming",
+    "name_ko": "데이터 프로그래밍",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH125",
+    "code": "MATH 125",
+    "name": "Calculus with Analytic Geometry II",
+    "name_ko": "미적분학 II",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH124"
+    ]
+   },
+   {
+    "id": "MATH126",
+    "code": "MATH 126",
+    "name": "Calculus with Analytic Geometry III",
+    "name_ko": "미적분학 III",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH125"
+    ]
+   },
+   {
+    "id": "CSE163",
+    "code": "CSE 163",
+    "name": "Intermediate Data Programming",
+    "name_ko": "중급 데이터 프로그래밍",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "CSE160"
+    ]
+   },
+   {
+    "id": "MATH208",
+    "code": "MATH 208",
+    "name": "Matrix Algebra with Applications",
+    "name_ko": "행렬대수와 응용",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STAT311",
+    "code": "STAT 311",
+    "name": "Elements of Statistical Methods",
+    "name_ko": "통계적 방법의 기초",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH124"
+    ]
+   },
+   {
+    "id": "MATH224",
+    "code": "MATH 224",
+    "name": "Advanced Multivariable Calculus",
+    "name_ko": "고급 다변수 미적분학",
+    "term": "Y2S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH126"
+    ]
+   },
+   {
+    "id": "STAT394",
+    "code": "STAT 394 / MATH 394",
+    "name": "Probability I",
+    "name_ko": "확률론 I",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH126"
+    ]
+   },
+   {
+    "id": "STAT302",
+    "code": "STAT 302",
+    "name": "Statistical Computing",
+    "name_ko": "통계 계산",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "STAT311"
+    ]
+   },
+   {
+    "id": "STAT303",
+    "code": "STAT 303",
+    "name": "Introduction to the Ethics of Algorithmic Decision Making",
+    "name_ko": "알고리즘 의사결정 윤리 입문",
+    "term": "Y2S2",
+    "category": "applied",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STAT341",
+    "code": "STAT 341",
+    "name": "Introduction to Probability and Mathematical Statistics II",
+    "name_ko": "확률 및 수리통계 입문 II",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT394",
+     "STAT311"
+    ]
+   },
+   {
+    "id": "STAT342",
+    "code": "STAT 342",
+    "name": "Introduction to Probability and Mathematical Statistics III",
+    "name_ko": "확률 및 수리통계 입문 III",
+    "term": "Y3S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT341"
+    ]
+   },
+   {
+    "id": "STAT423",
+    "code": "STAT 423",
+    "name": "Applied Regression and Analysis of Variance",
+    "name_ko": "응용 회귀 및 분산분석",
+    "term": "Y3S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT342",
+     "MATH208"
+    ]
+   },
+   {
+    "id": "STAT395",
+    "code": "STAT 395 / MATH 395",
+    "name": "Probability II",
+    "name_ko": "확률론 II",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT394"
+    ]
+   },
+   {
+    "id": "STAT424",
+    "code": "STAT 424",
+    "name": "Generalized Linear Models",
+    "name_ko": "일반화 선형모형",
+    "term": "Y3S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT342",
+     "STAT423"
+    ]
+   },
+   {
+    "id": "STAT435",
+    "code": "STAT 435",
+    "name": "Introduction to Statistical Machine Learning",
+    "name_ko": "통계적 기계학습 입문",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": true,
+    "prereqs": [
+     "STAT341"
+    ]
+   },
+   {
+    "id": "STAT451",
+    "code": "STAT 451",
+    "name": "Visualizing Data",
+    "name_ko": "데이터 시각화",
+    "term": "Y4S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "CSE163",
+     "STAT302"
+    ]
+   },
+   {
+    "id": "STAT491",
+    "code": "STAT 491 / MATH 491",
+    "name": "Introduction to Stochastic Processes I",
+    "name_ko": "확률과정 입문 I",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT394",
+     "STAT395"
+    ]
+   },
+   {
+    "id": "STAT496",
+    "code": "STAT 496",
+    "name": "Capstone",
+    "name_ko": "캡스톤",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "STAT424",
+     "STAT435"
+    ]
+   },
+   {
+    "id": "STAT403",
+    "code": "STAT 403",
+    "name": "Introduction to Resampling Inference",
+    "name_ko": "재표집 추론 입문",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT341"
+    ]
+   }
+  ],
+  "total_requirements": "전공은 75~91학점이며 수학(MATH 124·125·126·208·224), 계산(CSE 160·163, STAT 302), 확률(STAT 394), 통계 핵심(STAT 303, 311, 341, 342, 423, 424, 435, 496)을 공통으로 이수한다. 이에 더해 수리통계 옵션(STAT 395·491·492 또는 MATH 300·327·424 + 선택 3과목), 응용통계 옵션(응용분야 3과목 + 선택 3과목), 데이터사이언스 옵션(시각화·데이터베이스·계산 각 1과목 + 선택 3과목) 중 하나를 택한다. 모든 전공 과목은 최소 2.0, 전공 평균 2.50 이상이어야 한다.",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 6위"
+ },
+ {
+  "id": "columbia",
+  "name": "Columbia University",
+  "program": "B.A. in Statistics (Columbia College / General Studies)",
+  "prov": "선수관계 일부 추정",
+  "notes": [
+   "확률론(GU4203)은 UN1201 이후 2학년 1학기 무렵 시작하고, 수리통계에 해당하는 통계적 추론(GU4204)은 그다음 학기에 이어 듣도록 권장된다(UN1201→GU4203→GU4204→GU4205 순차 이수 권고). 핵심과목이 모두 대학원 교차개설(GU) 과목이라는 점이 서울대와 다르다.",
+   "실해석학·측도론은 필수가 아니며, 대학원 진학 희망자에게만 선택 2과목을 MATH GU4061–4062(현대해석학 입문)로 대체하도록 권장한다. 따라서 이론 기반은 서울대 통계학과 대비 선택적이다.",
+   "컴퓨팅은 COMS W1004·ENGI E1006·STAT UN2102 중 1과목과 핵심과목 GU4206(R 기반 통계계산)이 필수이다. 기계학습(GU4241→GU4242)은 GU4206 이후 순차 이수하는 선택과목으로 대개 4학년에 위치한다.",
+   "졸업논문이나 캡스톤은 필수가 아니다. 사례 중심의 GU4291(고급 자료분석)이 캡스톤 성격의 선택과목이며, 학기 배치는 공식 권고 순서와 선수관계에 근거한 추정이다."
+  ],
+  "sources": [
+   "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/",
+   "https://doc.sis.columbia.edu/subj/STAT/W4203-20263-001/",
+   "https://doc.sis.columbia.edu/subj/STAT/W4204-20263-001/",
+   "https://doc.sis.columbia.edu/subj/STAT/W4205-20263-001/",
+   "https://doc.sis.columbia.edu/subj/STAT/W4206-20263-001/",
+   "https://doc.sis.columbia.edu/subj/STAT/W4207-20263-001/",
+   "https://doc.sis.columbia.edu/subj/STAT/W4241-20263-001/",
+   "https://doc.sis.columbia.edu/sel/STAT_Fall2025_text.html"
+  ],
+  "courses": [
+   {
+    "id": "MATHUN1101",
+    "code": "MATH UN1101",
+    "name": "Calculus I",
+    "name_ko": "미적분학 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "COMSW1004",
+    "code": "COMS W1004",
+    "name": "Introduction to Computer Science and Programming in Java",
+    "name_ko": "컴퓨터과학 및 자바 프로그래밍 입문",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATHUN1102",
+    "code": "MATH UN1102",
+    "name": "Calculus II",
+    "name_ko": "미적분학 II",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATHUN1101"
+    ]
+   },
+   {
+    "id": "STATUN1201",
+    "code": "STAT UN1201",
+    "name": "Calculus-Based Introduction to Statistics",
+    "name_ko": "미적분 기반 통계학 입문",
+    "term": "Y1S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATHUN1101"
+    ]
+   },
+   {
+    "id": "MATHUN1201",
+    "code": "MATH UN1201",
+    "name": "Calculus III",
+    "name_ko": "미적분학 III(다변수)",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATHUN1102"
+    ]
+   },
+   {
+    "id": "STATGU4203",
+    "code": "STAT GU4203",
+    "name": "Probability Theory",
+    "name_ko": "확률론",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATHUN1102",
+     "STATUN1201"
+    ]
+   },
+   {
+    "id": "MATHUN2010",
+    "code": "MATH UN2010",
+    "name": "Linear Algebra",
+    "name_ko": "선형대수학",
+    "term": "Y2S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATHUN1201"
+    ]
+   },
+   {
+    "id": "STATGU4204",
+    "code": "STAT GU4204",
+    "name": "Statistical Inference",
+    "name_ko": "통계적 추론",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATGU4203"
+    ]
+   },
+   {
+    "id": "STATGU4205",
+    "code": "STAT GU4205",
+    "name": "Linear Regression Models",
+    "name_ko": "선형회귀모형",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATGU4204",
+     "MATHUN2010"
+    ]
+   },
+   {
+    "id": "STATGU4207",
+    "code": "STAT GU4207",
+    "name": "Elementary Stochastic Processes",
+    "name_ko": "기초 확률과정",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STATGU4203",
+     "MATHUN1201"
+    ]
+   },
+   {
+    "id": "STATGU4206",
+    "code": "STAT GU4206",
+    "name": "Statistical Computing and Introduction to Data Science",
+    "name_ko": "통계계산 및 데이터과학 입문",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "STATGU4204",
+     "STATGU4205"
+    ]
+   },
+   {
+    "id": "STATGU4224",
+    "code": "STAT GU4224",
+    "name": "Bayesian Statistics",
+    "name_ko": "베이즈 통계학",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STATGU4204"
+    ]
+   },
+   {
+    "id": "MATHGU4061",
+    "code": "MATH GU4061",
+    "name": "Introduction to Modern Analysis I",
+    "name_ko": "현대해석학 입문 I",
+    "term": "Y3S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATHUN1201",
+     "MATHUN2010"
+    ]
+   },
+   {
+    "id": "STATGU4241",
+    "code": "STAT GU4241",
+    "name": "Statistical Machine Learning",
+    "name_ko": "통계적 기계학습",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STATGU4206"
+    ]
+   },
+   {
+    "id": "STATGU4221",
+    "code": "STAT GU4221",
+    "name": "Time Series Analysis",
+    "name_ko": "시계열분석",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STATGU4205"
+    ]
+   },
+   {
+    "id": "MATHGU4062",
+    "code": "MATH GU4062",
+    "name": "Introduction to Modern Analysis II",
+    "name_ko": "현대해석학 입문 II",
+    "term": "Y4S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATHGU4061"
+    ]
+   },
+   {
+    "id": "STATGU4242",
+    "code": "STAT GU4242",
+    "name": "Advanced Machine Learning",
+    "name_ko": "고급 기계학습",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STATGU4241"
+    ]
+   },
+   {
+    "id": "STATGU4235",
+    "code": "STAT GU4235",
+    "name": "Causal Inference",
+    "name_ko": "인과추론",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STATGU4204"
+    ]
+   },
+   {
+    "id": "STATGU4291",
+    "code": "STAT GU4291",
+    "name": "Advanced Data Analysis",
+    "name_ko": "고급 자료분석",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "STATGU4205",
+     "STATGU4221"
+    ]
+   }
+  ],
+  "total_requirements": "수학 선수과목 4과목(미적분학 I–III, 선형대수)과 프로그래밍 1과목, STAT UN1201을 이수한 뒤 핵심 5과목(GU4203 확률론, GU4204 통계적 추론, GU4205 선형회귀, GU4206 통계계산·데이터과학, GU4207 확률과정)과 선택 3과목을 이수하여 총 14과목을 채우는 구조이다. 선택과목 중 최소 1과목은 GU4221–GU4291 범위의 통계학과 과목이어야 하며, 학과는 이 전공의 훈련 수준이 통계학 석사에 준한다고 밝히고 있다.",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 10위"
+ },
+ {
+  "id": "yale",
+  "name": "Yale University",
+  "program": "B.S. in Statistics and Data Science (B.A. also offered)",
+  "prov": "선수관계 일부 추정",
+  "notes": [
+   "확률론 S&DS 2410은 다변수 미적분 이후 2학년에 시작하고, 수리통계에 해당하는 S&DS 2420(통계이론)이 바로 이어지며 B.S.에서는 필수이다. 많은 상위 과목이 2410만을 선수로 요구하므로 조기 이수가 권장된다.",
+   "실해석학·측도론은 필수가 아니다. 해석학(MATH 2550 등)은 수학기초 목록의 선택지일 뿐이며, 고급 확률론 S&DS 4000은 실해석 지식을 전제로 하는 선택과목이다.",
+   "컴퓨팅은 지정 목록(S&DS 2200/2300, 2620, 2650, 4250, CPSC 1001/2010 등)에서 2과목이 필수이다. 기계학습은 2학년 무렵 S&DS 2650으로 등장하고, B.S. 필수인 S&DS 3650(중급 기계학습)은 3학년에 배치된다.",
+   "개인 연구 형태의 졸업 프로젝트(S&DS 4910/4920)가 필수라는 점이 서울대와 구별된다. 공식 학기별 권장 이수표는 없어 학기 배치는 추정이며, 일부 선수관계(2650, 3120, 3170, 3650, 4910 등)는 과거 번호 체계와 대학원 교차개설 과목 설명에 근거한 추정이다."
+  ],
+  "sources": [
+   "https://catalog.yale.edu/ycps/subjects-of-instruction/statistics/",
+   "https://catalog.yale.edu/ycps/roadmaps/S_DS_Roadmap_-_2024-03-20.pdf",
+   "https://catalog.yale.edu/gsas/degree-granting-departments-programs/statistics/",
+   "https://statistics.yale.edu/undergraduates/the-major",
+   "https://diss.yale.edu/advice-by-number-of-data-science-and-statistics-courses-you-will-likely-take"
+  ],
+  "courses": [
+   {
+    "id": "MATH1150",
+    "code": "MATH 1150",
+    "name": "Calculus of Functions of One Variable II",
+    "name_ko": "일변수 미적분학 II",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "CPSC2010",
+    "code": "CPSC 2010",
+    "name": "Introduction to Computer Science",
+    "name_ko": "컴퓨터과학 입문",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH1200",
+    "code": "MATH 1200",
+    "name": "Calculus of Functions of Several Variables",
+    "name_ko": "다변수 미적분학",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH1150"
+    ]
+   },
+   {
+    "id": "SDS2300",
+    "code": "S&DS 2300",
+    "name": "Data Exploration and Analysis",
+    "name_ko": "자료 탐색과 분석",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "MATH2220",
+    "code": "MATH 2220",
+    "name": "Linear Algebra with Applications",
+    "name_ko": "응용 선형대수학",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "MATH1200"
+    ]
+   },
+   {
+    "id": "SDS2410",
+    "code": "S&DS 2410",
+    "name": "Probability Theory",
+    "name_ko": "확률론",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "MATH1200"
+    ]
+   },
+   {
+    "id": "SDS2420",
+    "code": "S&DS 2420",
+    "name": "Theory of Statistics",
+    "name_ko": "통계이론",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "SDS2410"
+    ]
+   },
+   {
+    "id": "SDS2650",
+    "code": "S&DS 2650",
+    "name": "Introductory Machine Learning",
+    "name_ko": "기계학습 입문",
+    "term": "Y2S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "SDS2300",
+     "MATH2220"
+    ]
+   },
+   {
+    "id": "SDS3120",
+    "code": "S&DS 3120",
+    "name": "Linear Models",
+    "name_ko": "선형모형",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "SDS2420",
+     "MATH2220"
+    ]
+   },
+   {
+    "id": "SDS3510",
+    "code": "S&DS 3510",
+    "name": "Stochastic Processes",
+    "name_ko": "확률과정",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "SDS2410"
+    ]
+   },
+   {
+    "id": "MATH2550",
+    "code": "MATH 2550",
+    "name": "Analysis I",
+    "name_ko": "해석학 I",
+    "term": "Y3S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "MATH1200",
+     "MATH2220"
+    ]
+   },
+   {
+    "id": "SDS3650",
+    "code": "S&DS 3650",
+    "name": "Intermediate Machine Learning",
+    "name_ko": "중급 기계학습",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": true,
+    "prereqs": [
+     "SDS2420",
+     "MATH2220",
+     "SDS2650"
+    ]
+   },
+   {
+    "id": "SDS3610",
+    "code": "S&DS 3610",
+    "name": "Data Analysis",
+    "name_ko": "자료분석",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "SDS2420",
+     "MATH2220"
+    ]
+   },
+   {
+    "id": "SDS4100",
+    "code": "S&DS 4100",
+    "name": "Statistical Inference",
+    "name_ko": "통계적 추론(고급)",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "SDS2410",
+     "SDS2420"
+    ]
+   },
+   {
+    "id": "SDS3170",
+    "code": "S&DS 3170",
+    "name": "Applied Machine Learning and Causal Inference",
+    "name_ko": "응용 기계학습과 인과추론",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "SDS2300",
+     "SDS2420"
+    ]
+   },
+   {
+    "id": "SDS4910",
+    "code": "S&DS 4910",
+    "name": "Senior Project",
+    "name_ko": "졸업 프로젝트",
+    "term": "Y4S1",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "SDS2420",
+     "SDS3610"
+    ]
+   },
+   {
+    "id": "SDS4000",
+    "code": "S&DS 4000",
+    "name": "Advanced Probability",
+    "name_ko": "고급 확률론",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "SDS2410",
+     "MATH2550"
+    ]
+   }
+  ],
+  "total_requirements": "다변수 미적분학을 선수로 하여, B.S.는 선수과목 외 14과목(B.A.는 11과목)을 이수하며 수학기초·이론 2과목(선형대수 필수), 핵심 확률·통계 2과목(S&DS 2420 필수), 컴퓨팅 2과목, 데이터과학 방법론 2과목(S&DS 3650 필수), 선택 5과목, 졸업 프로젝트로 구성된다. 졸업 프로젝트 S&DS 4910(가을) 또는 4920(봄)은 B.A.와 B.S. 모두 필수이다.",
+  "group": "미국 (US News 통계학 Top 10)",
+  "rank": "US News 10위"
+ },
+ {
+  "id": "oxford",
+  "name": "University of Oxford",
+  "program": "BA/MMath Mathematics and Statistics",
+  "system": "term",
+  "total_requirements": "1학년(Prelims)은 수학과와 같은 필수 14과목과 전산 실습, 2학년(Part A)은 A0·A1·A2·A8 확률·A9 통계와 선택, 3학년(Part B)은 응용·전산통계(SB1, 실습이 성적의 1/3)를 포함한 8단위, 4학년(Part C, MMath)은 통계 프로젝트 논문을 포함한다.",
+  "notes": [
+   "Prelims=1학년, Part A=2학년, Part B=3학년, Part C=4학년으로 두고 미카엘마스 학기를 1학기, 힐러리·트리니티 학기를 2학기에 배치했다.",
+   "3·4학년 선수관계는 강의 개요(synopsis)의 선수 요건을 따랐고, 1·2학년 간 연결은 일반적 순서에 따른 추정이다.",
+   "확률을 1학년 첫 학기에 시작하고 2학년(A8)에 다시 깊게 다룬다. 측도론(A4, B8.1)은 선택이다.",
+   "전산이 매년 필수(1학년 실습, 2학년 A12 R 시뮬레이션, 3학년 SB1 실습)이고, 4년제 MMath만 논문이 필수다."
+  ],
+  "sources": [
+   "https://www.stats.ox.ac.uk/sites/default/files/2025-11/Maths%20and%20Stats%20UG%20Handbook%202025-26.pdf",
+   "https://www.stats.ox.ac.uk/sites/default/files/2026-08/Part%20B%202026-2027%20Handbook%20Supplement.pdf",
+   "https://www.stats.ox.ac.uk/sites/default/files/2026-08/Part%20C%202026-2027%20Handbook%20Supplement.pdf",
+   "https://www.stats.ox.ac.uk/bammath-mathematics-and-statistics-student-resources"
+  ],
+  "courses": [
+   {
+    "id": "P_LA1",
+    "code": "Prelims MI",
+    "name": "Linear Algebra I",
+    "name_ko": "선형대수 1",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "P_AN1",
+    "code": "Prelims MII",
+    "name": "Analysis I: Sequences and Series",
+    "name_ko": "해석학 1: 수열과 급수",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "P_PROB",
+    "code": "Prelims MIII",
+    "name": "Probability",
+    "name_ko": "확률론",
+    "term": "Y1S1",
+    "category": "core",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "P_COMP",
+    "code": "Prelims",
+    "name": "Computational Mathematics (practical, MT-HT)",
+    "name_ko": "전산수학 (실습)",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "P_AN2",
+    "code": "Prelims MII",
+    "name": "Analysis II/III: Continuity, Differentiability, Integration",
+    "name_ko": "해석학 2·3: 연속·미분·적분",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "P_AN1"
+    ]
+   },
+   {
+    "id": "P_SDA",
+    "code": "Prelims MIII",
+    "name": "Statistics and Data Analysis",
+    "name_ko": "통계학과 자료분석",
+    "term": "Y1S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "P_PROB"
+    ]
+   },
+   {
+    "id": "A0",
+    "code": "A0",
+    "name": "Linear Algebra",
+    "name_ko": "선형대수",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "P_LA1"
+    ]
+   },
+   {
+    "id": "A2",
+    "code": "A2",
+    "name": "Metric Spaces and Complex Analysis",
+    "name_ko": "거리공간과 복소해석",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "P_AN2"
+    ]
+   },
+   {
+    "id": "A8",
+    "code": "A8",
+    "name": "Probability",
+    "name_ko": "확률론",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "P_PROB"
+    ]
+   },
+   {
+    "id": "A4",
+    "code": "A4",
+    "name": "Integration (Lebesgue)",
+    "name_ko": "적분론 (르베그)",
+    "term": "Y2S2",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "P_AN2"
+    ]
+   },
+   {
+    "id": "A9",
+    "code": "A9",
+    "name": "Statistics",
+    "name_ko": "통계학",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "P_SDA",
+     "A8"
+    ]
+   },
+   {
+    "id": "A12",
+    "code": "A12",
+    "name": "Simulation and Statistical Programming",
+    "name_ko": "시뮬레이션과 통계 프로그래밍",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "P_COMP",
+     "P_SDA",
+     "A8"
+    ]
+   },
+   {
+    "id": "SB1.1",
+    "code": "SB1.1",
+    "name": "Applied Statistics (SB1 double unit, part 1)",
+    "name_ko": "응용통계학",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "A8",
+     "A9"
+    ]
+   },
+   {
+    "id": "SB2.1",
+    "code": "SB2.1",
+    "name": "Foundations of Statistical Inference",
+    "name_ko": "통계적 추론의 기초",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "A8",
+     "A9"
+    ]
+   },
+   {
+    "id": "B8.1",
+    "code": "B8.1",
+    "name": "Probability, Measure and Martingales",
+    "name_ko": "확률·측도·마팅게일",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "A4",
+     "A8"
+    ]
+   },
+   {
+    "id": "SB1.2",
+    "code": "SB1.2",
+    "name": "Computational Statistics (SB1 double unit, part 2)",
+    "name_ko": "전산통계학",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "SB1.1",
+     "A12"
+    ]
+   },
+   {
+    "id": "SB2.2",
+    "code": "SB2.2",
+    "name": "Statistical Machine Learning",
+    "name_ko": "통계적 기계학습",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "A8",
+     "A9"
+    ]
+   },
+   {
+    "id": "SB3.1",
+    "code": "SB3.1",
+    "name": "Applied Probability",
+    "name_ko": "응용확률론",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "A8"
+    ]
+   },
+   {
+    "id": "SC7",
+    "code": "SC7",
+    "name": "Bayes Methods",
+    "name_ko": "베이즈 방법론",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "SB2.1",
+     "A12"
+    ]
+   },
+   {
+    "id": "SC4",
+    "code": "SC4",
+    "name": "Advanced Topics in Statistical Machine Learning",
+    "name_ko": "통계적 기계학습 고급주제",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "SB2.2",
+     "A0"
+    ]
+   },
+   {
+    "id": "SC5",
+    "code": "SC5",
+    "name": "Advanced Simulation Methods",
+    "name_ko": "고급 시뮬레이션 방법",
+    "term": "Y4S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "SB3.1",
+     "A12"
+    ]
+   },
+   {
+    "id": "DISS",
+    "code": "Part C Dissertation",
+    "name": "Dissertation on a Statistics Project (double unit, MT-HT)",
+    "name_ko": "통계 프로젝트 학위논문",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "SB1.1",
+     "SB1.2"
+    ]
+   }
+  ],
+  "prov": "선수관계 일부 추정",
+  "group": "미국 외 해외"
+ },
+ {
+  "id": "cambridge",
+  "name": "University of Cambridge",
+  "program": "Mathematical Tripos (BA, Part IA·IB·II; 선택적 Part III/MMath) — 확률·통계 중심 경로",
+  "prov": "선수관계 일부 추정",
+  "notes": [
+   "학기 배치는 환산값이다. Part IA→Y1, IB→Y2, II→Y3, Part III(석사 수준, MMath/MASt)→Y4로 대응시켰고, Michaelmas는 S1, Lent·Easter는 S2로 묶었다. Optimisation은 IA 또는 IB의 Easter 학기에 수강할 수 있어 Y2S2에 두었다.",
+   "확률론은 1학년 Lent 학기(IA Probability)에 시작되고, 통계학은 2학년 Lent 학기(IB Statistics, 16강)에 처음 등장하며, 이론 통계(Principles of Statistics)는 3학년 Michaelmas 학기에 이수한다.",
+   "해석학 I·II는 1~2학년의 사실상 필수 기반이며, 측도론(Probability and Measure)은 Part II 선택 과목이지만 Applied Probability·Stochastic Financial Models에서 바람직한 선수지식으로 명시된다. 선수관계는 요람의 essential/desirable 문구를 따르되, Part IA·IB 과목 간 관계는 내용상 추정하였다.",
+   "전산 교육은 독립 프로그래밍 과목이 아니라 IA Easter 학기 강의 후 IB·II에서 보고서로 평가받는 Computational Projects(CATAM)로 이루어지며, R 실습은 Part II Statistical Modelling에서 이루어진다. 기계학습은 3학년 Lent 학기 Mathematics of Machine Learning에서 처음 등장하며, 학부(BA) 과정에는 졸업논문이 없고 Part III 진학 시 선택적 Essay가 있다."
+  ],
+  "sources": [
+   "https://www.maths.cam.ac.uk/undergrad/course/schedules.pdf",
+   "https://www.maths.cam.ac.uk/undergrad/part-ii-modular-examination",
+   "https://www.maths.cam.ac.uk/postgrad/part-iii"
+  ],
+  "courses": [
+   {
+    "id": "IA_VM",
+    "code": "Part IA (Michaelmas, 24L)",
+    "name": "Vectors and Matrices",
+    "name_ko": "벡터와 행렬",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "IA_NS",
+    "code": "Part IA (Michaelmas, 24L)",
+    "name": "Numbers and Sets",
+    "name_ko": "수와 집합",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "IA_DE",
+    "code": "Part IA (Michaelmas, 24L)",
+    "name": "Differential Equations",
+    "name_ko": "미분방정식",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "IA_AN1",
+    "code": "Part IA (Lent, 24L)",
+    "name": "Analysis I",
+    "name_ko": "해석학 I",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "IA_NS"
+    ]
+   },
+   {
+    "id": "IA_PROB",
+    "code": "Part IA (Lent, 24L)",
+    "name": "Probability",
+    "name_ko": "확률론",
+    "term": "Y1S2",
+    "category": "core",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "IB_LA",
+    "code": "Part IB (Michaelmas, 24L)",
+    "name": "Linear Algebra",
+    "name_ko": "선형대수",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "IA_VM"
+    ]
+   },
+   {
+    "id": "IB_AN2",
+    "code": "Part IB (Michaelmas, 24L)",
+    "name": "Analysis II",
+    "name_ko": "해석학 II",
+    "term": "Y2S1",
+    "category": "math",
+    "required": false,
+    "prereqs": [
+     "IA_AN1"
+    ]
+   },
+   {
+    "id": "IB_MC",
+    "code": "Part IB (Michaelmas, 12L)",
+    "name": "Markov Chains",
+    "name_ko": "마르코프 연쇄",
+    "term": "Y2S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "IA_PROB"
+    ]
+   },
+   {
+    "id": "IB_STAT",
+    "code": "Part IB (Lent, 16L)",
+    "name": "Statistics",
+    "name_ko": "통계학",
+    "term": "Y2S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "IA_PROB",
+     "IA_VM"
+    ]
+   },
+   {
+    "id": "IB_NA",
+    "code": "Part IB (Lent, 16L)",
+    "name": "Numerical Analysis",
+    "name_ko": "수치해석",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "IA_VM",
+     "IA_AN1"
+    ]
+   },
+   {
+    "id": "IB_OPT",
+    "code": "Part IB (Easter, 12L; IA Easter도 가능)",
+    "name": "Optimisation",
+    "name_ko": "최적화",
+    "term": "Y2S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "IA_VM"
+    ]
+   },
+   {
+    "id": "IB_CP",
+    "code": "Part IB Computational Projects (CATAM; 강의는 IA Easter)",
+    "name": "Computational Projects",
+    "name_ko": "전산 프로젝트(CATAM)",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "II_PM",
+    "code": "Part II D (Michaelmas, 24L)",
+    "name": "Probability and Measure",
+    "name_ko": "확률과 측도",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "IB_AN2"
+    ]
+   },
+   {
+    "id": "II_PS",
+    "code": "Part II D (Michaelmas, 24L)",
+    "name": "Principles of Statistics",
+    "name_ko": "통계학 원론",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "IB_STAT"
+    ]
+   },
+   {
+    "id": "II_SM",
+    "code": "Part II C (Michaelmas, 24L, R 실습)",
+    "name": "Statistical Modelling",
+    "name_ko": "통계적 모형화",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "IB_STAT"
+    ]
+   },
+   {
+    "id": "II_SFM",
+    "code": "Part II D (Michaelmas, 16L)",
+    "name": "Stochastic Financial Models",
+    "name_ko": "확률적 금융모형",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "IB_MC"
+    ]
+   },
+   {
+    "id": "II_AP",
+    "code": "Part II D (Lent, 24L)",
+    "name": "Applied Probability",
+    "name_ko": "응용확률론",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "IB_MC",
+     "II_PM"
+    ]
+   },
+   {
+    "id": "II_MML",
+    "code": "Part II D (Lent, 16L)",
+    "name": "Mathematics of Machine Learning",
+    "name_ko": "기계학습의 수학",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "IB_STAT",
+     "IB_OPT"
+    ]
+   },
+   {
+    "id": "II_CP",
+    "code": "Part II Computational Projects",
+    "name": "Computational Projects (Part II)",
+    "name_ko": "전산 프로젝트(Part II)",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "IB_CP"
+    ]
+   },
+   {
+    "id": "III_AP",
+    "code": "Part III (Michaelmas)",
+    "name": "Advanced Probability",
+    "name_ko": "고급 확률론",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "II_PM"
+    ]
+   },
+   {
+    "id": "III_MSM",
+    "code": "Part III (Michaelmas)",
+    "name": "Modern Statistical Methods",
+    "name_ko": "현대 통계 방법론",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "II_PS",
+     "II_SM"
+    ]
+   },
+   {
+    "id": "III_ESSAY",
+    "code": "Part III Essay (선택)",
+    "name": "Part III Essay",
+    "name_ko": "Part III 에세이(논문)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "II_PS"
+    ]
+   }
+  ],
+  "total_requirements": "Part IA는 공통 필수 과목으로 구성되며, Part IB와 Part II는 이수 과목 수나 유형에 제한 없이 학생이 지도교수(Director of Studies)와 상의하여 선택하는 구조이다. 따라서 통계학 전공 요건은 별도로 존재하지 않으며, 본 로드맵은 확률·통계 과목을 중심으로 구성한 대표 경로이다. 2027-28년부터 Part II는 과목별 모듈형 시험으로 전환될 예정이다.",
+  "group": "미국 외 해외"
+ },
+ {
+  "id": "eth",
+  "name": "ETH Zürich",
+  "program": "BSc Mathematics (통계·확률 중심 선택) + MSc Statistics 1학년(Y4)",
+  "prov": "선수관계 일부 추정",
+  "notes": [
+   "학기 배치는 HS(가을)→S1, FS(봄)→S2로 환산하였으며, 3학년 과목은 2025 HS·2026 FS 개설 목록을 기준으로 배치하였다. Y4는 학부가 아닌 MSc Statistics 과목이다.",
+   "확률론은 2학년 봄 학기 필수 과목인 Probability and Statistics에서 처음 시작되어 서울대보다 늦으며, 측도론적 확률론(Probability Theory)과 수리통계학(Fundamentals of Mathematical Statistics)은 3학년 가을 학기 핵심과목으로 이수한다.",
+   "측도론(Analysis III: Measure Theory)이 2학년 가을 학기 필수이므로 상위 확률론이 처음부터 측도론 위에서 전개된다. 필수 전산 교육으로는 1학년의 Computer Science와 Data Structures & Algorithms, 2학년의 Numerical Analysis I가 있으며, 통계 전산은 3학년 Computational Statistics에서 이루어진다.",
+   "기계학습 관련 과목(High-Dimensional Statistics, Core Concepts in Statistical Learning 등)은 3학년 봄 학기부터 선택으로 등장한다. 학사논문(8 ECTS)과 세미나(4 ECTS)가 졸업 필수이며, 선수관계는 강의 카탈로그의 권장 선수지식을 바탕으로 일부 추정하였다."
+  ],
+  "sources": [
+   "https://math.ethz.ch/studies/course-websites/course-list-d-math.html?s=2025W",
+   "https://math.ethz.ch/studies/course-websites/course-list-d-math.html?s=2026S",
+   "https://www.vvz.ethz.ch/Vorlesungsverzeichnis/sucheLehrangebot.view?abschnittId=105255&semkez=2023W&ansicht=2&lang=en&seite=1",
+   "https://studienwahl.zh.ch/studiengang/mathematics-mathematik/",
+   "https://ethz.ch/en/studies/master/degree-programmes/natural-sciences-and-mathematics/statistics.html"
+  ],
+  "courses": [
+   {
+    "id": "E_AN1",
+    "code": "401-1261-07L (HS, 10 ECTS)",
+    "name": "Analysis I: One Variable",
+    "name_ko": "해석학 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "E_LA1",
+    "code": "401-1151-00L (HS, 7 ECTS)",
+    "name": "Linear Algebra I",
+    "name_ko": "선형대수 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "E_CS",
+    "code": "252-0847-00L (HS, 5 ECTS)",
+    "name": "Computer Science",
+    "name_ko": "컴퓨터과학(프로그래밍)",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "E_AN2",
+    "code": "401-1262-07L (FS)",
+    "name": "Analysis II: Several Variables",
+    "name_ko": "해석학 II(다변수)",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "E_AN1"
+    ]
+   },
+   {
+    "id": "E_LA2",
+    "code": "401-1152-02L (FS)",
+    "name": "Linear Algebra II",
+    "name_ko": "선형대수 II",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "E_LA1"
+    ]
+   },
+   {
+    "id": "E_GS",
+    "code": "401-1032-00L (FS, 5 ECTS)",
+    "name": "Basic Structures (Grundstrukturen)",
+    "name_ko": "기초구조(증명·집합론)",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "E_DSA",
+    "code": "Data Structures & Algorithms (FS, 5 ECTS)",
+    "name": "Data Structures and Algorithms",
+    "name_ko": "자료구조와 알고리즘",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "E_CS"
+    ]
+   },
+   {
+    "id": "E_AN3",
+    "code": "401-2283-00L (HS, 6 ECTS)",
+    "name": "Analysis III (Measure Theory)",
+    "name_ko": "해석학 III(측도론)",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "E_AN2"
+    ]
+   },
+   {
+    "id": "E_NA1",
+    "code": "401-2653-21L (HS, 7 ECTS)",
+    "name": "Numerical Analysis I",
+    "name_ko": "수치해석 I",
+    "term": "Y2S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": [
+     "E_AN2",
+     "E_LA2"
+    ]
+   },
+   {
+    "id": "E_PS",
+    "code": "401-2604-00L (FS, 8 ECTS)",
+    "name": "Probability and Statistics",
+    "name_ko": "확률과 통계",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "E_AN2",
+     "E_LA2"
+    ]
+   },
+   {
+    "id": "E_PT",
+    "code": "401-3601-00L (HS, 핵심과목)",
+    "name": "Probability Theory",
+    "name_ko": "확률론(측도론적)",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "E_PS",
+     "E_AN3"
+    ]
+   },
+   {
+    "id": "E_FMS",
+    "code": "401-3621-00L (HS, 핵심과목)",
+    "name": "Fundamentals of Mathematical Statistics",
+    "name_ko": "수리통계학 기초",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "E_PS"
+    ]
+   },
+   {
+    "id": "E_SMOD",
+    "code": "401-3622-00L (HS)",
+    "name": "Statistical Modelling",
+    "name_ko": "통계적 모형화",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "E_PS",
+     "E_LA2"
+    ]
+   },
+   {
+    "id": "E_CSTAT",
+    "code": "401-3632-00L (FS)",
+    "name": "Computational Statistics",
+    "name_ko": "전산통계",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "E_PS"
+    ]
+   },
+   {
+    "id": "E_HDS",
+    "code": "401-3627-00L (FS)",
+    "name": "High-Dimensional Statistics",
+    "name_ko": "고차원 통계학",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "E_FMS"
+    ]
+   },
+   {
+    "id": "E_BMSC",
+    "code": "401-3642-00L (FS)",
+    "name": "Brownian Motion and Stochastic Calculus",
+    "name_ko": "브라운 운동과 확률미적분",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "E_PT"
+    ]
+   },
+   {
+    "id": "E_SEM",
+    "code": "401-3620-xxL (학기별 주제)",
+    "name": "Student Seminar in Statistics",
+    "name_ko": "통계학 학생 세미나",
+    "term": "Y3S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "E_FMS"
+    ]
+   },
+   {
+    "id": "E_BT",
+    "code": "Bachelor's Thesis (8 ECTS)",
+    "name": "Bachelor's Thesis",
+    "name_ko": "학사 논문",
+    "term": "Y3S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "E_PS"
+    ]
+   },
+   {
+    "id": "E_MDS",
+    "code": "401-4944-20L (HS, MSc)",
+    "name": "Mathematics of Data Science",
+    "name_ko": "데이터과학의 수학",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "E_PT",
+     "E_LA2"
+    ]
+   },
+   {
+    "id": "E_CAUS",
+    "code": "401-4632-15L (HS, MSc)",
+    "name": "Causality",
+    "name_ko": "인과추론",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "E_FMS"
+    ]
+   },
+   {
+    "id": "E_LAB",
+    "code": "401-4620-00L (FS, MSc)",
+    "name": "Statistics Lab",
+    "name_ko": "통계 컨설팅 실습(Statistics Lab)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "E_CSTAT"
+    ]
+   }
+  ],
+  "total_requirements": "학사과정은 총 180 ECTS로, 1학년 기초연도(Basisjahr) 59 ECTS와 2학년 필수과목(확률과 통계 8 ECTS 포함)을 이수한 뒤, 3학년에 핵심·선택과목 30 ECTS(핵심과목 21 ECTS 이상, 순수·응용수학 각 7 ECTS 이상), 세미나 4 ECTS, 학사논문 8 ECTS를 이수하는 구조이다. ETH에는 학사 수준의 통계학 또는 데이터과학 전공이 없으므로 수학 학사과정을 기준으로 하였으며, Y4에는 MSc Statistics 1학년 과목을 배치하였다.",
+  "group": "미국 외 해외"
+ },
+ {
+  "id": "toronto",
+  "name": "University of Toronto (St. George)",
+  "program": "Specialist in Statistical Science: Theory and Methods (ASSPE2290, 2026-27 요람)",
+  "prov": "선수관계 공식 요람",
+  "notes": [
+   "STA 과목은 대부분 가을·겨울 학기에 모두 개설되므로 학기 배치는 요람의 학년 구분(First/Second/Higher Years)과 선수관계를 따라 추정하였다. MAT137Y1·MAT237Y1은 연간 과목이어서 해당 학년 S1에 배치하였다.",
+   "확률·통계는 1학년 STA130(데이터과학 입문)으로 시작하고, 미적분 기반 확률(STA257)과 추론(STA261)은 2학년에 이수한다. 이론 확률(STA357)과 통계 이론(STA355)은 3학년, 수리통계(STA452/453)는 4학년에 배치된다.",
+   "증명 중심 미적분(MAT137/MAT237)과 선형대수 II가 필수이지만 측도론은 필수가 아니며, 측도론적 확률은 선택 과목으로만 접할 수 있다. 필수 전산은 1학년 프로그래밍(CSC108 등)이며, 통계 계산(STA410)은 400단위 선택이다.",
+   "기계학습은 3학년 STA314(필수 선택군)에서 등장하고 4학년 STA414로 이어진다. 졸업논문은 없으나 세미나(STA492)·개별연구(STA496~499)·인턴십(ASIP) 중 하나의 캡스톤이 필수이다."
+  ],
+  "sources": [
+   "https://artsci.calendar.utoronto.ca/program/ASSPE2290",
+   "https://artsci.calendar.utoronto.ca/section/Statistical-Sciences"
+  ],
+  "courses": [
+   {
+    "id": "T_CALC",
+    "code": "MAT137Y1 (또는 MAT157Y1, MAT148/149H1)",
+    "name": "Calculus with Proofs",
+    "name_ko": "증명 중심 미적분학",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "T_CSC108",
+    "code": "CSC108H1 (또는 CSC110Y1/CSC148H1)",
+    "name": "Introduction to Computer Programming",
+    "name_ko": "프로그래밍 입문",
+    "term": "Y1S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "T_LA1",
+    "code": "MAT223H1 (또는 MAT240H1)",
+    "name": "Linear Algebra I",
+    "name_ko": "선형대수 I",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "T_STA130",
+    "code": "STA130H1",
+    "name": "An Introduction to Statistical Reasoning and Data Science",
+    "name_ko": "통계적 추론과 데이터과학 입문",
+    "term": "Y1S2",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "T_CALC",
+     "T_CSC108"
+    ]
+   },
+   {
+    "id": "T_MAT237",
+    "code": "MAT237Y1 (또는 MAT257Y1)",
+    "name": "Multivariable Calculus with Proofs",
+    "name_ko": "증명 중심 다변수 미적분학",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "T_CALC",
+     "T_LA1"
+    ]
+   },
+   {
+    "id": "T_MAT224",
+    "code": "MAT224H1 (또는 MAT247H1)",
+    "name": "Linear Algebra II",
+    "name_ko": "선형대수 II",
+    "term": "Y2S1",
+    "category": "math",
+    "required": true,
+    "prereqs": [
+     "T_LA1"
+    ]
+   },
+   {
+    "id": "T_STA257",
+    "code": "STA257H1",
+    "name": "Probability and Statistics I",
+    "name_ko": "확률과 통계 I",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "T_CALC",
+     "T_MAT237",
+     "T_LA1"
+    ]
+   },
+   {
+    "id": "T_STA261",
+    "code": "STA261H1",
+    "name": "Probability and Statistics II",
+    "name_ko": "확률과 통계 II",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "T_STA257"
+    ]
+   },
+   {
+    "id": "T_STA302",
+    "code": "STA302H1",
+    "name": "Methods of Data Analysis I",
+    "name_ko": "자료분석방법 I(회귀분석)",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "T_STA261",
+     "T_CSC108",
+     "T_LA1"
+    ]
+   },
+   {
+    "id": "T_STA357",
+    "code": "STA357H1",
+    "name": "Theoretical Probability",
+    "name_ko": "이론 확률론",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "T_STA257",
+     "T_MAT237"
+    ]
+   },
+   {
+    "id": "T_STA355",
+    "code": "STA355H1",
+    "name": "Theory of Statistical Practice",
+    "name_ko": "통계적 실무의 이론",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "T_STA261",
+     "T_MAT237"
+    ]
+   },
+   {
+    "id": "T_STA303",
+    "code": "STA303H1",
+    "name": "Methods of Data Analysis II",
+    "name_ko": "자료분석방법 II(GLM·분산분석)",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "T_STA302"
+    ]
+   },
+   {
+    "id": "T_STA305",
+    "code": "STA305H1 (또는 STA304H1)",
+    "name": "Design and Analysis of Experiments",
+    "name_ko": "실험계획과 분석",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": true,
+    "prereqs": [
+     "T_STA302"
+    ]
+   },
+   {
+    "id": "T_STA314",
+    "code": "STA314H1 (또는 STA313/STA365H1)",
+    "name": "Statistical Methods for Machine Learning I",
+    "name_ko": "기계학습 통계방법 I",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": true,
+    "prereqs": [
+     "T_STA302",
+     "T_CSC108",
+     "T_LA1",
+     "T_MAT237"
+    ]
+   },
+   {
+    "id": "T_STA452",
+    "code": "STA452H1 (STA447/452/453 중 0.5학점 필수)",
+    "name": "Mathematical Statistics I",
+    "name_ko": "수리통계학 I",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "T_LA1",
+     "T_MAT237",
+     "T_STA261"
+    ]
+   },
+   {
+    "id": "T_STA447",
+    "code": "STA447H1",
+    "name": "Stochastic Processes",
+    "name_ko": "확률과정론",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "T_STA357"
+    ]
+   },
+   {
+    "id": "T_STA410",
+    "code": "STA410H1 (400단위 목록 1.0학점 중)",
+    "name": "Statistical Computation",
+    "name_ko": "통계 계산",
+    "term": "Y4S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "T_STA302",
+     "T_LA1"
+    ]
+   },
+   {
+    "id": "T_STA453",
+    "code": "STA453H1",
+    "name": "Mathematical Statistics II",
+    "name_ko": "수리통계학 II",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "T_STA452"
+    ]
+   },
+   {
+    "id": "T_STA414",
+    "code": "STA414H1 (400단위 목록 1.0학점 중)",
+    "name": "Statistical Methods for Machine Learning II",
+    "name_ko": "기계학습 통계방법 II",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "T_STA314",
+     "T_STA302",
+     "T_MAT237"
+    ]
+   },
+   {
+    "id": "T_STA492",
+    "code": "STA492H1 (또는 STA496/497H1, STA498/499Y1, ASIP)",
+    "name": "Seminar in Statistical Science",
+    "name_ko": "통계과학 세미나(캡스톤)",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": true,
+    "prereqs": [
+     "T_STA355"
+    ]
+   }
+  ],
+  "total_requirements": "전공 요건은 11.0~12.0학점(반학기 과목 0.5학점 기준)으로, 1학년 미적분·선형대수·프로그래밍·STA130, 2학년 STA257·STA261·MAT237·MAT224를 이수한 뒤, 3학년 이상에서 STA302·303·355·357 등 3.0학점, 400단위 방법론 1.0학점, 400단위 이론(STA447/452/453) 0.5학점, 선택 1.0학점, 캡스톤·연구 0.5~1.0학점을 이수하는 구조이다. 응용 중심 과정으로는 Methods and Practice 전공(ASSPE2270)이 별도로 있다.",
+  "group": "미국 외 해외"
+ },
+ {
+  "id": "yonsei",
+  "name": "연세대학교",
+  "program": "응용통계학과",
+  "system": "semester",
+  "total_requirements": "전공기초 4과목(미분적분학, 선형대수, 통계방법론, R과파이썬프로그래밍)과 전공필수 2과목(수리통계학(1)·(2)) 외에는 모두 전공선택이다. 통계학입문은 교양필수다.",
+  "notes": [
+   "학기 배치는 학과 교과과정 안내의 학년·학기별 권장 이수표를 그대로 따랐다.",
+   "공식 선수 순서는 '통계방법론·전산 → 수리통계학(1) → 수리통계학(2) → 전공선택'뿐이어서 나머지 화살표는 내용상 추정이다.",
+   "미분적분학·선형대수를 학과가 직접 개설하고, 딥러닝(3-1)·인과추론(3-2) 등 데이터사이언스 과목을 3학년부터 배치하며 보험계리 트랙을 운영한다.",
+   "공식 캡스톤이 없어 4학년 2학기 통계자료분석을 캡스톤에 준하는 과목으로 표시했다."
+  ],
+  "sources": [
+   "http://stat.yonsei.ac.kr/stat/education/guide.do",
+   "http://stat.yonsei.ac.kr/stat/education/process.do",
+   "http://stat.yonsei.ac.kr/stat/administration/bachelors_info.do"
+  ],
+  "courses": [
+   {
+    "id": "STA1001",
+    "code": "STA1001",
+    "name": "Introduction to Statistics",
+    "name_ko": "통계학입문",
+    "term": "Y1S1",
+    "category": "core",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STA1002",
+    "code": "STA1002",
+    "name": "Calculus",
+    "name_ko": "미분적분학",
+    "term": "Y1S1",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STA2102",
+    "code": "STA2102",
+    "name": "Linear Algebra",
+    "name_ko": "선형대수",
+    "term": "Y1S2",
+    "category": "math",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STA2105",
+    "code": "STA2105",
+    "name": "Statistical Methods",
+    "name_ko": "통계방법론",
+    "term": "Y1S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STA1001"
+    ]
+   },
+   {
+    "id": "STA3126",
+    "code": "STA3126",
+    "name": "Mathematical Statistics (1)",
+    "name_ko": "수리통계학(1)",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STA1002",
+     "STA2105"
+    ]
+   },
+   {
+    "id": "STA2104",
+    "code": "STA2104",
+    "name": "R and Python Programming",
+    "name_ko": "R과파이썬프로그래밍",
+    "term": "Y2S1",
+    "category": "computing",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STA3125",
+    "code": "STA3125",
+    "name": "Regression Analysis",
+    "name_ko": "회귀분석",
+    "term": "Y2S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STA2102",
+     "STA2105"
+    ]
+   },
+   {
+    "id": "STA3115",
+    "code": "STA3115",
+    "name": "Exploratory Data Analysis",
+    "name_ko": "탐색적자료분석",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STA2104"
+    ]
+   },
+   {
+    "id": "STA3109",
+    "code": "STA3109",
+    "name": "Mathematical Statistics (2)",
+    "name_ko": "수리통계학(2)",
+    "term": "Y3S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STA3126"
+    ]
+   },
+   {
+    "id": "STA3111",
+    "code": "STA3111",
+    "name": "Design of Experiments",
+    "name_ko": "실험계획법",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STA3125"
+    ]
+   },
+   {
+    "id": "STA3123",
+    "code": "STA3123",
+    "name": "Sampling Theory in Data Science",
+    "name_ko": "데이터사이언스표본추출이론",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STA3126"
+    ]
+   },
+   {
+    "id": "STA3140",
+    "code": "STA3140",
+    "name": "Deep Learning",
+    "name_ko": "딥러닝",
+    "term": "Y3S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STA2102",
+     "STA2104"
+    ]
+   },
+   {
+    "id": "STA3102",
+    "code": "STA3102",
+    "name": "Multivariate Analysis",
+    "name_ko": "다변량통계분석",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STA2102",
+     "STA3126"
+    ]
+   },
+   {
+    "id": "STA3127",
+    "code": "STA3127",
+    "name": "Statistical Computing",
+    "name_ko": "통계전산",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STA2104",
+     "STA3126"
+    ]
+   },
+   {
+    "id": "STA3124",
+    "code": "STA3124",
+    "name": "Stochastic Processes for Data Science",
+    "name_ko": "데이터사이언스를위한확률과정",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STA3126"
+    ]
+   },
+   {
+    "id": "STA4118",
+    "code": "STA4118",
+    "name": "Causal Inference",
+    "name_ko": "인과적추론",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STA3125"
+    ]
+   },
+   {
+    "id": "STA4115",
+    "code": "STA4115",
+    "name": "Theoretical Statistics (1)",
+    "name_ko": "이론통계학(1)",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STA3109"
+    ]
+   },
+   {
+    "id": "STA3104",
+    "code": "STA3104",
+    "name": "Categorical Data Analysis",
+    "name_ko": "범주형자료분석",
+    "term": "Y4S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STA3125"
+    ]
+   },
+   {
+    "id": "STA3105",
+    "code": "STA3105",
+    "name": "Bayesian Statistics",
+    "name_ko": "베이즈통계",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STA3109"
+    ]
+   },
+   {
+    "id": "STA4120",
+    "code": "STA4120",
+    "name": "Advanced Data Science Techniques",
+    "name_ko": "고급데이터사이언스방법론",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STA3140"
+    ]
+   },
+   {
+    "id": "STA4103",
+    "code": "STA4103",
+    "name": "Data Mining",
+    "name_ko": "데이터마이닝",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STA3125",
+     "STA2104"
+    ]
+   },
+   {
+    "id": "STA3110",
+    "code": "STA3110",
+    "name": "Time Series Analysis",
+    "name_ko": "시계열분석",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STA3125"
+    ]
+   },
+   {
+    "id": "STA3108",
+    "code": "STA3108",
+    "name": "Survival Data Analysis",
+    "name_ko": "생존자료분석",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STA3125"
+    ]
+   },
+   {
+    "id": "STA4109",
+    "code": "STA4109",
+    "name": "Statistical Data Analysis",
+    "name_ko": "통계자료분석",
+    "term": "Y4S2",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "STA3125",
+     "STA3102"
+    ]
+   }
+  ],
+  "prov": "선수관계 대부분 추정 (점선)",
+  "edge_style": "recommended",
+  "group": "국내"
+ },
+ {
+  "id": "korea",
+  "name": "고려대학교",
+  "program": "통계학과",
+  "system": "semester",
+  "total_requirements": "졸업 130학점. 기본전공 36학점(전공필수 9학점: 확률론입문, 수리통계학, 회귀분석), 심화전공 시 60학점. 기초통계학이 학문의기초 필수다.",
+  "notes": [
+   "학기 배치는 2023 교육과정편람의 이수체계도에서 복원했다. 공식 선수과목이 게시되어 있지 않아 화살표는 모두 추정이다.",
+   "전공필수가 3과목으로 적고, 확률론입문·수리통계학을 2학년에 한 학기씩 배치한다.",
+   "통계수학·행렬이론을 학과가 자체 개설하고, 수학·컴퓨터·경제·산업경영 등 타학과 과목을 최대 12학점(심화 24학점) 전공으로 인정한다.",
+   "이수체계도를 수리과학·데이터분석·통합적 의사결정·윤리책임·의사소통의 5대 역량으로 조직한다. 캡스톤이 없어 인턴십(STAT375)을 표시했다."
+  ],
+  "sources": [
+   "https://stat.korea.ac.kr/stat/data/data_under.do?mode=view&articleNo=91982",
+   "https://stat.korea.ac.kr/stat/data/data_under.do?mode=download&articleNo=91982&attachNo=233699",
+   "https://stat.korea.ac.kr/stat/data/data_under.do?mode=view&articleNo=11612",
+   "https://stat.korea.ac.kr/stat/data/data_under.do?mode=view&articleNo=11614",
+   "https://stat.korea.ac.kr/stat/data/data_under.do?mode=view&articleNo=256640",
+   "https://stat.korea.ac.kr/stat/data/data_under.do?mode=view&articleNo=135456"
+  ],
+  "courses": [
+   {
+    "id": "STAT201",
+    "code": "STAT201",
+    "name": "Mathematics for Statistics",
+    "name_ko": "통계수학",
+    "term": "Y1S1",
+    "category": "math",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "STAT170",
+    "code": "STAT170",
+    "name": "Elementary Statistics",
+    "name_ko": "기초통계학",
+    "term": "Y1S1",
+    "category": "core",
+    "required": true,
+    "prereqs": []
+   },
+   {
+    "id": "STAT241",
+    "code": "STAT241",
+    "name": "Matrix Theory",
+    "name_ko": "행렬이론",
+    "term": "Y1S2",
+    "category": "math",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "STAT180",
+    "code": "STAT180",
+    "name": "Statistical Computing Software",
+    "name_ko": "통계계산소프트웨어",
+    "term": "Y1S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": []
+   },
+   {
+    "id": "STAT221",
+    "code": "STAT221",
+    "name": "Introduction to Probability Theory",
+    "name_ko": "확률론입문",
+    "term": "Y2S1",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT201"
+    ]
+   },
+   {
+    "id": "STAT232",
+    "code": "STAT232",
+    "name": "Mathematical Statistics",
+    "name_ko": "수리통계학",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT221"
+    ]
+   },
+   {
+    "id": "STAT342",
+    "code": "STAT342",
+    "name": "Regression Analysis",
+    "name_ko": "회귀분석",
+    "term": "Y2S2",
+    "category": "core",
+    "required": true,
+    "prereqs": [
+     "STAT170",
+     "STAT241"
+    ]
+   },
+   {
+    "id": "STAT204",
+    "code": "STAT204",
+    "name": "Statistical Computing Programming",
+    "name_ko": "통계계산프로그래밍",
+    "term": "Y2S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT180"
+    ]
+   },
+   {
+    "id": "STAT311",
+    "code": "STAT311",
+    "name": "Introduction to Survey Methodology",
+    "name_ko": "통계조사론입문",
+    "term": "Y2S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT170"
+    ]
+   },
+   {
+    "id": "STAT343",
+    "code": "STAT343",
+    "name": "Categorical Data Analysis",
+    "name_ko": "범주형자료분석",
+    "term": "Y3S1",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT342"
+    ]
+   },
+   {
+    "id": "STAT341",
+    "code": "STAT341",
+    "name": "Design of Experiments",
+    "name_ko": "실험계획법",
+    "term": "Y3S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT342"
+    ]
+   },
+   {
+    "id": "STAT323",
+    "code": "STAT323",
+    "name": "Statistical Computing Methods",
+    "name_ko": "통계계산방법",
+    "term": "Y3S1",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT232",
+     "STAT204"
+    ]
+   },
+   {
+    "id": "STAT302",
+    "code": "STAT302",
+    "name": "Time Series Analysis",
+    "name_ko": "시계열분석",
+    "term": "Y3S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT342"
+    ]
+   },
+   {
+    "id": "STAT404",
+    "code": "STAT404",
+    "name": "Introduction to Bayesian Statistics",
+    "name_ko": "베이즈통계입문",
+    "term": "Y3S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT232"
+    ]
+   },
+   {
+    "id": "STAT424",
+    "code": "STAT424",
+    "name": "Statistical Machine Learning",
+    "name_ko": "통계적머신러닝",
+    "term": "Y3S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT342",
+     "STAT204"
+    ]
+   },
+   {
+    "id": "STAT346",
+    "code": "STAT346",
+    "name": "Statistical Data Science I",
+    "name_ko": "통계적데이터과학I",
+    "term": "Y3S2",
+    "category": "computing",
+    "required": false,
+    "prereqs": [
+     "STAT204"
+    ]
+   },
+   {
+    "id": "STAT401",
+    "code": "STAT401",
+    "name": "Multivariate Statistical Analysis",
+    "name_ko": "다변량통계분석",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT241",
+     "STAT232"
+    ]
+   },
+   {
+    "id": "STAT443",
+    "code": "STAT443",
+    "name": "Linear Models",
+    "name_ko": "선형방법론",
+    "term": "Y4S1",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT241",
+     "STAT342"
+    ]
+   },
+   {
+    "id": "STAT433",
+    "code": "STAT433",
+    "name": "Statistical Modeling for Deep Learning",
+    "name_ko": "딥러닝을위한통계적모델링",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT424"
+    ]
+   },
+   {
+    "id": "STAT409",
+    "code": "STAT409",
+    "name": "Statistical Data Science II",
+    "name_ko": "통계적데이터과학II",
+    "term": "Y4S1",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT346",
+     "STAT232"
+    ]
+   },
+   {
+    "id": "STAT375",
+    "code": "STAT375",
+    "name": "Global Statistics Practice Internship I",
+    "name_ko": "글로벌통계실무교육인턴십I",
+    "term": "Y4S1",
+    "category": "capstone",
+    "required": false,
+    "prereqs": [
+     "STAT342"
+    ]
+   },
+   {
+    "id": "STAT412",
+    "code": "STAT412",
+    "name": "Topics in Mathematical Statistics",
+    "name_ko": "수리통계학특강",
+    "term": "Y4S2",
+    "category": "core",
+    "required": false,
+    "prereqs": [
+     "STAT232"
+    ]
+   },
+   {
+    "id": "STAT407",
+    "code": "STAT407",
+    "name": "Causal Inference",
+    "name_ko": "인과추론",
+    "term": "Y4S2",
+    "category": "applied",
+    "required": false,
+    "prereqs": [
+     "STAT342"
+    ]
+   },
+   {
+    "id": "STAT402",
+    "code": "STAT402",
+    "name": "Introduction to Data Mining",
+    "name_ko": "데이터마이닝입문",
+    "term": "Y4S2",
+    "category": "ml",
+    "required": false,
+    "prereqs": [
+     "STAT342",
+     "STAT204"
+    ]
+   }
+  ],
+  "prov": "선수관계 추정 (점선)",
+  "edge_style": "recommended",
+  "group": "국내"
+ }
+]

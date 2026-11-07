@@ -1,0 +1,1145 @@
+{
+"universities": [
+{
+"id": "snu-current",
+"name": "서울대학교",
+"program": "통계학과 현행 전공 로드맵 (2025학년도 2학기 기준)",
+"system": "semester",
+"edge_style": "recommended",
+"total_requirements": "",
+"notes": [],
+"sources": [],
+"courses": [
+{
+"id": "c_stat",
+"code": "",
+"name_ko": "통계학",
+"term": "Y1S1",
+"category": "core",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "c_cstat",
+"code": "",
+"name_ko": "전산통계 및 실험",
+"term": "Y1S2",
+"category": "computing",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "c_prob",
+"code": "",
+"name_ko": "확률의 개념 및 응용",
+"term": "Y2S1",
+"category": "core",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "c_la1",
+"code": "선형대수학으로 대체 가능",
+"name_ko": "선형대수학 1",
+"term": "Y2S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "c_an1",
+"code": "해석개론, 해석개론 및 연습 1 가능",
+"name_ko": "해석개론 1",
+"term": "Y2S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "c_la2",
+"code": "",
+"name_ko": "선형대수학 2",
+"term": "Y2S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"c_la1"
+],
+"weak": []
+},
+{
+"id": "c_an2",
+"code": "해석개론 및 연습 2 가능",
+"name_ko": "해석개론 2",
+"term": "Y2S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"c_an1"
+],
+"weak": []
+},
+{
+"id": "c_da",
+"code": "",
+"name_ko": "자료분석 및 실습",
+"term": "Y2S2",
+"category": "computing",
+"required": false,
+"prereqs": [
+"c_cstat",
+"c_stat"
+],
+"weak": [
+"c_stat"
+]
+},
+{
+"id": "c_samp",
+"code": "",
+"name_ko": "표본설계 및 조사실습",
+"term": "Y2S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_stat"
+],
+"weak": [
+"c_stat"
+]
+},
+{
+"id": "c_ms1",
+"code": "",
+"name_ko": "수리통계 1",
+"term": "Y3S1",
+"category": "core",
+"required": true,
+"prereqs": [
+"c_prob"
+],
+"weak": []
+},
+{
+"id": "c_ms",
+"code": "부전공생만 전공 인정",
+"name_ko": "수리통계",
+"term": "Y3S1",
+"category": "core",
+"required": true,
+"prereqs": [
+"c_prob"
+],
+"weak": []
+},
+{
+"id": "c_reg",
+"code": "",
+"name_ko": "회귀분석 및 실습",
+"term": "Y3S1",
+"category": "core",
+"required": true,
+"prereqs": [
+"c_la1"
+],
+"weak": []
+},
+{
+"id": "c_doe",
+"code": "",
+"name_ko": "실험계획 및 실습",
+"term": "Y3S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_stat",
+"c_la1",
+"c_reg"
+],
+"weak": [
+"c_stat",
+"c_la1"
+]
+},
+{
+"id": "c_numan",
+"code": "",
+"name_ko": "수치해석개론",
+"term": "Y3S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "c_ms2",
+"code": "",
+"name_ko": "수리통계 2",
+"term": "Y3S2",
+"category": "core",
+"required": true,
+"prereqs": [
+"c_ms1"
+],
+"weak": []
+},
+{
+"id": "c_cat",
+"code": "",
+"name_ko": "이산자료분석 및 실습",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_ms1",
+"c_reg",
+"c_ms2"
+],
+"weak": [
+"c_ms1",
+"c_reg"
+]
+},
+{
+"id": "c_mva",
+"code": "",
+"name_ko": "다변량자료분석 및 실습",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_la1",
+"c_ms1",
+"c_ms2"
+],
+"weak": []
+},
+{
+"id": "c_nla",
+"code": "",
+"name_ko": "수치선형대수",
+"term": "Y3S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"c_la1"
+],
+"weak": []
+},
+{
+"id": "c_scomp",
+"code": "",
+"name_ko": "통계계산",
+"term": "Y4S1",
+"category": "computing",
+"required": false,
+"prereqs": [
+"c_la1",
+"c_prob",
+"c_reg",
+"c_ms2"
+],
+"weak": [
+"c_prob",
+"c_reg",
+"c_ms2"
+]
+},
+{
+"id": "c_dm",
+"code": "",
+"name_ko": "데이터마이닝 방법 및 실습",
+"term": "Y4S1",
+"category": "ml",
+"required": false,
+"prereqs": [
+"c_reg"
+],
+"weak": []
+},
+{
+"id": "c_ts",
+"code": "",
+"name_ko": "시계열분석 및 실습",
+"term": "Y4S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_ms2",
+"c_reg"
+],
+"weak": [
+"c_reg"
+]
+},
+{
+"id": "c_np",
+"code": "",
+"name_ko": "비모수통계 및 실습",
+"term": "Y4S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_ms1",
+"c_reg"
+],
+"weak": [
+"c_reg"
+]
+},
+{
+"id": "c_proc",
+"code": "",
+"name_ko": "확률과정론",
+"term": "Y4S2",
+"category": "core",
+"required": false,
+"prereqs": [
+"c_prob"
+],
+"weak": []
+},
+{
+"id": "c_ada",
+"code": "",
+"name_ko": "자료분석 심화 방법론 및 실습",
+"term": "Y4S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_reg",
+"c_dm"
+],
+"weak": [
+"c_dm"
+]
+},
+{
+"id": "c_surv",
+"code": "",
+"name_ko": "생존자료분석 및 실습",
+"term": "Y4S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"c_ms2"
+],
+"weak": []
+},
+{
+"id": "c_bayes",
+"code": "",
+"name_ko": "베이즈통계 및 실습",
+"term": "Y4S2",
+"category": "core",
+"required": false,
+"prereqs": [
+"c_ms2"
+],
+"weak": []
+}
+]
+},
+{
+"id": "snu",
+"name": "서울대학교",
+"program": "통계학과 전공 로드맵 개편안",
+"system": "semester",
+"edge_style": "recommended",
+"total_requirements": "제안 원안 그대로 옮김. 화살표는 공식 선수과목이 아니라 내용상 권장 순서를 작성자가 표시한 것(점선).",
+"notes": [],
+"sources": [],
+"courses": [
+{
+"id": "s_stat",
+"code": "",
+"name_ko": "통계학",
+"term": "Y1S1",
+"category": "core",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_comp",
+"code": "",
+"name_ko": "컴퓨터의 개념 및 실습",
+"term": "Y1S1",
+"category": "computing",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_cstat",
+"code": "",
+"name_ko": "전산통계 및 실험",
+"term": "Y1S2",
+"category": "computing",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_prob",
+"code": "",
+"name_ko": "확률의 개념 및 응용",
+"term": "Y2S1",
+"category": "core",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_la1",
+"code": "",
+"name_ko": "선형대수학 1",
+"term": "Y2S1",
+"category": "math",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_an1",
+"code": "",
+"name_ko": "해석개론 1",
+"term": "Y2S1",
+"category": "math",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_mstat",
+"code": "",
+"name_ko": "수리통계",
+"term": "Y2S2",
+"category": "core",
+"required": true,
+"prereqs": [
+"s_prob"
+],
+"weak": []
+},
+{
+"id": "s_samp",
+"code": "",
+"name_ko": "표본조사론",
+"term": "Y2S2",
+"category": "applied",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_la2",
+"code": "",
+"name_ko": "선형대수학 2",
+"term": "Y2S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"s_la1"
+],
+"weak": []
+},
+{
+"id": "s_an2",
+"code": "",
+"name_ko": "해석개론 2",
+"term": "Y2S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"s_an1"
+],
+"weak": []
+},
+{
+"id": "s_theory",
+"code": "",
+"name_ko": "통계이론",
+"term": "Y3S1",
+"category": "core",
+"required": true,
+"prereqs": [
+"s_mstat"
+],
+"weak": []
+},
+{
+"id": "s_reg",
+"code": "",
+"name_ko": "회귀분석",
+"term": "Y3S1",
+"category": "core",
+"required": true,
+"prereqs": [
+"s_mstat",
+"s_la1"
+],
+"weak": []
+},
+{
+"id": "s_doe",
+"code": "",
+"name_ko": "실험계획법",
+"term": "Y3S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"s_la1",
+"s_reg"
+],
+"weak": [
+"s_la1"
+]
+},
+{
+"id": "s_topo",
+"code": "",
+"name_ko": "위상수학개론 1",
+"term": "Y3S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_meas",
+"code": "",
+"name_ko": "측도이론과 확률",
+"term": "Y3S1",
+"category": "math",
+"required": false,
+"prereqs": [
+"s_an2"
+],
+"weak": []
+},
+{
+"id": "s_numan",
+"code": "",
+"name_ko": "수치해석개론",
+"term": "Y3S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_cat",
+"code": "",
+"name_ko": "이산자료분석",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"s_reg",
+"s_theory"
+],
+"weak": [
+"s_reg"
+]
+},
+{
+"id": "s_mva",
+"code": "",
+"name_ko": "다변량자료분석",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"recommended": true,
+"prereqs": [
+"s_la1",
+"s_theory"
+],
+"weak": []
+},
+{
+"id": "s_np",
+"code": "",
+"name_ko": "비모수통계",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"recommended": true,
+"prereqs": [
+"s_mstat",
+"s_reg"
+],
+"weak": [
+"s_reg"
+]
+},
+{
+"id": "s_real",
+"code": "",
+"name_ko": "실해석학",
+"term": "Y3S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"s_an2"
+],
+"weak": []
+},
+{
+"id": "s_nla",
+"code": "",
+"name_ko": "수치선형대수",
+"term": "Y3S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"s_la1"
+],
+"weak": []
+},
+{
+"id": "s_scomp",
+"code": "",
+"name_ko": "통계계산",
+"term": "Y4S1",
+"category": "computing",
+"required": false,
+"recommended": true,
+"prereqs": [
+"s_la1",
+"s_prob",
+"s_reg",
+"s_theory"
+],
+"weak": [
+"s_prob",
+"s_reg",
+"s_theory"
+]
+},
+{
+"id": "s_dm",
+"code": "",
+"name_ko": "데이터마이닝",
+"term": "Y4S1",
+"category": "ml",
+"required": false,
+"recommended": true,
+"prereqs": [
+"s_reg"
+],
+"weak": []
+},
+{
+"id": "s_ts",
+"code": "",
+"name_ko": "시계열분석",
+"term": "Y4S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"s_reg",
+"s_theory"
+],
+"weak": [
+"s_reg"
+]
+},
+{
+"id": "s_sml",
+"code": "",
+"name_ko": "통계적 기계학습",
+"term": "Y4S1",
+"category": "ml",
+"required": false,
+"prereqs": [
+"s_la1",
+"s_mstat"
+],
+"weak": []
+},
+{
+"id": "s_r1",
+"code": "",
+"name_ko": "통계연구 1",
+"term": "Y4S1",
+"category": "capstone",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "s_proc",
+"code": "",
+"name_ko": "확률과정론",
+"term": "Y4S2",
+"category": "core",
+"required": false,
+"prereqs": [
+"s_prob"
+],
+"weak": []
+},
+{
+"id": "s_adm",
+"code": "",
+"name_ko": "고급데이터마이닝",
+"term": "Y4S2",
+"category": "ml",
+"required": false,
+"prereqs": [
+"s_dm"
+],
+"weak": []
+},
+{
+"id": "s_surv",
+"code": "",
+"name_ko": "생존자료분석",
+"term": "Y4S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"s_theory"
+],
+"weak": []
+},
+{
+"id": "s_bayes",
+"code": "",
+"name_ko": "베이즈통계",
+"term": "Y4S2",
+"category": "core",
+"required": false,
+"recommended": true,
+"prereqs": [
+"s_theory"
+],
+"weak": []
+},
+{
+"id": "s_dl",
+"code": "",
+"name_ko": "딥러닝의 통계적 이해",
+"term": "Y4S2",
+"category": "ml",
+"required": false,
+"prereqs": [
+"s_la1",
+"s_mstat"
+],
+"weak": []
+},
+{
+"id": "s_r2",
+"code": "",
+"name_ko": "통계연구 2",
+"term": "Y4S2",
+"category": "capstone",
+"required": false,
+"prereqs": [
+"s_r1"
+],
+"weak": []
+}
+]
+},
+{
+"id": "snu-proposal",
+"name": "서울대학교",
+"program": "작성자 최종 제안 로드맵",
+"system": "semester",
+"total_requirements": "",
+"notes": [],
+"sources": [],
+"courses": [
+{
+"id": "p_stat",
+"code": "",
+"name_ko": "통계학",
+"term": "Y1S1",
+"category": "core",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "p_comp",
+"code": "타 학과 개설",
+"name_ko": "컴퓨터의 개념 및 실습",
+"term": "Y1S1",
+"category": "computing",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "p_cstat",
+"code": "시각화·자료 정리 강화",
+"name_ko": "전산통계 및 실험",
+"term": "Y1S2",
+"category": "computing",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "p_prob",
+"code": "",
+"name_ko": "확률의 개념 및 응용",
+"term": "Y2S1",
+"category": "core",
+"required": true,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "p_samp",
+"code": "2-2에서 옮김",
+"name_ko": "표본설계 및 조사실습",
+"term": "Y2S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"p_stat"
+],
+"weak": [
+"p_stat"
+]
+},
+{
+"id": "p_la1",
+"code": "수리과학부 개설",
+"name_ko": "선형대수학 1",
+"term": "Y2S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "p_an1",
+"code": "수리과학부 개설",
+"name_ko": "해석개론 1",
+"term": "Y2S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "p_ms1",
+"code": "3-1에서 옮김, 확률 복습 축소",
+"name_ko": "수리통계 1",
+"term": "Y2S2",
+"category": "core",
+"required": true,
+"prereqs": [
+"p_prob"
+],
+"weak": []
+},
+{
+"id": "p_la2",
+"code": "수리과학부 개설",
+"name_ko": "선형대수학 2",
+"term": "Y2S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"p_la1"
+],
+"weak": []
+},
+{
+"id": "p_an2",
+"code": "수리과학부 개설",
+"name_ko": "해석개론 2",
+"term": "Y2S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"p_an1"
+],
+"weak": []
+},
+{
+"id": "p_ms2",
+"code": "3-2에서 옮김, 결정이론 보완",
+"name_ko": "수리통계 2",
+"term": "Y3S1",
+"category": "core",
+"required": true,
+"prereqs": [
+"p_ms1"
+],
+"weak": []
+},
+{
+"id": "p_reg",
+"code": "",
+"name_ko": "회귀분석 및 실습",
+"term": "Y3S1",
+"category": "core",
+"required": true,
+"prereqs": [
+"p_la1",
+"p_ms1"
+],
+"weak": []
+},
+{
+"id": "p_proc",
+"code": "4-2에서 옮김",
+"name_ko": "확률과정론",
+"term": "Y3S1",
+"category": "core",
+"required": false,
+"prereqs": [
+"p_prob"
+],
+"weak": []
+},
+{
+"id": "p_meas",
+"code": "수리과학부 개설",
+"name_ko": "측도이론과 확률",
+"term": "Y3S1",
+"category": "math",
+"required": false,
+"prereqs": [
+"p_an2",
+"p_prob"
+],
+"weak": [
+"p_prob"
+]
+},
+{
+"id": "p_numan",
+"code": "수리과학부 개설",
+"name_ko": "수치해석개론",
+"term": "Y3S1",
+"category": "math",
+"required": false,
+"prereqs": [],
+"weak": []
+},
+{
+"id": "p_dm",
+"code": "4-1에서 옮김",
+"name_ko": "데이터마이닝 방법 및 실습",
+"term": "Y3S2",
+"category": "ml",
+"required": false,
+"prereqs": [
+"p_reg"
+],
+"weak": []
+},
+{
+"id": "p_mva",
+"code": "",
+"name_ko": "다변량자료분석 및 실습",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"p_la1",
+"p_ms1",
+"p_ms2"
+],
+"weak": []
+},
+{
+"id": "p_cat",
+"code": "",
+"name_ko": "이산자료분석 및 실습",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"p_reg",
+"p_ms2"
+],
+"weak": [
+"p_reg"
+]
+},
+{
+"id": "p_doe",
+"code": "3-1에서 옮김, 인과추론 입문 흡수",
+"name_ko": "실험계획 및 실습",
+"term": "Y3S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"p_la1",
+"p_reg"
+],
+"weak": [
+"p_la1"
+]
+},
+{
+"id": "p_nla",
+"code": "수리과학부 개설",
+"name_ko": "수치선형대수",
+"term": "Y3S2",
+"category": "math",
+"required": false,
+"prereqs": [
+"p_la1"
+],
+"weak": []
+},
+{
+"id": "p_scomp",
+"code": "",
+"name_ko": "통계계산",
+"term": "Y4S1",
+"category": "computing",
+"required": false,
+"prereqs": [
+"p_la1",
+"p_prob",
+"p_reg",
+"p_ms2"
+],
+"weak": [
+"p_prob",
+"p_reg",
+"p_ms2"
+]
+},
+{
+"id": "p_sml",
+"code": "현재 개설 중, 후반 이론 조정",
+"name_ko": "통계적 기계학습",
+"term": "Y4S1",
+"category": "ml",
+"required": false,
+"prereqs": [
+"p_la1",
+"p_ms2",
+"p_dm"
+],
+"weak": [
+"p_dm"
+]
+},
+{
+"id": "p_ts",
+"code": "",
+"name_ko": "시계열분석 및 실습",
+"term": "Y4S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"p_reg",
+"p_ms2"
+],
+"weak": [
+"p_reg"
+]
+},
+{
+"id": "p_np",
+"code": "",
+"name_ko": "비모수통계 및 실습",
+"term": "Y4S1",
+"category": "applied",
+"required": false,
+"prereqs": [
+"p_ms1",
+"p_reg"
+],
+"weak": [
+"p_reg"
+]
+},
+{
+"id": "p_dl",
+"code": "현재 개설 중, 학습이론 복습 축소",
+"name_ko": "딥러닝의 통계적 이해",
+"term": "Y4S2",
+"category": "ml",
+"required": false,
+"prereqs": [
+"p_la1",
+"p_ms2",
+"p_sml"
+],
+"weak": []
+},
+{
+"id": "p_bayes",
+"code": "",
+"name_ko": "베이즈통계 및 실습",
+"term": "Y4S2",
+"category": "core",
+"required": false,
+"prereqs": [
+"p_ms2"
+],
+"weak": []
+},
+{
+"id": "p_surv",
+"code": "",
+"name_ko": "생존자료분석 및 실습",
+"term": "Y4S2",
+"category": "applied",
+"required": false,
+"prereqs": [
+"p_ms2"
+],
+"weak": []
+},
+{
+"id": "p_res1",
+"code": "신설, 매 학기 개설 (랩 인턴)",
+"name_ko": "통계연구 1",
+"term": "Y4S1",
+"category": "capstone",
+"required": false,
+"prereqs": [
+"p_reg"
+],
+"weak": [
+"p_reg"
+]
+},
+{
+"id": "p_res2",
+"code": "신설, 매 학기 개설 (연구 심화)",
+"name_ko": "통계연구 2",
+"term": "Y4S2",
+"category": "capstone",
+"required": false,
+"prereqs": [
+"p_res1"
+],
+"weak": []
+},
+{
+"id": "p_adm",
+"code": "개편안 수용, 팀 프로젝트형",
+"name_ko": "고급데이터마이닝",
+"term": "Y4S2",
+"category": "capstone",
+"required": false,
+"prereqs": [
+"p_dm"
+],
+"weak": []
+}
+]
+}
+]
+}
