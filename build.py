@@ -9,10 +9,12 @@ import html
 import json
 import random
 import re
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 SITE = Path(__file__).resolve().parent
+sys.path.insert(0, str(SITE))
 DATA = SITE / "data"
 KST = timezone(timedelta(hours=9))
 SRC = (DATA / "report_source.html").read_text(encoding="utf-8")
@@ -138,7 +140,7 @@ def index_page(prog_summary):
     return shell("index.html", "통계학과 커리큘럼 개편안", "개편안", "학생 제안 · 국내외 17개 대학 비교", "제안",
                  "서울대 통계학과 커리큘럼 개편안",
                  "US News 통계학 Top 10과 해외·국내 대학의 학부 과정, 학생 역량 프로그램을 조사해 서울대 통계학과 로드맵과 제도 개편안을 정리했습니다.",
-                 [("비교 대학", "17개"), ("제안 강의 과목", "20개"), ("전공필수", "6과목")],
+                 [("비교 대학", "17개"), ("제안 강의 과목", "20개"), ("전공필수", "5과목")],
                  "현행 로드맵 2025학년도 2학기 기준 · 화살표는 렉노·강의계획서·요람 근거", secs)
 
 

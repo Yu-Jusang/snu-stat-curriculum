@@ -1,0 +1,1669 @@
+{
+  "meta": {
+    "compiled": "2026-11-07",
+    "purpose": "서울대 통계학과 학부 교육 제안 근거 문헌(검증본)",
+    "verification": "모든 항목은 이번 세션에서 Crossref DOI 메타데이터, OpenAlex/PubMed 초록, 출판사·학회·KCI 페이지 또는 원문 PDF로 서지와 핵심 결과를 확인함. 확인 경로는 각 항목 verified_via에 기록.",
+    "type_values": [
+      "meta-analysis",
+      "RCT",
+      "quasi-experimental",
+      "survey",
+      "guideline",
+      "review",
+      "case-study"
+    ],
+    "relevance_tags": [
+      "research",
+      "peer_teaching",
+      "internship",
+      "mentoring",
+      "active_learning",
+      "curriculum_content",
+      "communication",
+      "consulting_capstone",
+      "computing",
+      "ethics"
+    ],
+    "notes": [
+      "Directed Reading Program(DRP): 동료심사를 거친 효과 평가 연구를 찾지 못함(OpenAlex·Crossref·웹 검색). 가장 가까운 검증 근거는 MA06(대학원생·교수·학부생 멘토링 삼자 구조, Aikens et al. 2016).",
+      "제외: Silva et al. (2018, Studies in Higher Education) 인턴십 연구는 서지는 확인했으나 결과 수치를 확인하지 못해 제외. Bailey 등 'discovery projects' JSE 논문은 DOI가 다른 논문으로 해석되어 제외.",
+      "IN01 Nunley et al.의 이력서 발송 건수, MA02 Bettinger & Baker의 효과 크기는 초록에 수치가 없어 기재하지 않음."
+    ]
+  },
+  "items": [
+    {
+      "id": "HIP01",
+      "topic": "1_high_impact_practices",
+      "authors": "Kuh, G. D.",
+      "year": 2008,
+      "title": "High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter",
+      "venue": "Association of American Colleges and Universities (monograph, 44 pp.)",
+      "doi_or_url": "https://www.aacu.org/value-research-hub/high-impact-educational-practices-what-they-are-who-has-access-to-them-and-why-they-matter",
+      "type": "survey",
+      "key_finding_ko": "AAC&U가 1학년 세미나·공통 지적 경험·학습공동체·글쓰기 집중 과목·협력 과제·학부연구·다양성/글로벌 학습·봉사학습·인턴십·캡스톤의 10개 고효과 실천(HIP)을 정의했다. NSSE 자료로 HIP 참여가 모든 학생, 특히 전통적으로 소외된 학생에게 이롭지만 이들의 접근성이 가장 낮다고 제시했다(현재 AAC&U 목록은 ePortfolio·OER 포함 12개).",
+      "relevance": [
+        "research",
+        "internship",
+        "consulting_capstone",
+        "curriculum_content"
+      ],
+      "verified_via": "AAC&U VALUE Research Hub 서지 페이지 + AAC&U HIP 페이지(현행 12개 목록) 확인"
+    },
+    {
+      "id": "HIP02",
+      "topic": "1_high_impact_practices",
+      "authors": "Kilgo, C. A.; Ezell Sheets, J. K.; Pascarella, E. T.",
+      "year": 2015,
+      "title": "The link between high-impact practices and student learning: some longitudinal evidence",
+      "venue": "Higher Education, 69(4), 509-525",
+      "doi_or_url": "https://doi.org/10.1007/s10734-014-9788-z",
+      "type": "quasi-experimental",
+      "key_finding_ko": "Wabash National Study 종단(사전-사후) 자료로 AAC&U 10개 HIP의 효과를 추정했다. 능동·협력학습과 학부연구는 비판적 사고·인지욕구·상호문화 역량 등 여러 교양 학습성과에 폭넓은 긍정 효과를, 인턴십·캡스톤·해외연수·봉사학습은 좁은 범위의 효과를 보였다.",
+      "relevance": [
+        "research",
+        "active_learning",
+        "internship",
+        "consulting_capstone"
+      ],
+      "verified_via": "Crossref DOI metadata + 초록 요지(검색 결과) 확인"
+    },
+    {
+      "id": "HIP03",
+      "topic": "1_high_impact_practices",
+      "authors": "Johnson, S. R.; Stage, F. K.",
+      "year": 2018,
+      "title": "Academic Engagement and Student Success: Do High-Impact Practices Mean Higher Graduation Rates?",
+      "venue": "The Journal of Higher Education, 89(5), 753-781",
+      "doi_or_url": "https://doi.org/10.1080/00221546.2018.1441107",
+      "type": "survey",
+      "key_finding_ko": "미국 4년제 공립대 101곳 분석에서 HIP를 필수·일부 필수·선택으로 제공하는지 여부는 4·6년 졸업률과의 관련이 제한적이었다. HIP를 '제공'하는 것만으로는 졸업률이 오르지 않으며 실행 품질과 참여 보장이 관건임을 시사한다.",
+      "relevance": [
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR01",
+      "topic": "2_undergraduate_research",
+      "authors": "Lopatto, D.",
+      "year": 2004,
+      "title": "Survey of Undergraduate Research Experiences (SURE): First Findings",
+      "venue": "Cell Biology Education, 3(4), 270-277",
+      "doi_or_url": "https://doi.org/10.1187/cbe.04-07-0045",
+      "type": "survey",
+      "key_finding_ko": "41개 기관 학부연구 참여자 1,135명 SURE 조사에서 83% 이상이 과학 분야 대학원 진학 계획을 시작·유지했다. 계획을 접은 51명은 20개 이득 항목에서 유의하게 낮은 이득을 보고했고, 성별·인종 간 이득 차이는 없었다.",
+      "relevance": [
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR02",
+      "topic": "2_undergraduate_research",
+      "authors": "Lopatto, D.",
+      "year": 2007,
+      "title": "Undergraduate Research Experiences Support Science Career Decisions and Active Learning",
+      "venue": "CBE—Life Sciences Education, 6(4), 297-306",
+      "doi_or_url": "https://doi.org/10.1187/cbe.07-06-0039",
+      "type": "survey",
+      "key_finding_ko": "SURE 응답의 신뢰도를 9개월 후 추적조사로 재확인했다. 학생들은 연구 경험 이후 독립성·내재적 학습동기·후속 수업의 능동적 참여가 늘었다고 보고했고, 소수집단 학부연구생은 비교 학생보다 높은 학습 이득을 보고했다.",
+      "relevance": [
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR03",
+      "topic": "2_undergraduate_research",
+      "authors": "Russell, S. H.; Hancock, M. P.; McCullough, J.",
+      "year": 2007,
+      "title": "Benefits of Undergraduate Research Experiences",
+      "venue": "Science, 316(5824), 548-549",
+      "doi_or_url": "https://doi.org/10.1126/science.1140384",
+      "type": "survey",
+      "key_finding_ko": "약 15,000명 대상 4개 전국 조사에서 NSF 추적조사 응답자의 68%가 STEM 진로 관심이 늘었고 29%가 입학 전 없던 박사 기대를 새로 가졌다. 연구 경험이 12개월을 넘은 학생은 30%가 박사 학위를 기대해 1~3개월(13%)·무경험(8%)보다 높았다(기간이 길수록 효과 큼).",
+      "relevance": [
+        "research",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed 서지 + 원문 PDF 본문 수치 확인"
+    },
+    {
+      "id": "UR04",
+      "topic": "2_undergraduate_research",
+      "authors": "Seymour, E.; Hunter, A.-B.; Laursen, S. L.; DeAntoni, T.",
+      "year": 2004,
+      "title": "Establishing the benefits of research experiences for undergraduates in the sciences: First findings from a three‐year study",
+      "venue": "Science Education, 88(4), 493-534",
+      "doi_or_url": "https://doi.org/10.1002/sce.10131",
+      "type": "case-study",
+      "key_finding_ko": "4개 리버럴아츠 칼리지 학생 76명 면담에서 진술의 91%가 연구 경험의 이득을 언급했다. 이득은 개인·직업적 성장 28%, '과학자처럼 생각·작업하기' 28%, 기술 습득 19%, 진로(대학원 포함) 명확화 12% 순이었다.",
+      "relevance": [
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR05",
+      "topic": "2_undergraduate_research",
+      "authors": "Hunter, A.-B.; Laursen, S. L.; Seymour, E.",
+      "year": 2007,
+      "title": "Becoming a scientist: The role of undergraduate research in students' cognitive, personal, and professional development",
+      "venue": "Science Education, 91(1), 36-74",
+      "doi_or_url": "https://doi.org/10.1002/sce.20173",
+      "type": "case-study",
+      "key_finding_ko": "4개 대학 여름 학부연구 교수·학생 민족지 연구에서 학부연구는 인지적·개인적 성장과 전문가 정체성 형성('과학자 되기')을 촉진하는 실천공동체 속 인지적 도제 구조로 나타났다. 교수는 이를 전문직 사회화로, 학생은 개인·지적 성장으로 인식했다.",
+      "relevance": [
+        "research",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR06",
+      "topic": "2_undergraduate_research",
+      "authors": "Eagan, M. K.; Hurtado, S.; Chang, M. J.; Garcia, G. A.; Herrera, F. A.; Garibay, J. C.",
+      "year": 2013,
+      "title": "Making a Difference in Science Education: The Impact of Undergraduate Research Programs",
+      "venue": "American Educational Research Journal, 50(4), 683-713",
+      "doi_or_url": "https://doi.org/10.3102/0002831213482038",
+      "type": "quasi-experimental",
+      "key_finding_ko": "STEM 지망생 4,152명의 입학(2004)-졸업(2008) 종단자료에서 학부연구 참여는 STEM 대학원 진학 계획 확률을 성향점수 분석 기준 약 14.5~16.6%p(ATE~ATT) 높였다. 전체 공변량을 넣은 HGLM 추정치는 9.0%p였다.",
+      "relevance": [
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + PMC 저자원고(PMC4152010) 본문 수치 확인"
+    },
+    {
+      "id": "UR07",
+      "topic": "2_undergraduate_research",
+      "authors": "Linn, M. C.; Palmer, E.; Baranger, A.; Gerard, E.; Stone, E.",
+      "year": 2015,
+      "title": "Undergraduate research experiences: Impacts and opportunities",
+      "venue": "Science, 347(6222)",
+      "doi_or_url": "https://doi.org/10.1126/science.1261757",
+      "type": "review",
+      "key_finding_ko": "학부연구 연구 60편 검토 결과 절반 이상이 자기보고 설문·면담에 의존해 근거가 약했다. 가장 설득력 있는 연구는 멘토링과 과학의 본질 전달에서 이득을 보였으나 학생이 얻는 개념이 단편적일 수 있어, 통합적 이해를 겨냥한 설계와 다중 지표 평가가 필요하다고 결론지었다.",
+      "relevance": [
+        "research",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract"
+    },
+    {
+      "id": "UR08",
+      "topic": "2_undergraduate_research",
+      "authors": "Schultz, P. W.; Hernandez, P. R.; Woodcock, A.; Estrada, M.; Chance, R. C.; Aguilar, M.; et al.",
+      "year": 2011,
+      "title": "Patching the Pipeline: Reducing Educational Disparities in the Sciences Through Minority Training Programs",
+      "venue": "Educational Evaluation and Policy Analysis, 33(1), 95-114",
+      "doi_or_url": "https://doi.org/10.3102/0162373710392371",
+      "type": "quasi-experimental",
+      "key_finding_ko": "NIH 소수자 연구훈련(RISE) 지원 학생과 성향점수 매칭 대조군의 성장곡선 분석에서 지원 학생은 연구 진로 의도를 더 오래 유지했다. 연구 경험은 과학 분야 지속을 예측했지만 '멘토가 있다'는 사실 자체는 예측하지 못했다.",
+      "relevance": [
+        "research",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR09",
+      "topic": "2_undergraduate_research",
+      "authors": "Jones, M. T.; Barlow, A. E. L.; Villarejo, M.",
+      "year": 2010,
+      "title": "Importance of Undergraduate Research for Minority Persistence and Achievement in Biology",
+      "venue": "The Journal of Higher Education, 81(1), 82-115",
+      "doi_or_url": "https://doi.org/10.1353/jhe.0.0082",
+      "type": "quasi-experimental",
+      "key_finding_ko": "대형 연구중심대학 생물학 전공자 기록 분석에서 학부연구 참여는 모든 인종·민족 집단에서 학사 취득, 전공 지속, 우수 성적과 유의하게 연관되었다.",
+      "relevance": [
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR10",
+      "topic": "2_undergraduate_research",
+      "authors": "Hernandez, P. R.; Woodcock, A.; Estrada, M.; Schultz, P. W.",
+      "year": 2018,
+      "title": "Undergraduate Research Experiences Broaden Diversity in the Scientific Workforce",
+      "venue": "BioScience, 68(3), 204-211",
+      "doi_or_url": "https://doi.org/10.1093/biosci/bix163",
+      "type": "quasi-experimental",
+      "key_finding_ko": "10년 다기관 종단·성향점수 매칭 연구에서 교수 지도 연구를 주 10시간 이상, 2개 학기(또는 여름) 이상 수행한 학생은 과학 학사 취득, 과학 대학원 합격, 졸업 6년 후 과학 인력 종사 확률이 유의하게 높았다. 단순히 한 번 참여하는 것으로는 효과가 없었다(투입 '용량'이 핵심).",
+      "relevance": [
+        "research",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR11",
+      "topic": "2_undergraduate_research",
+      "authors": "National Academies of Sciences, Engineering, and Medicine",
+      "year": 2017,
+      "title": "Undergraduate Research Experiences for STEM Students: Successes, Challenges, and Opportunities",
+      "venue": "The National Academies Press (consensus study report)",
+      "doi_or_url": "https://doi.org/10.17226/24622",
+      "type": "review",
+      "key_finding_ko": "학부연구(URE) 효과 연구는 대부분 기술·상관 연구이고 인과 추론이 가능한 설계는 소수지만, 종합하면 참여는 학생에게 유익하며 소외집단의 STEM 지속과 정체성을 높인다고 결론지었다. 멘토링의 질이 경험을 좌우하므로 멘토 전문성 개발 기회와 기관의 참여 데이터 수집·평가를 권고했다.",
+      "relevance": [
+        "research",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + NAP 보고서 Summary 장(결론 1~9, 권고 1~8) 확인"
+    },
+    {
+      "id": "UR12",
+      "topic": "2_undergraduate_research",
+      "authors": "Auchincloss, L. C.; Laursen, S. L.; Branchaw, J. L.; Eagan, K.; Graham, M.; Hanauer, D. I.; et al.",
+      "year": 2014,
+      "title": "Assessment of Course-Based Undergraduate Research Experiences: A Meeting Report",
+      "venue": "CBE—Life Sciences Education, 13(1), 29-40",
+      "doi_or_url": "https://doi.org/10.1187/cbe.14-01-0004",
+      "type": "review",
+      "key_finding_ko": "CURE(수업 기반 연구경험)의 조작적 정의로 과학적 실천의 사용, 발견(정답 미정), 폭넓은 관련성, 협업, 반복(iteration)의 5요소를 제시했다. 이 5요소가 통합될 때 비로소 CURE라고 보았다.",
+      "relevance": [
+        "research",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + PMC 본문(PMC3940459) 확인"
+    },
+    {
+      "id": "UR13",
+      "topic": "2_undergraduate_research",
+      "authors": "Corwin, L. A.; Graham, M. J.; Dolan, E. L.",
+      "year": 2015,
+      "title": "Modeling Course-Based Undergraduate Research Experiences: An Agenda for Future Research and Evaluation",
+      "venue": "CBE—Life Sciences Education, 14(1), es1",
+      "doi_or_url": "https://doi.org/10.1187/cbe.14-10-0167",
+      "type": "review",
+      "key_finding_ko": "CURE와 연구인턴십 연구를 검토해 성과별 근거 수준을 정리하고, 수업 활동에서 단기·장기 성과로 이어지는 경로 모형을 검증 가능한 가설로 제시했다. CURE가 연구인턴십과 유사한 성과를 낸다는 연구가 있으나 필요·충분 요소는 아직 규명되지 않았다고 지적했다.",
+      "relevance": [
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "UR14",
+      "topic": "2_undergraduate_research",
+      "authors": "Rodenbusch, S. E.; Hernandez, P. R.; Simmons, S. L.; Dolan, E. L.",
+      "year": 2016,
+      "title": "Early Engagement in Course-Based Research Increases Graduation Rates and Completion of Science, Engineering, and Mathematics Degrees",
+      "venue": "CBE—Life Sciences Education, 15(2), ar20",
+      "doi_or_url": "https://doi.org/10.1187/cbe.16-03-0117",
+      "type": "quasi-experimental",
+      "key_finding_ko": "UT Austin 1학년 연구 과목 프로그램(FRI) 참여자와 매칭 대조군 4,898명(2,449쌍) 비교에서 3학기 이수자의 STEM 학위 취득 예측확률은 94%로 비참여자 71%보다 높았고, 6년 내 졸업 확률도 83% 대 66%였다. 졸업 GPA에는 유의한 영향이 없었다.",
+      "relevance": [
+        "research",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract + PMC 본문(PMC4909342) 수치 확인"
+    },
+    {
+      "id": "UR15",
+      "topic": "2_undergraduate_research",
+      "authors": "Hanauer, D. I.; Graham, M. J.; SEA-PHAGES; Betancur, L.; Bobrownicki, A.; Cresawn, S. G.; et al.",
+      "year": 2017,
+      "title": "An inclusive Research Education Community (iREC): Impact of the SEA-PHAGES program on research outcomes and student learning",
+      "venue": "Proceedings of the National Academy of Sciences, 114(51), 13531-13536",
+      "doi_or_url": "https://doi.org/10.1073/pnas.1718188115",
+      "type": "quasi-experimental",
+      "key_finding_ko": "다기관 1학년 CURE인 SEA-PHAGES 학생은 전통 실험 과목 학생보다 프로젝트 주인의식·과학 공동체 가치·과학 정체성·네트워킹에서 큰 이득을 보였고, 이는 STEM 지속과 연관되었다. 효과는 학업·인종·성별·사회경제적 배경과 무관하게 나타났다.",
+      "relevance": [
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract"
+    },
+    {
+      "id": "UR16",
+      "topic": "2_undergraduate_research",
+      "authors": "Legler, J.; Roback, P.; Ziegler-Graham, K.; Scott, J.; Lane-Getaz, S.; Richey, M.",
+      "year": 2010,
+      "title": "A Model for an Interdisciplinary Undergraduate Research Program",
+      "venue": "The American Statistician, 64(1), 59-69",
+      "doi_or_url": "https://doi.org/10.1198/tast.2010.09198",
+      "type": "case-study",
+      "key_finding_ko": "St. Olaf College 학제간연구센터(CIR)는 통계 전공 학부생-교수 팀이 실제 학제간 연구 프로젝트를 수행하고 연구기술 세미나를 병행하는 모델이다. 재학생 3,000명 미만 대학에서 5년간 약 50명을 대학원에 진학시켰다(통계 분야 학부연구 사례).",
+      "relevance": [
+        "research",
+        "consulting_capstone",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL01",
+      "topic": "3_active_learning_peer",
+      "authors": "Freeman, S.; Eddy, S. L.; McDonough, M.; Smith, M. K.; Okoroafor, N.; Jordt, H.; et al.",
+      "year": 2014,
+      "title": "Active learning increases student performance in science, engineering, and mathematics",
+      "venue": "Proceedings of the National Academy of Sciences, 111(23), 8410-8415",
+      "doi_or_url": "https://doi.org/10.1073/pnas.1319030111",
+      "type": "meta-analysis",
+      "key_finding_ko": "STEM 225개 연구 메타분석에서 능동학습은 시험·개념검사 성적을 0.47 SD(평균 시험점수 약 6%) 높였고, 전통 강의의 낙제 승산비는 1.95로 강의식 수업 학생이 낙제할 확률이 1.5배였다. 효과는 모든 STEM 분야와 학급 규모에서 나타났고 50명 이하 소규모 수업에서 가장 컸다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract"
+    },
+    {
+      "id": "AL02",
+      "topic": "3_active_learning_peer",
+      "authors": "Theobald, E. J.; Hill, M. J.; Tran, E.; Agrawal, S.; Arroyo, E. N.; Behling, S.; et al.",
+      "year": 2020,
+      "title": "Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math",
+      "venue": "Proceedings of the National Academy of Sciences, 117(12), 6476-6483",
+      "doi_or_url": "https://doi.org/10.1073/pnas.1916903117",
+      "type": "meta-analysis",
+      "key_finding_ko": "시험점수 15개 연구(9,238명)와 낙제율 26개 연구(44,606명)를 분석한 결과, 능동학습은 소외집단 학생과 다수집단 학생의 시험점수 격차를 33%, 이수율 격차를 45% 줄였다. 수업시간 중 활동 비중이 높은 고강도 능동학습에서만 격차가 줄었다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL03",
+      "topic": "3_active_learning_peer",
+      "authors": "Deslauriers, L.; McCarty, L. S.; Miller, K.; Callaghan, K.; Kestin, G.",
+      "year": 2019,
+      "title": "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom",
+      "venue": "Proceedings of the National Academy of Sciences, 116(39), 19251-19257",
+      "doi_or_url": "https://doi.org/10.1073/pnas.1821936116",
+      "type": "RCT",
+      "key_finding_ko": "동일한 자료로 수동 강의와 능동학습을 무작위 비교한 결과, 능동학습 학생이 더 많이 배웠지만 오히려 '덜 배웠다고 느꼈다'. 이는 능동학습에 드는 인지적 노력 때문이며, 교수자가 학기 초에 이 오인을 설명해 주는 개입이 효과적이었다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL04",
+      "topic": "3_active_learning_peer",
+      "authors": "Deslauriers, L.; Schelew, E.; Wieman, C.",
+      "year": 2011,
+      "title": "Improved Learning in a Large-Enrollment Physics Class",
+      "venue": "Science, 332(6031), 862-864",
+      "doi_or_url": "https://doi.org/10.1126/science.1201783",
+      "type": "quasi-experimental",
+      "key_finding_ko": "대형 입문 물리 강좌 두 분반(N=267, 271) 비교에서, 연구 기반 교수법을 적용한 미숙련 강사 분반이 숙련·고평가 강사의 3시간 전통 강의 분반보다 출석과 참여가 높고 학습량이 2배 이상이었다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract"
+    },
+    {
+      "id": "AL05",
+      "topic": "3_active_learning_peer",
+      "authors": "Hake, R. R.",
+      "year": 1998,
+      "title": "Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses",
+      "venue": "American Journal of Physics, 66(1), 64-74",
+      "doi_or_url": "https://doi.org/10.1119/1.18809",
+      "type": "survey",
+      "key_finding_ko": "62개 입문 물리 강좌 6,542명의 개념검사 사전·사후 자료에서 상호작용 참여(IE) 강좌의 평균 정규화 이득은 0.48로 전통 강좌 0.23보다 약 2 SD 높았고, 문제해결력 검사에서도 IE의 이점이 확인되었다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL06",
+      "topic": "3_active_learning_peer",
+      "authors": "Crouch, C. H.; Mazur, E.",
+      "year": 2001,
+      "title": "Peer Instruction: Ten years of experience and results",
+      "venue": "American Journal of Physics, 69(9), 970-977",
+      "doi_or_url": "https://doi.org/10.1119/1.1374249",
+      "type": "case-study",
+      "key_finding_ko": "하버드 입문 물리에서 10년간 Peer Instruction을 운영한 결과 개념적 추론과 정량적 문제해결 숙달이 모두 향상되었다. 사전 읽기 서면 응답과 토론 분반 협동학습 도입 등 개선을 거치며 이해도가 추가로 높아졌다.",
+      "relevance": [
+        "active_learning",
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL07",
+      "topic": "3_active_learning_peer",
+      "authors": "Springer, L.; Stanne, M. E.; Donovan, S. S.",
+      "year": 1999,
+      "title": "Effects of Small-Group Learning on Undergraduates in Science, Mathematics, Engineering, and Technology: A Meta-Analysis",
+      "venue": "Review of Educational Research, 69(1), 21-51",
+      "doi_or_url": "https://doi.org/10.3102/00346543069001021",
+      "type": "meta-analysis",
+      "key_finding_ko": "1980년 이후 학부 과학·수학·공학·기술(SMET) 연구 메타분석에서 소그룹 학습은 학업성취, 학습 태도, 과목·전공 지속을 모두 높였다. 효과 크기는 유사한 교육혁신 리뷰 대부분보다 컸다.",
+      "relevance": [
+        "active_learning",
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL08",
+      "topic": "3_active_learning_peer",
+      "authors": "Kalaian, S. A.; Kasim, R. M.",
+      "year": 2014,
+      "title": "A Meta-Analytic Review of Studies of the Effectiveness of Small-Group Learning Methods on Statistics Achievement",
+      "venue": "Journal of Statistics Education, 22(1)",
+      "doi_or_url": "https://doi.org/10.1080/10691898.2014.11889691",
+      "type": "meta-analysis",
+      "key_finding_ko": "대학 통계 과목의 소그룹 학습 메타분석에서 협동·협력학습의 평균 효과크기는 0.60으로 통계 시험 성적을 50 백분위에서 73 백분위로 끌어올리는 수준이었다. 탐구기반 학습의 효과는 0에 가까웠고 최근 연구일수록 효과가 작았다.",
+      "relevance": [
+        "active_learning",
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL09",
+      "topic": "3_active_learning_peer",
+      "authors": "Winquist, J. R.; Carlson, K. A.",
+      "year": 2014,
+      "title": "Flipped Statistics Class Results: Better Performance Than Lecture Over One Year Later",
+      "venue": "Journal of Statistics Education, 22(3)",
+      "doi_or_url": "https://doi.org/10.1080/10691898.2014.11889717",
+      "type": "quasi-experimental",
+      "key_finding_ko": "입문 통계를 플립드 수업과 강의식으로 비교한 결과, 수강 후 중앙값 20개월 뒤 실시한 표준화 시험의 통계 영역에서 플립드 수업 학생이 더 높은 점수를 받았다(d=0.43). 통계 외 영역에서는 차이가 없었다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL10",
+      "topic": "3_active_learning_peer",
+      "authors": "Laursen, S. L.; Hassi, M.-L.; Kogan, M.; Weston, T. J.",
+      "year": 2014,
+      "title": "Benefits for Women and Men of Inquiry-Based Learning in College Mathematics: A Multi-Institution Study",
+      "venue": "Journal for Research in Mathematics Education, 45(4), 406-418",
+      "doi_or_url": "https://doi.org/10.5951/jresematheduc.45.4.0406",
+      "type": "quasi-experimental",
+      "key_finding_ko": "4개 대학 100개 이상 분반의 탐구기반학습(IBL) 수학 수업을 분석해, 학생중심 교수법의 다기관 확산이 학습성과와 수학 지속을 개선할 수 있음을 보였다. 제목대로 여학생과 남학생 모두 이득을 얻었다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL11",
+      "topic": "3_active_learning_peer",
+      "authors": "Kogan, M.; Laursen, S. L.",
+      "year": 2014,
+      "title": "Assessing Long-Term Effects of Inquiry-Based Learning: A Case Study from College Mathematics",
+      "venue": "Innovative Higher Education, 39(3), 183-199",
+      "doi_or_url": "https://doi.org/10.1007/s10755-013-9269-9",
+      "type": "quasi-experimental",
+      "key_finding_ko": "2개 대학에서 IBL 수학 수강이 이후 성적과 수강 선택에 미친 영향을 분석했다. 특히 이전 성취가 낮았던 학생에게 IBL의 성적 향상 효과가 크고 오래 지속되었다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "AL12",
+      "topic": "3_active_learning_peer",
+      "authors": "Schneider, M.; Preckel, F.",
+      "year": 2017,
+      "title": "Variables associated with achievement in higher education: A systematic review of meta-analyses.",
+      "venue": "Psychological Bulletin, 143(6), 565-600",
+      "doi_or_url": "https://doi.org/10.1037/bul0000098",
+      "type": "review",
+      "key_finding_ko": "38개 메타분석(105개 변인, 3,330개 효과크기, 약 200만 명)을 종합한 결과, 수업 내 사회적 상호작용이 성취와 가장 밀접했다. 명확한 학습목표·피드백 등 수업 미세구조 설계가 중요했고 교육기술의 효과는 상대적으로 약했다.",
+      "relevance": [
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT01",
+      "topic": "3_active_learning_peer",
+      "authors": "Otero, V.; Pollock, S.; Finkelstein, N.",
+      "year": 2010,
+      "title": "A physics department’s role in preparing physics teachers: The Colorado learning assistant model",
+      "venue": "American Journal of Physics, 78(11), 1218-1224",
+      "doi_or_url": "https://doi.org/10.1119/1.3471291",
+      "type": "case-study",
+      "key_finding_ko": "콜로라도 학습조교(Learning Assistant, LA) 모델 도입(2003) 이후 물리 교사 양성 규모가 약 3배로 늘었고, 입문 물리 학습 이득은 전통적 평균의 약 2배가 되었다.",
+      "relevance": [
+        "peer_teaching",
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT02",
+      "topic": "3_active_learning_peer",
+      "authors": "Alzen, J. L.; Langdon, L. S.; Otero, V. K.",
+      "year": 2018,
+      "title": "A logistic regression investigation of the relationship between the Learning Assistant model and failure rates in introductory STEM courses",
+      "venue": "International Journal of STEM Education, 5(1)",
+      "doi_or_url": "https://doi.org/10.1186/s40594-018-0152-1",
+      "type": "quasi-experimental",
+      "key_finding_ko": "CU Boulder 기관 자료 로지스틱 회귀에서 관문 STEM 과목에서 LA 지원을 경험한 학생은 이후 관문 과목 낙제 승산이 남학생 63%, 여학생 55% 낮았다. 학과마다 LA 운영 방식은 달랐다.",
+      "relevance": [
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT03",
+      "topic": "3_active_learning_peer",
+      "authors": "Wilson, S. B.; Varma-Nelson, P.",
+      "year": 2016,
+      "title": "Small Groups, Significant Impact: A Review of Peer-Led Team Learning Research with Implications for STEM Education Researchers and Faculty",
+      "venue": "Journal of Chemical Education, 93(10), 1686-1702",
+      "doi_or_url": "https://doi.org/10.1021/acs.jchemed.5b00862",
+      "type": "review",
+      "key_finding_ko": "동료주도 팀학습(PLTL) 동료심사 연구 67편을 종합해 학생 성공 지표, 학생 인식, 추론·비판적 사고, 피어리더 효과, PLTL 변형 모델의 5개 주제로 정리하고 연구·실천 권고를 제시했다.",
+      "relevance": [
+        "peer_teaching",
+        "active_learning"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT04",
+      "topic": "3_active_learning_peer",
+      "authors": "Snyder, J. J.; Sloane, J. D.; Dunk, R. D. P.; Wiles, J. R.",
+      "year": 2016,
+      "title": "Peer-Led Team Learning Helps Minority Students Succeed",
+      "venue": "PLOS Biology, 14(3), e1002398",
+      "doi_or_url": "https://doi.org/10.1371/journal.pbio.1002398",
+      "type": "quasi-experimental",
+      "key_finding_ko": "입문 생물학에서 PLTL에 참여한 학생의 성적이 유의하게 높았고, 소수인종(URM) 학생의 낙제율이 크게 줄어 URM과 비URM 학생의 성취 격차가 해소되었다.",
+      "relevance": [
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT05",
+      "topic": "3_active_learning_peer",
+      "authors": "Lewis, S. E.",
+      "year": 2011,
+      "title": "Retention and Reform: An Evaluation of Peer-Led Team Learning",
+      "venue": "Journal of Chemical Education, 88(6), 703-707",
+      "doi_or_url": "https://doi.org/10.1021/ed100689m",
+      "type": "quasi-experimental",
+      "key_finding_ko": "일반화학 1학기 강의시간의 1/3을 PLTL로 대체한 결과 이수율이 15% 높아졌고(유의), ACS 표준 기말시험 점수는 강의식 분반과 동등해 엄격성이 유지되었다. URM 학생의 이수율 개선 폭이 가장 컸다.",
+      "relevance": [
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT06",
+      "topic": "3_active_learning_peer",
+      "authors": "Dawson, P.; van der Meer, J.; Skalicky, J.; Cowley, K.",
+      "year": 2014,
+      "title": "On the Effectiveness of Supplemental Instruction: A Systematic Review of Supplemental Instruction and Peer-Assisted Study Sessions Literature Between 2001 and 2010",
+      "venue": "Review of Educational Research, 84(4), 609-639",
+      "doi_or_url": "https://doi.org/10.3102/0034654314540007",
+      "type": "review",
+      "key_finding_ko": "2001~2010년 보충수업(SI, 선배 학생이 고위험 과목 동료학습을 촉진) 연구 29편 체계적 검토에서, 효과크기를 산출할 수 있었던 7편의 최종성적 효과는 d=0.29~0.60이었다. SI 참여는 높은 평균 성적, 낮은 낙제·철회율, 높은 유지·졸업률과 연관되었다.",
+      "relevance": [
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT07",
+      "topic": "3_active_learning_peer",
+      "authors": "Zaniewski, A. M.; Reinholz, D.",
+      "year": 2016,
+      "title": "Increasing STEM success: a near-peer mentoring program in the physical sciences",
+      "venue": "International Journal of STEM Education, 3(1)",
+      "doi_or_url": "https://doi.org/10.1186/s40594-016-0043-2",
+      "type": "case-study",
+      "key_finding_ko": "ASU 물리계열 근접동료(near-peer) 멘토링 보고서 150여 건 분석에서 멘토는 정보 제공자이자 정서적 지지자로서 신입생의 소속감과 과학 정체성 형성을 도왔다. 참여 신입생의 첫 학기 평균 GPA는 3.49였다.",
+      "relevance": [
+        "peer_teaching",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "PT08",
+      "topic": "3_active_learning_peer",
+      "authors": "Dennehy, T. C.; Dasgupta, N.",
+      "year": 2017,
+      "title": "Female peer mentors early in college increase women’s positive academic experiences and retention in engineering",
+      "venue": "Proceedings of the National Academy of Sciences, 114(23), 5964-5969",
+      "doi_or_url": "https://doi.org/10.1073/pnas.1613117114",
+      "type": "RCT",
+      "key_finding_ko": "공대 여성 신입생 150명을 여성 멘토·남성 멘토·멘토 없음에 무작위 배정한 결과, 여성 동료 멘토만 소속감·자기효능감·동기·전공 유지·공학 진로 열망을 지켜 주었다. 효과는 멘토링 종료 후 1년(입학 후 2년)까지 지속되었다.",
+      "relevance": [
+        "peer_teaching",
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract"
+    },
+    {
+      "id": "IN01",
+      "topic": "4_internship_WIL",
+      "authors": "Nunley, J. M.; Pugh, A.; Romero, N.; Seals, R. A.",
+      "year": 2016,
+      "title": "College major, internship experience, and employment opportunities: Estimates from a résumé audit",
+      "venue": "Labour Economics, 38, 37-46",
+      "doi_or_url": "https://doi.org/10.1016/j.labeco.2015.11.002",
+      "type": "RCT",
+      "key_finding_ko": "경영 관련 실제 채용공고에 가상 이력서를 무작위로 발송한 이력서 감사 실험에서, 인턴십 경험은 면접 요청률을 14% 높였다. 비경영 전공자와 학업능력이 높은 지원자에서 효과가 더 컸고, 경영학 학위 자체의 효과는 없었다(신호 효과로 해석).",
+      "relevance": [
+        "internship"
+      ],
+      "verified_via": "Crossref DOI metadata + RePEc 초록(Auburn WP 2015-09) 확인"
+    },
+    {
+      "id": "IN02",
+      "topic": "4_internship_WIL",
+      "authors": "Baert, S.; Neyt, B.; Siedler, T.; Tobback, I.; Verhaest, D.",
+      "year": 2021,
+      "title": "Student internships and employment opportunities after graduation: A field experiment",
+      "venue": "Economics of Education Review, 83, 102141",
+      "doi_or_url": "https://doi.org/10.1016/j.econedurev.2021.102141",
+      "type": "RCT",
+      "key_finding_ko": "실제 채용공고에 가상 이력서 1,248건을 무작위 발송한 현장실험에서, 재학 중 자발적 교과 연계 인턴십 경험자는 면접 초대 확률이 평균 12.6% 높았다.",
+      "relevance": [
+        "internship"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "IN03",
+      "topic": "4_internship_WIL",
+      "authors": "Margaryan, S.; Saniter, N.; Schumann, M.; Siedler, T.",
+      "year": 2022,
+      "title": "Do Internships Pay Off? The Effects of Student Internships on Earnings",
+      "venue": "Journal of Human Resources, 57(4), 1242-1275",
+      "doi_or_url": "https://doi.org/10.3368/jhr.57.4.0418-9460R2",
+      "type": "quasi-experimental",
+      "key_finding_ko": "독일 대학의 의무 기업 인턴십을 도구변수로 쓴 분석에서 인턴십 경험의 임금 수익은 OLS·IV 모두 약 6%였다. 노동시장 지향이 약한 전공에서 수익이 더 컸고, 졸업 첫해 실업 위험도 낮았다.",
+      "relevance": [
+        "internship"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "IN04",
+      "topic": "4_internship_WIL",
+      "authors": "Jackson, D.",
+      "year": 2015,
+      "title": "Employability skill development in work-integrated learning: Barriers and best practice",
+      "venue": "Studies in Higher Education, 40(2), 350-367",
+      "doi_or_url": "https://doi.org/10.1080/03075079.2013.842221",
+      "type": "survey",
+      "key_finding_ko": "호주 대학 여러 전공 학부생 131명 조사에서 일-학습 병행(WIL) 중 고용가능성 기술 습득 경험은 모범 실천 원칙(교실 준비와 현장 활동의 연계)과 대체로 일치했다. 현장에서 특정 기술을 발휘하지 못한 문제는 주로 프로그램 설계 부실에서 비롯되었다.",
+      "relevance": [
+        "internship"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "MA01",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Estrada, M.; Hernandez, P. R.; Schultz, P. W.",
+      "year": 2018,
+      "title": "A Longitudinal Study of How Quality Mentorship and Research Experience Integrate Underrepresented Minorities into STEM Careers",
+      "venue": "CBE—Life Sciences Education, 17(1), ar9",
+      "doi_or_url": "https://doi.org/10.1187/cbe.17-04-0066",
+      "type": "quasi-experimental",
+      "key_finding_ko": "URM 학생을 3학년부터 졸업 후까지 추적한 성장곡선 분석에서 질 높은 멘토링과 연구 경험은 같은 시기의 과학 효능감·정체성·가치와 정적 관계를 보였다. 과학 정체성과 가치는 졸업 4년 후까지 STEM 진로 지속을 예측했다.",
+      "relevance": [
+        "mentoring",
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "MA02",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Bettinger, E. P.; Baker, R. B.",
+      "year": 2014,
+      "title": "The Effects of Student Coaching: An Evaluation of a Randomized Experiment in Student Advising",
+      "venue": "Educational Evaluation and Policy Analysis, 36(1), 3-19",
+      "doi_or_url": "https://doi.org/10.3102/0162373713500523",
+      "type": "RCT",
+      "key_finding_ko": "InsideTrack 개별 학생 코칭(목표 설정, 시간관리·자기옹호·학습기술 지원)을 무작위 배정한 결과, 코칭 대상 학생은 처치 기간과 종료 1년 후 모두 재학 유지율이 높았다. 재정지원 확대보다 비용 대비 효과적이었다.",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract + NBER WP 16881 초록"
+    },
+    {
+      "id": "MA03",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Crisp, G.; Cruz, I.",
+      "year": 2009,
+      "title": "Mentoring College Students: A Critical Review of the Literature Between 1990 and 2007",
+      "venue": "Research in Higher Education, 50(6), 525-545",
+      "doi_or_url": "https://doi.org/10.1007/s11162-009-9130-2",
+      "type": "review",
+      "key_finding_ko": "1990~2007년 대학생 멘토링 문헌을 비판적으로 검토한 결과, 멘토링 정의가 50개 이상으로 일관되지 않고 이론적 기반과 방법론적 엄밀성이 부족했다. 멘토링 구성요소를 심리·정서적 지지, 학위·진로 지원, 학업 내용 지원, 역할모델의 4가지로 정리했다.",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata (초록 미제공; 결론 요지는 이 논문을 인용한 2차 문헌 검색 결과로 확인)",
+      "note": "원문 PDF 직접 열람은 실패. 서지는 Crossref로 확정."
+    },
+    {
+      "id": "MA04",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Gershenfeld, S.",
+      "year": 2014,
+      "title": "A Review of Undergraduate Mentoring Programs",
+      "venue": "Review of Educational Research, 84(3), 365-391",
+      "doi_or_url": "https://doi.org/10.3102/0034654313520512",
+      "type": "review",
+      "key_finding_ko": "2008~2012년 학부 멘토링 프로그램 연구 20편을 검토한 결과 정의·이론·방법론의 개선은 미미했고, 75%가 프로그램 구성요소를 보고하지 않아 재현이 어려웠다. 구성요소 명시와 엄밀한 연구설계가 필요하다고 결론지었다.",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "MA05",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Graham, M. J.; Frederick, J.; Byars-Winston, A.; Hunter, A.-B.; Handelsman, J.",
+      "year": 2013,
+      "title": "Increasing Persistence of College Students in STEM",
+      "venue": "Science, 341(6153), 1455-1456",
+      "doi_or_url": "https://doi.org/10.1126/science.1240487",
+      "type": "review",
+      "key_finding_ko": "여러 분야의 근거를 통합해 STEM 전공 지속을 높이기 위한 증거 기반 '지속 프레임워크(persistence framework)'를 제시했다(학과·기관 개입 설계 지침).",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract"
+    },
+    {
+      "id": "MA06",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Aikens, M. L.; Sadselia, S.; Watkins, K.; Evans, M.; Eby, L. T.; Dolan, E. L.",
+      "year": 2016,
+      "title": "A Social Capital Perspective on the Mentoring of Undergraduate Life Science Researchers: An Empirical Study of Undergraduate–Postgraduate–Faculty Triads",
+      "venue": "CBE—Life Sciences Education, 15(2), ar16",
+      "doi_or_url": "https://doi.org/10.1187/cbe.15-10-0208",
+      "type": "survey",
+      "key_finding_ko": "전국 생명과학 학부연구생 조사에서 대학원생·박사후연구원 단독 멘토링도 긍정적 성과를 냈지만, 교수와 직접 상호작용한 학생의 성과가 더 컸다. 학부생·대학원생·교수가 모두 직접 소통하는 '닫힌 삼자(closed triad)' 구조에서 '과학자처럼 생각·작업하기' 이득이 가장 컸다(대학원생 멘토 기반 독서·연구 프로그램 설계에 직접 참고 가능).",
+      "relevance": [
+        "mentoring",
+        "research"
+      ],
+      "verified_via": "Crossref DOI metadata + PubMed abstract"
+    },
+    {
+      "id": "MA07",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Limeri, L. B.; Asif, M. Z.; Bridges, B. H. T.; Esparza, D.; Tuma, T. T.; Sanders, D.; et al.",
+      "year": 2019,
+      "title": "“Where’s My Mentor?!” Characterizing Negative Mentoring Experiences in Undergraduate Life Science Research",
+      "venue": "CBE—Life Sciences Education, 18(4), ar61",
+      "doi_or_url": "https://doi.org/10.1187/cbe.19-02-0036",
+      "type": "case-study",
+      "key_finding_ko": "생명과학 학부연구생의 부정적 멘토링 경험을 질적으로 분석해 부재, 권력 남용, 대인 부조화, 진로 지원 부족, 심리사회적 지원 부족, 기대 불일치, 불공정 대우의 7가지 유형을 도출했다(멘토 연수 설계 근거).",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "MA08",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "National Academies of Sciences, Engineering, and Medicine",
+      "year": 2019,
+      "title": "The Science of Effective Mentorship in STEMM",
+      "venue": "The National Academies Press (consensus study report)",
+      "doi_or_url": "https://doi.org/10.17226/25568",
+      "type": "review",
+      "key_finding_ko": "학부·대학원 STEMM 멘토링 연구를 종합해, 멘토링은 우연이나 개인 재량에 맡기지 말고 의도적으로 설계해야 하며 효과적 멘토링에 대한 지식과 실제 관행 사이의 격차를 메워야 한다고 결론지었다. 기관·학과·교수가 채택할 수 있는 프로그램과 실천을 제시했다.",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "MA09",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Zhao, C.-M.; Kuh, G. D.",
+      "year": 2004,
+      "title": "Adding Value: Learning Communities and Student Engagement",
+      "venue": "Research in Higher Education, 45(2), 115-138",
+      "doi_or_url": "https://doi.org/10.1023/B:RIHE.0000015692.88534.de",
+      "type": "survey",
+      "key_finding_ko": "365개 4년제 대학 NSSE 자료 분석에서 학습공동체 참여는 학업 성과, 교육적으로 의미 있는 활동 참여, 대학 교육 성과 인식, 전반적 만족과 정적 관련을 보였고 특히 1학년생에서 효과가 컸다.",
+      "relevance": [
+        "mentoring",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + 초록 요지(검색 결과) 확인"
+    },
+    {
+      "id": "MA10",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Weiss, M. J.; Mayer, A. K.; Cullinan, D.; Ratledge, A.; Sommo, C.; Diamond, J.",
+      "year": 2015,
+      "title": "A Random Assignment Evaluation of Learning Communities at Kingsborough Community College—Seven Years Later",
+      "venue": "Journal of Research on Educational Effectiveness, 8(2), 189-217",
+      "doi_or_url": "https://doi.org/10.1080/19345747.2014.946634",
+      "type": "RCT",
+      "key_finding_ko": "CUNY Kingsborough 학생 1,500여 명을 무작위 배정한 결과, 학습공동체의 단기 학점 취득 효과가 7년 후까지 유지되었다. 졸업률 효과는 제한적이었고(보충 영어가 필요 없는 학생에서 일부 확인), 소득 효과는 분명하지 않았다.",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "MA11",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Dagley, M.; Georgiopoulos, M.; Reece, A.; Young, C.",
+      "year": 2016,
+      "title": "Increasing Retention and Graduation Rates Through a STEM Learning Community",
+      "venue": "Journal of College Student Retention: Research, Theory & Practice, 18(2), 167-182",
+      "doi_or_url": "https://doi.org/10.1177/1521025115584746",
+      "type": "quasi-experimental",
+      "key_finding_ko": "UCF EXCEL STEM 학습공동체(연 약 200명, 거주·교과 요소 결합) 참여자의 STEM 전공 유지율은 비교군보다 43% 높았다. 여성·흑인·히스패닉 참여자의 유지율도 각각 54%, 57%, 67%로 높았다.",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "MA12",
+      "topic": "5_mentoring_advising_LC",
+      "authors": "Weiss, M. J.; Ratledge, A.; Sommo, C.; Gupta, H.",
+      "year": 2019,
+      "title": "Supporting Community College Students from Start to Degree Completion: Long-Term Evidence from a Randomized Trial of CUNY’s ASAP",
+      "venue": "American Economic Journal: Applied Economics, 11(3), 253-297",
+      "doi_or_url": "https://doi.org/10.1257/app.20170430",
+      "type": "RCT",
+      "key_finding_ko": "CUNY ASAP(전담 어드바이징·튜터링·진로지원·등록금 면제·교재·교통비 지원을 묶은 3년 통합 프로그램) 무작위 실험에서 3년 졸업률이 18%p, 6년 졸업률이 10%p 올랐다. 고등교육 RCT에서 이례적으로 큰 효과다.",
+      "relevance": [
+        "mentoring"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract + MDRC 프로그램 구성요소 자료"
+    },
+    {
+      "id": "SD01",
+      "topic": "6_stats_ds_education",
+      "authors": "American Statistical Association Undergraduate Guidelines Workgroup (Chance, B.; Cohen, S.; Grimshaw, S.; Hardin, J.; Hesterberg, T.; Hoerl, R.; Horton, N. J. (chair); Malone, C.; Nichols, R.; Nolan, D.)",
+      "year": 2014,
+      "title": "Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "venue": "American Statistical Association",
+      "doi_or_url": "https://www.amstat.org/docs/default-source/amstat-documents/guidelines2014-11-15.pdf",
+      "type": "guideline",
+      "key_finding_ko": "ASA 이사회 승인(2014.11.15) 통계학 학부 교육과정 지침. 핵심 역량으로 통계적 방법·이론, 데이터 관리, 계산, 수학적 기초, 통계적 실무(커뮤니케이션·협업)를 제시하고, 실제 데이터 중심 교육, 재현 가능한 분석, 프로그램 전반의 윤리 통합, 인턴십·캡스톤·컨설팅·연구 경험 제공을 권고했다.",
+      "relevance": [
+        "curriculum_content",
+        "computing",
+        "communication",
+        "ethics",
+        "consulting_capstone",
+        "internship"
+      ],
+      "verified_via": "ASA 공식 PDF(guidelines2014-11-15.pdf) 전문 열람"
+    },
+    {
+      "id": "SD02",
+      "topic": "6_stats_ds_education",
+      "authors": "GAISE College Report ASA Revision Committee (Carver, R.; Everson, M. (co-chair); Gabrosek, J.; Horton, N.; Lock, R.; Mocko, M. (co-chair); Rossman, A.; Rowell, G. H.; Velleman, P.; Witmer, J.; Wood, B.)",
+      "year": 2016,
+      "title": "Guidelines for Assessment and Instruction in Statistics Education (GAISE) College Report 2016",
+      "venue": "American Statistical Association",
+      "doi_or_url": "https://www.amstat.org/docs/default-source/amstat-documents/gaisecollege_full.pdf",
+      "type": "guideline",
+      "key_finding_ko": "ASA 승인(2016.7) 입문 통계 교육 지침의 6대 권고: 통계적 사고 교육(탐구 과정으로서의 통계, 다변량적 사고 경험), 개념 이해 중심, 맥락과 목적이 있는 실제 데이터 활용, 능동학습 촉진, 개념 탐구·분석에 기술 활용, 학습 개선·평가를 위한 평가 활용.",
+      "relevance": [
+        "curriculum_content",
+        "active_learning",
+        "computing"
+      ],
+      "verified_via": "ASA 공식 PDF(gaisecollege_full.pdf) 열람"
+    },
+    {
+      "id": "SD03",
+      "topic": "6_stats_ds_education",
+      "authors": "Nolan, D.; Temple Lang, D.",
+      "year": 2010,
+      "title": "Computing in the Statistics Curricula",
+      "venue": "The American Statistician, 64(2), 97-107",
+      "doi_or_url": "https://doi.org/10.1198/tast.2010.09132",
+      "type": "review",
+      "key_finding_ko": "계산 리터러시와 프로그래밍은 통계 실무·연구에서 수학만큼 기본적이라고 주장하며, 대용량 데이터 처리·정보기술·계산 자원 추론·계산 집약 작업을 모든 수준의 교과과정에 통합하고 과학적 문제와 결합해 가르칠 것을 제안했다(입장 논문).",
+      "relevance": [
+        "computing",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD04",
+      "topic": "6_stats_ds_education",
+      "authors": "Cobb, G.",
+      "year": 2015,
+      "title": "Mere Renovation is Too Little Too Late: We Need to Rethink our Undergraduate Curriculum from the Ground Up",
+      "venue": "The American Statistician, 69(4), 266-282",
+      "doi_or_url": "https://doi.org/10.1080/00031305.2015.1093029",
+      "type": "review",
+      "key_finding_ko": "ASA 2014 지침을 넘어 학부 교과과정을 근본부터 재설계해야 한다는 입장 논문. 수학·계산·맥락의 역할 변화를 반영한 5원칙과 2개 단서를 제시하고, '핵심 개념의 접근성 확대'와 '연구 참여까지의 선수과목 최소화'를 최우선 목표로 삼으라고 제안했다.",
+      "relevance": [
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD05",
+      "topic": "6_stats_ds_education",
+      "authors": "Hardin, J.; Hoerl, R.; Horton, N. J.; Nolan, D.; Baumer, B.; Hall-Holt, O.; et al.",
+      "year": 2015,
+      "title": "Data Science in Statistics Curricula: Preparing Students to “Think with Data”",
+      "venue": "The American Statistician, 69(4), 343-353",
+      "doi_or_url": "https://doi.org/10.1080/00031305.2015.1077729",
+      "type": "case-study",
+      "key_finding_ko": "통계 학부 졸업생이 현업에서 데이터베이스 활용, 웹 데이터 수집, 다중 언어 프로그래밍, 알고리즘적 사고를 요구받는 만큼 데이터 사이언스 내용을 통계 교과에 통합해야 한다고 보고, 7개 기관 사례와 과제 예시를 제시했다.",
+      "relevance": [
+        "computing",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD06",
+      "topic": "6_stats_ds_education",
+      "authors": "De Veaux, R. D.; Agarwal, M.; Averett, M.; Baumer, B. S.; Bray, A.; Bressoud, T. C.; et al.",
+      "year": 2017,
+      "title": "Curriculum Guidelines for Undergraduate Programs in Data Science",
+      "venue": "Annual Review of Statistics and Its Application, 4(1), 15-30",
+      "doi_or_url": "https://doi.org/10.1146/annurev-statistics-060116-053930",
+      "type": "guideline",
+      "key_finding_ko": "PCMI 2016 교수진 25명이 작성한 데이터과학 학부 전공 지침. 핵심 역량으로 분석적(계산·통계) 사고, 수학적 기초, 모델 구축·평가, 알고리즘·소프트웨어 기초, 데이터 큐레이션, 지식 전달(커뮤니케이션·책임)을 제시했고, 캡스톤 프로젝트를 필수 요소로, 인턴십을 자연스러운 구성요소로 보았다.",
+      "relevance": [
+        "curriculum_content",
+        "computing",
+        "communication",
+        "consulting_capstone"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract + 공개 원고 PDF(Nolan 홈페이지, 2016.9.25판) 목차·본문 확인"
+    },
+    {
+      "id": "SD07",
+      "topic": "6_stats_ds_education",
+      "authors": "National Academies of Sciences, Engineering, and Medicine",
+      "year": 2018,
+      "title": "Data Science for Undergraduates: Opportunities and Options",
+      "venue": "The National Academies Press (consensus study report)",
+      "doi_or_url": "https://doi.org/10.17226/25104",
+      "type": "guideline",
+      "key_finding_ko": "모든 학생에게 '데이터 소양(data acumen)'을 길러야 한다며 수학·계산·통계 기초, 데이터 관리·큐레이션, 데이터 기술·시각화, 모델링·평가, 워크플로·재현성, 커뮤니케이션·팀워크, 도메인 고려, 윤리적 문제해결의 10개 핵심 개념 영역을 제시했다. 윤리는 교육과정 처음부터 끝까지 엮어야 한다고 권고했다(권고 2.4).",
+      "relevance": [
+        "curriculum_content",
+        "computing",
+        "communication",
+        "ethics"
+      ],
+      "verified_via": "Crossref DOI metadata + NAP 보고서 Summary·2장(Finding 2.3, 권고 2.1~2.5) 확인"
+    },
+    {
+      "id": "SD08",
+      "topic": "6_stats_ds_education",
+      "authors": "Baumer, B.",
+      "year": 2015,
+      "title": "A Data Science Course for Undergraduates: Thinking With Data",
+      "venue": "The American Statistician, 69(4), 334-342",
+      "doi_or_url": "https://doi.org/10.1080/00031305.2015.1081105",
+      "type": "case-study",
+      "key_finding_ko": "리버럴아츠 대학의 학부 데이터과학 과목 설계 사례로, 질문 설정부터 데이터 획득·관리·가공·질의·분석·시각화, 그리고 서면·그래픽·구두 결과 전달까지 분석 전 과정을 다루도록 구성했다.",
+      "relevance": [
+        "computing",
+        "communication",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD09",
+      "topic": "6_stats_ds_education",
+      "authors": "Çetinkaya-Rundel, M.; Ellison, V.",
+      "year": 2021,
+      "title": "A Fresh Look at Introductory Data Science",
+      "venue": "Journal of Statistics and Data Science Education, 29(sup1)",
+      "doi_or_url": "https://doi.org/10.1080/10691898.2020.1804497",
+      "type": "case-study",
+      "key_finding_ko": "Duke 대학의 선수과목 없는 입문 데이터과학 과목 사례로, 교육 설계·내용·구조·계산 인프라·평가 방식을 정리하고 전체 교재를 오픈소스로 공개했다.",
+      "relevance": [
+        "computing",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD10",
+      "topic": "6_stats_ds_education",
+      "authors": "Horton, N. J.; Baumer, B. S.; Wickham, H.",
+      "year": 2015,
+      "title": "Taking a Chance in the Classroom: Setting the Stage for Data Science: Integration of Data Management Skills in Introductory and Second Courses in Statistics",
+      "venue": "CHANCE, 28(2), 40-50",
+      "doi_or_url": "https://doi.org/10.1080/09332480.2015.1042739",
+      "type": "case-study",
+      "key_finding_ko": "입문·2학기 통계 과목에 데이터 관리, 시각화, 재현 가능한 분석 도구를 도입해 통계 계산 표현 능력을 기르는 방안을 제시했다.",
+      "relevance": [
+        "computing"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD11",
+      "topic": "6_stats_ds_education",
+      "authors": "ACM Data Science Task Force",
+      "year": 2021,
+      "title": "Computing competencies for undergraduate data science curricula",
+      "venue": "Association for Computing Machinery (report)",
+      "doi_or_url": "https://doi.org/10.1145/3453538",
+      "type": "guideline",
+      "key_finding_ko": "ACM 교육위원회 데이터과학 태스크포스가 학부 데이터과학 교육과정에 필요한 컴퓨팅 역량을 정의한 보고서로, 데이터과학의 학제성을 전제로 컴퓨팅 분야가 기여할 영역을 정리했다.",
+      "relevance": [
+        "computing",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD12",
+      "topic": "6_stats_ds_education",
+      "authors": "Brown, E. N.; Kass, R. E.",
+      "year": 2009,
+      "title": "What Is Statistics?",
+      "venue": "The American Statistician, 63(2), 105-110",
+      "doi_or_url": "https://doi.org/10.1198/tast.2009.0019",
+      "type": "review",
+      "key_finding_ko": "신경과학 협업 경험에 비추어 통계학이 활력을 유지하려면 통계 훈련의 범위를 덜 제한적으로 넓혀야 한다고 주장했다(Cobb 2015가 '선수과목 최소화' 목표의 근거로 인용).",
+      "relevance": [
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD13",
+      "topic": "6_stats_ds_education",
+      "authors": "Donoho, D.",
+      "year": 2017,
+      "title": "50 Years of Data Science",
+      "venue": "Journal of Computational and Graphical Statistics, 26(4), 745-766",
+      "doi_or_url": "https://doi.org/10.1080/10618600.2017.1384734",
+      "type": "review",
+      "key_finding_ko": "Tukey 이후 학계 통계학 개혁 요구(데이터 준비·표현, 예측 강조 등)를 정리하고, 대학 데이터과학 프로그램이 부상하는 상황에서 통계학이 경계를 넓혀야 한다고 논의했다.",
+      "relevance": [
+        "curriculum_content",
+        "computing"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "SD14",
+      "topic": "6_stats_ds_education",
+      "authors": "Wild, C. J.; Pfannkuch, M.",
+      "year": 1999,
+      "title": "Statistical Thinking in Empirical Enquiry",
+      "venue": "International Statistical Review, 67(3), 223-248",
+      "doi_or_url": "https://doi.org/10.1111/j.1751-5823.1999.tb00442.x",
+      "type": "case-study",
+      "key_finding_ko": "통계 전공 학생과 실무 통계가 면담을 바탕으로 탐구 주기, 질문 주기, 사고 유형, 성향의 4차원 통계적 사고 틀을 제시했다. 통계적 사고의 핵심 요소로 '변동(variation)'을 강조했다.",
+      "relevance": [
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC01",
+      "topic": "6_stats_ds_education",
+      "authors": "Taplin, R. H.",
+      "year": 2003,
+      "title": "Teaching Statistical Consulting Before Statistical Methodology",
+      "venue": "Australian & New Zealand Journal of Statistics, 45(2), 141-152",
+      "doi_or_url": "https://doi.org/10.1111/1467-842x.00270",
+      "type": "case-study",
+      "key_finding_ko": "통계 기법 과목 이전 또는 병행 단계에 '통계 컨설팅 입문' 과목을 두어 실제 통계 적용 경험과 통계적 사고를 기르게 했다. 일부 학생이 통계를 더 공부할 동기를 얻는 등 학생 호응이 높았다.",
+      "relevance": [
+        "consulting_capstone"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC02",
+      "topic": "6_stats_ds_education",
+      "authors": "Taplin, R.",
+      "year": 2007,
+      "title": "Enhancing Statistical Education by Using Role-Plays of Consultations",
+      "venue": "Journal of the Royal Statistical Society Series A: Statistics in Society, 170(2), 267-300",
+      "doi_or_url": "https://doi.org/10.1111/j.1467-985x.2007.00463.x",
+      "type": "case-study",
+      "key_finding_ko": "학생이 짝을 지어 의뢰인과 통계 컨설턴트 역할극을 하게 한 결과, 통계적 사고·문제해결·맥락 활용 능력과 통계 및 통계 직업에 대한 태도가 개선되었다는 실증 근거를 제시했다.",
+      "relevance": [
+        "consulting_capstone",
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC03",
+      "topic": "6_stats_ds_education",
+      "authors": "Smucker, B. J.; Bailer, A. J.",
+      "year": 2015,
+      "title": "Beyond Normal: Preparing Undergraduates for the Work Force in a Statistical Consulting Capstone",
+      "venue": "The American Statistician, 69(4), 300-306",
+      "doi_or_url": "https://doi.org/10.1080/00031305.2015.1077731",
+      "type": "case-study",
+      "key_finding_ko": "Miami University 학부 통계 컨설팅 캡스톤을 모의 과제에서 실제 의뢰인 프로젝트로 전환한 사례. 적절한 멘토링이 있으면 학부생도 기존 수업 범위를 넘는 실제 데이터 문제를 분석할 수 있었고, 과목 평가와 학생 반응, 현업 요구 기술과의 연계를 보고했다.",
+      "relevance": [
+        "consulting_capstone",
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC04",
+      "topic": "6_stats_ds_education",
+      "authors": "Martonosi, S. E.; Williams, T. D.",
+      "year": 2016,
+      "title": "A Survey of Statistical Capstone Projects",
+      "venue": "Journal of Statistics Education, 24(3), 127-135",
+      "doi_or_url": "https://doi.org/10.1080/10691898.2016.1257927",
+      "type": "review",
+      "key_finding_ko": "통계 캡스톤을 독립 프로젝트, 통계 컨설팅, 고급 방법론 과목 내 프로젝트, 교수 중심 캡스톤 과목의 4유형으로 분류했다. 캡스톤은 복잡한 문제 정의·분석·팀 구성·효과적 소통 등 정규 과목 밖 역량을 기르고 취업·대학원 준비에 이점이 있다고 정리했다.",
+      "relevance": [
+        "consulting_capstone"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC05",
+      "topic": "6_stats_ds_education",
+      "authors": "Kolaczyk, E.; Wright, H.; Yajima, M.",
+      "year": 2021,
+      "title": "Statistics Practicum: Placing 'Practice' at the Center of Data Science Education",
+      "venue": "Harvard Data Science Review",
+      "doi_or_url": "https://doi.org/10.1162/99608f92.2d65fc70",
+      "type": "case-study",
+      "key_finding_ko": "BU 통계실무 석사(MSSP)에서 교실과 산업 환경을 혼합한 'Statistics Practicum'을 프로그램 중심에 둔 5년 경험을 보고했다. 조직·운영과 성공·과제, 그리고 학생 성취와 프로그램 영향을 공정하게 평가하기 어렵다는 점을 논의했다.",
+      "relevance": [
+        "consulting_capstone"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract",
+      "note": "석사 과정 사례"
+    },
+    {
+      "id": "CC06",
+      "topic": "6_stats_ds_education",
+      "authors": "Vance, E. A.",
+      "year": 2015,
+      "title": "Recent Developments and Their Implications for the Future of Academic Statistical Consulting Centers",
+      "venue": "The American Statistician, 69(2), 127-137",
+      "doi_or_url": "https://doi.org/10.1080/00031305.2015.1033990",
+      "type": "review",
+      "key_finding_ko": "지난 25년간 컴퓨팅·재정·인력·목적·훈련의 변화가 대학 통계 컨설팅 센터에 준 영향을 분석했다. 목적 지향 센터가 영향력을 키우는 선순환을 이루기 위한 행동을 제안했다.",
+      "relevance": [
+        "consulting_capstone"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC07",
+      "topic": "6_stats_ds_education",
+      "authors": "Vance, E. A.; Smith, H. S.",
+      "year": 2019,
+      "title": "The ASCCR Frame for Learning Essential Collaboration Skills",
+      "venue": "Journal of Statistics Education, 27(3), 265-274",
+      "doi_or_url": "https://doi.org/10.1080/10691898.2019.1687370",
+      "type": "review",
+      "key_finding_ko": "통계·데이터과학 협업의 필수 5요소로 태도·구조·내용·의사소통·관계(ASCCR) 프레임을 제시했다. 교실·현장 훈련과 자기학습에 적용할 수 있으며, 효과 근거를 축적할 것을 촉구했다.",
+      "relevance": [
+        "consulting_capstone",
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC08",
+      "topic": "6_stats_ds_education",
+      "authors": "Vance, E. A.; Alzen, J. L.; Smith, H. S.",
+      "year": 2022,
+      "title": "Creating Shared Understanding in Statistics and Data Science Collaborations",
+      "venue": "Journal of Statistics and Data Science Education, 30(1), 54-64",
+      "doi_or_url": "https://doi.org/10.1080/26939169.2022.2035286",
+      "type": "review",
+      "key_finding_ko": "협업자와의 '공유된 이해(shared understanding)' 개념과 이를 스스로 익히고 가르치는 절차를 제시해, 통계·데이터과학 협업 프로젝트의 영향력을 높이는 방법을 정리했다.",
+      "relevance": [
+        "consulting_capstone",
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CC09",
+      "topic": "6_stats_ds_education",
+      "authors": "Alzen, J. L.; Cho, K. J.; Vance, E. A.",
+      "year": 2026,
+      "title": "Teaching Statistics and Data Science Collaboration via a Community of Practice",
+      "venue": "Journal of Statistics and Data Science Education, 34(3), 306-318",
+      "doi_or_url": "https://doi.org/10.1080/26939169.2024.2422821",
+      "type": "case-study",
+      "key_finding_ko": "실천공동체(CoP) 방식으로 통계·데이터과학 협업을 가르친 기술(descriptive) 연구에서 학생과 분야 전문가 모두 이 방식이 효과적이라고 인식했다. 수업 내 CoP의 의도적 조성, 동료 멘토링, 성장 마인드셋 강조를 권고했다.",
+      "relevance": [
+        "consulting_capstone",
+        "communication",
+        "peer_teaching"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract",
+      "note": "온라인 선공개 2024, 권호 34(3) 2026"
+    },
+    {
+      "id": "DF01",
+      "topic": "6_stats_ds_education",
+      "authors": "Noll, J.; Tackett, M.",
+      "year": 2023,
+      "title": "Insights from DataFest point to new opportunities for undergraduate statistics courses: Team collaborations, designing research questions, and data ethics",
+      "venue": "Teaching Statistics, 45(S1)",
+      "doi_or_url": "https://doi.org/10.1111/test.12345",
+      "type": "case-study",
+      "key_finding_ko": "DataFest에 참가한 초보·숙련 학부 팀의 사례를 통해 연구질문 설정, 직업윤리와 편향, 팀 협업이 교과과정 재구성의 핵심 기회임을 보이고 수업 활동 예시를 제공했다.",
+      "relevance": [
+        "consulting_capstone",
+        "ethics",
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "DF02",
+      "topic": "6_stats_ds_education",
+      "authors": "Dalzell, N. M.; Evans, C.",
+      "year": 2023,
+      "title": "Increasing Student Access to and Readiness for Statistical Competitions",
+      "venue": "Journal of Statistics and Data Science Education, 31(3), 258-263",
+      "doi_or_url": "https://doi.org/10.1080/26939169.2023.2167750",
+      "type": "case-study",
+      "key_finding_ko": "ASA DataFest·WiDS 등 통계 경진대회는 데이터 정리·시각화·모델링·소통·팀워크를 연습하는 기회지만 저학년은 사전 준비가 필요하다고 보고, 저부담 DataFest 준비 과목 운영 사례를 제시했다.",
+      "relevance": [
+        "consulting_capstone",
+        "computing"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "DF03",
+      "topic": "6_stats_ds_education",
+      "authors": "Higgins, T.; Karch, J. M.; Hammerman, J. K. L.",
+      "year": 2024,
+      "title": "Studying interdisciplinary thinking about complex real world data at datafest",
+      "venue": "Proceedings of the IASE 2023 Roundtable Conference - Fostering Learning of Statistics and Data Science",
+      "doi_or_url": "https://doi.org/10.52041/iase2023.116",
+      "type": "case-study",
+      "key_finding_ko": "DataFest 팀이 다학제 도구와 도메인 지식을 통합해 대규모·실제·복잡(LAC) 데이터 탐구에 생산적으로 참여하는 방식을 분석한 예비 연구 결과를 보고했다.",
+      "relevance": [
+        "consulting_capstone"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CM01",
+      "topic": "6_stats_ds_education",
+      "authors": "Radke-Sharpe, N.",
+      "year": 1991,
+      "title": "Writing as a Component of Statistics Education",
+      "venue": "The American Statistician, 45(4), 292-293",
+      "doi_or_url": "https://doi.org/10.1080/00031305.1991.10475825",
+      "type": "review",
+      "key_finding_ko": "통계 교육이 수식과 이론에 치우쳐 있지만 분석 해석과 비전문가 대상 결과 전달도 그만큼 중요하다고 보고, 글쓰기 과제를 통계 과목의 일상적 구성요소로 넣을 것을 주장했다(입장 논문).",
+      "relevance": [
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CM02",
+      "topic": "6_stats_ds_education",
+      "authors": "Parke, C. S.",
+      "year": 2008,
+      "title": "Reasoning and Communicating in the Language of Statistics",
+      "venue": "Journal of Statistics Education, 16(1)",
+      "doi_or_url": "https://doi.org/10.1080/10691898.2008.11889555",
+      "type": "case-study",
+      "key_finding_ko": "통계 과목 한 학기 전체에 인지적 개별 과제, 소그룹 활동, 학생 주도 채점 활동을 도입한 결과 추론·이해, 서면·구두 의사소통, 자신감이 향상되었음을 질적·양적 자료로 보였다.",
+      "relevance": [
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract",
+      "note": "교육학 대학원생 대상"
+    },
+    {
+      "id": "CM03",
+      "topic": "6_stats_ds_education",
+      "authors": "Hildreth, L. A.; Burnham, E. M.",
+      "year": 2025,
+      "title": "Integrating Statistical Writing in an Applied Regression Course Using Small-Scale Writing Projects",
+      "venue": "Journal of Statistics and Data Science Education, 33(4), 407-417",
+      "doi_or_url": "https://doi.org/10.1080/26939169.2025.2526626",
+      "type": "case-study",
+      "key_finding_ko": "응용 회귀분석 과목에 5개 소규모 글쓰기 프로젝트를 도입한 결과, 학기 중 글쓰기 태도가 개선되고 학생 경험이 긍정적이었다(설문).",
+      "relevance": [
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "CM04",
+      "topic": "6_stats_ds_education",
+      "authors": "DeLuca, L. S.; Reinhart, A.; Weinberg, G.; Laudenbach, M.; Miller, S.; Brown, D. W.",
+      "year": 2025,
+      "title": "Developing Students’ Statistical Expertise Through Writing in the Age of AI",
+      "venue": "Journal of Statistics and Data Science Education, 33(3), 266-278",
+      "doi_or_url": "https://doi.org/10.1080/26939169.2025.2497547",
+      "type": "case-study",
+      "key_finding_ko": "LLM·학생·출판 연구자가 쓴 데이터 분석 보고서를 정량·정성 비교한 결과 정보 관리, 확신 조절, 중요성 표시, 통계 보고 방식에서 기계와 인간, 초보와 전문가 글쓰기 사이에 뚜렷한 차이가 있었다. 글쓰기가 통계적 추론을 발달시키는 수단이라는 점을 강조했다.",
+      "relevance": [
+        "communication"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "ET01",
+      "topic": "6_stats_ds_education",
+      "authors": "Baumer, B. S.; Garcia, R. L.; Kim, A. Y.; Kinnaird, K. M.; Ott, M. Q.",
+      "year": 2022,
+      "title": "Integrating Data Science Ethics Into an Undergraduate Major: A Case Study",
+      "venue": "Journal of Statistics and Data Science Education, 30(1), 15-28",
+      "doi_or_url": "https://doi.org/10.1080/26939169.2022.2038041",
+      "type": "case-study",
+      "key_finding_ko": "Smith College 통계·데이터과학 전공에서 NAS 권고에 맞춰 윤리를 입문부터 캡스톤까지(수직), 그리고 비교과 활동으로(수평) 통합했다. 5개 과목에 쓰인 6개 이식형 윤리 모듈과 효과 평가를 제시했다.",
+      "relevance": [
+        "ethics",
+        "curriculum_content"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "ET02",
+      "topic": "6_stats_ds_education",
+      "authors": "Fiesler, C.; Garrett, N.; Beard, N.",
+      "year": 2020,
+      "title": "What Do We Teach When We Teach Tech Ethics? A Syllabi Analysis",
+      "venue": "Proceedings of the 51st ACM Technical Symposium on Computer Science Education, 289-295",
+      "doi_or_url": "https://doi.org/10.1145/3328778.3366825",
+      "type": "survey",
+      "key_finding_ko": "대학 기술윤리 과목 강의계획서 115개를 질적으로 분석해 내용과 학습목표 현황을 정리하고, 컴퓨팅 교육과정 전반에 윤리를 통합하기 위한 권고를 제시했다.",
+      "relevance": [
+        "ethics"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "ET03",
+      "topic": "6_stats_ds_education",
+      "authors": "Colando, S.; Hardin, J.",
+      "year": 2024,
+      "title": "Philosophy within Data Science Ethics Courses",
+      "venue": "Journal of Statistics and Data Science Education, 32(4), 361-373",
+      "doi_or_url": "https://doi.org/10.1080/26939169.2024.2394542",
+      "type": "review",
+      "key_finding_ko": "공개된 데이터과학 윤리 과목 16개의 강의계획서·읽기목록에서 윤리 주제를 모아, 데이터과학 실천 단계와 철학적 윤리 문헌을 연결하는 틀을 제시했다.",
+      "relevance": [
+        "ethics"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "ET04",
+      "topic": "6_stats_ds_education",
+      "authors": "American Statistical Association",
+      "year": 2022,
+      "title": "Ethical Guidelines for Statistical Practice",
+      "venue": "American Statistical Association",
+      "doi_or_url": "https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice",
+      "type": "guideline",
+      "key_finding_ko": "ASA 이사회 승인(2022.2.1) 통계 실무 윤리 지침. 직업적 무결성·책임, 데이터·방법의 무결성, 이해관계자·연구대상자·다학제 팀·동료 실무자에 대한 책임, 리더·감독자·멘토의 책임, 부정행위 대응의 8개 원칙(A~H)으로 구성된다.",
+      "relevance": [
+        "ethics"
+      ],
+      "verified_via": "ASA 공식 웹페이지 열람"
+    },
+    {
+      "id": "RP01",
+      "topic": "6_stats_ds_education",
+      "authors": "Baumer, B.; Cetinkaya-Rundel, M.; Bray, A.; Loi, L.; Horton, N. J.",
+      "year": 2014,
+      "title": "R Markdown: Integrating A Reproducible Analysis Tool into Introductory Statistics",
+      "venue": "Technology Innovations in Statistics Education, 8(1)",
+      "doi_or_url": "https://doi.org/10.5070/t581020118",
+      "type": "case-study",
+      "key_finding_ko": "R Markdown을 입문 통계에 도입해 복사-붙여넣기 작업흐름의 재현성 문제를 해결했고, 입문 과목에서도 효과적으로 쓸 수 있다는 경험적·통계적 근거를 제시했다.",
+      "relevance": [
+        "computing"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "RP02",
+      "topic": "6_stats_ds_education",
+      "authors": "Bryan, J.",
+      "year": 2018,
+      "title": "Excuse Me, Do You Have a Moment to Talk About Version Control?",
+      "venue": "The American Statistician, 72(1), 20-27",
+      "doi_or_url": "https://doi.org/10.1080/00031305.2017.1399928",
+      "type": "review",
+      "key_finding_ko": "통계·데이터과학 작업흐름(R, R Markdown 중심)에 Git·GitHub 분산 버전관리를 적용하는 방법을 정리하고 학습 자료를 제공했다.",
+      "relevance": [
+        "computing"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "RP03",
+      "topic": "6_stats_ds_education",
+      "authors": "Beckman, M. D.; Çetinkaya-Rundel, M.; Horton, N. J.; Rundel, C. W.; Sullivan, A. J.; Tackett, M.",
+      "year": 2021,
+      "title": "Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses",
+      "venue": "Journal of Statistics and Data Science Education, 29(sup1), S132-S144",
+      "doi_or_url": "https://doi.org/10.1080/10691898.2020.1848485",
+      "type": "case-study",
+      "key_finding_ko": "여러 기관 교수 4명이 버전관리(Git)를 통계 과목 학습목표로 통합한 경험을 바탕으로 학생 배경·과목 유형·소프트웨어·평가 방식에 따른 구현 전략을 정리했다.",
+      "relevance": [
+        "computing"
+      ],
+      "verified_via": "Crossref DOI metadata + OpenAlex abstract"
+    },
+    {
+      "id": "KR01",
+      "topic": "8_korean_context",
+      "authors": "조진숙; 전영미",
+      "year": 2019,
+      "title": "대학생의 학습참여가 학습성과에 미치는 영향에 대한 사례 연구 (A Case Study on Effect Analysis of Students' Engagement and Learning Outcomes in Higher Education)",
+      "venue": "한국콘텐츠학회논문지, 19(1), 524-534",
+      "doi_or_url": "https://doi.org/10.5392/JKCA.2019.19.01.524",
+      "type": "survey",
+      "key_finding_ko": "수도권 한 대학 K-NSSE 응답자 392명 분석에서 학생들의 고효과프로그램(HIP) 참여 수준은 가장 낮았지만 학습성과에 가장 큰 영향을 미쳤고, 고차원 학습과 다양한 사람과의 토론이 뒤를 이었다. 이공계열의 참여가 인문·사회계열보다 낮았다.",
+      "relevance": [
+        "research",
+        "curriculum_content"
+      ],
+      "verified_via": "KCI 논문 페이지(ART002434185) 열람"
+    },
+    {
+      "id": "KR02",
+      "topic": "8_korean_context",
+      "authors": "홍송이; 임성택",
+      "year": 2016,
+      "title": "학습컨설팅 지원 튜터링 프로그램이 대학생의 학습동기, 학습몰입, 학업성취에 미치는 효과 (The Effects of the Tutoring Program with Consulting for College Students' Learning)",
+      "venue": "교육학연구, 54(4), 295-327",
+      "doi_or_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002176892",
+      "type": "quasi-experimental",
+      "key_finding_ko": "강원 K대 학생 126명(실험 I 54명, 실험 II 36명, 통제 36명) 사전-사후 통제집단 설계에서 학습컨설팅 지원 튜터링은 GPA를 통제집단보다 더 높였고 학습몰입에는 부분적 효과가 있었으나 학습동기 효과는 없었다. 효과는 튜터·튜티 모두에게 나타났다.",
+      "relevance": [
+        "peer_teaching"
+      ],
+      "verified_via": "KCI 논문 페이지(ART002176892) 열람"
+    },
+    {
+      "id": "KR03",
+      "topic": "8_korean_context",
+      "authors": "안현아; 박영신; 김경이",
+      "year": 2018,
+      "title": "대학 내 동료 튜터링 프로그램이 튜터와 학습자의 학업역량과 핵심역량에 미치는 효과 (The effect of Peer Tutoring on College Students' Learning Competency and Core Competency)",
+      "venue": "학습자중심교과교육연구, 18(21), 481-504",
+      "doi_or_url": "https://doi.org/10.22251/jlcci.2018.18.21.481",
+      "type": "survey",
+      "key_finding_ko": "C대 동료 튜터링 참여자 438명(2017) 사전·사후 조사에서 튜터는 학습전략·메타인지가, 튜티는 학업성취(GPA)·학습몰입·메타인지가 향상되었다. 양쪽 모두 핵심역량, 특히 문제해결·학문 역량이 높아졌다(비교집단 없음).",
+      "relevance": [
+        "peer_teaching"
+      ],
+      "verified_via": "KCI 논문 페이지(ART002403859) 열람"
+    },
+    {
+      "id": "KR04",
+      "topic": "8_korean_context",
+      "authors": "박천수; 문승태; 박화춘",
+      "year": 2023,
+      "title": "대학생 직업체험 참여가 졸업 후 노동시장으로 이행에 미치는 효과 (Effects of College Students' Participation in Career Preparation Activities on Full-Time Employment and Wage Level After Graduation)",
+      "venue": "성인계속교육연구, 14(4), 89-117",
+      "doi_or_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003044526",
+      "type": "survey",
+      "key_finding_ko": "2019 대졸자직업이동경로조사(GOMS) 4년제 졸업생 13,676명 분석(로지스틱 회귀, Heckman 표본선택 모형)에서 재학 중 직업체험 참여 여부·횟수·만족도는 모두 졸업 후 정규직 취업 확률을 유의하게 높였지만 임금 수준에는 유의한 영향이 없었다.",
+      "relevance": [
+        "internship"
+      ],
+      "verified_via": "KCI 논문 페이지(ART003044526) 열람"
+    },
+    {
+      "id": "KR05",
+      "topic": "8_korean_context",
+      "authors": "안수현; 이상준",
+      "year": 2022,
+      "title": "이중차분법을 이용한 대학 비교과 프로그램 성과분석 (The Performance Analysis of Extracurricular Programs in University Using DID Method)",
+      "venue": "인문사회 21, 13(1), 3051-3062",
+      "doi_or_url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002812360",
+      "type": "quasi-experimental",
+      "key_finding_ko": "학업증진 비교과 프로그램을 이중차분법(DID)으로 분석한 결과, 참여 전보다 참여 후 성과는 높아졌지만 참여·미참여 학생 간 차이는 유의하지 않았다. 사전-사후 비교만으로는 프로그램 효과를 과대평가할 수 있음을 보여 준다.",
+      "relevance": [
+        "peer_teaching",
+        "curriculum_content"
+      ],
+      "verified_via": "KCI 논문 페이지(ART002812360) 열람"
+    },
+    {
+      "id": "KR06",
+      "topic": "8_korean_context",
+      "authors": "김지숙; 최희정",
+      "year": 2018,
+      "title": "캡스톤디자인 프로그램이 간호학생의 창의적리더십, 문제해결능력, 비판적사고 성향에 미치는 효과 (Effects of Capstone Design Program on Creative Leadership, Problem Solving Ability and Critical Thinking)",
+      "venue": "한국콘텐츠학회논문지, 18(4), 406-415",
+      "doi_or_url": "https://doi.org/10.5392/JKCA.2018.18.04.406",
+      "type": "quasi-experimental",
+      "key_finding_ko": "간호학 캡스톤디자인 수강생 18명과 타 대학 비교군 20명의 사전·사후 비교에서 창의적 리더십과 문제해결능력이 유의하게 향상되었고(국문 초록상 비판적 사고 성향도 향상), 세 변인은 서로 정적 상관을 보였다. 소표본·비동등 비교군의 한계가 있다.",
+      "relevance": [
+        "consulting_capstone"
+      ],
+      "verified_via": "KoreaScience 논문 페이지(DOI 해석) 열람"
+    }
+  ],
+  "content_areas": [
+    {
+      "area": "Statistical methods and theory",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "연구 설계, 그래픽 등으로 데이터 탐색, 통계 모형 구축·평가, 다양한 추론 절차(재표집 포함), 적절한 결론 범위 도출. 세부 주제는 통계 이론(분포·우도·추정·검정·결정이론·베이즈·재표집), 탐색적 자료분석, 연구설계와 편향·인과·교란, 선형·비선형·비모수 회귀와 기계학습을 포함한 다양한 모형이다."
+    },
+    {
+      "area": "Data wrangling and computation",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "전문 통계 소프트웨어 사용, 고급 언어(R·Python·SAS 등) 프로그래밍, 알고리즘적 사고·구조적 프로그래밍·디버깅, 시뮬레이션·최적화·재표집 같은 계산 집약 방법, CSV·JSON·XML·데이터베이스·텍스트 등 여러 형식의 데이터 결합·재구조화, 결측 처리, 복수 도구 활용."
+    },
+    {
+      "area": "Reproducible, well-documented analysis",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "데이터 관리와 분석을 문서화되고 재현 가능한 방식으로 수행해야 한다(스프레드시트는 주 분석 환경으로 권장하지 않음, knitr 등 도구 예시). 분석 과정 자체를 '재현 가능하게' 수행하는 것을 문제해결 주기의 일부로 명시했다."
+    },
+    {
+      "area": "Mathematical foundations",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "미적분(다변수 권장), 선형대수(행렬 연산·사영·고유값·분해), 확률(일변량·다변량 확률변수, 이산·연속 분포)과 이들 개념의 통계적 응용 간 연결. 박사 진학 예정자는 해석학 등 추가 수학이 필요하다."
+    },
+    {
+      "area": "Statistical practice: communication",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "명료한 글쓰기, 유창한 발표, 효과적인 시각화와 설득력 있는 서면 요약, 복잡한 통계 방법을 관리자 등 비전문가에게 쉬운 말로 설명하는 능력. 커뮤니케이션 연습을 기술적 통계 교육과 직접 연결해 자주 제공하라고 권고했다."
+    },
+    {
+      "area": "Statistical practice: teamwork, collaboration and project management",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "팀 협업, 프로젝트 조직·관리, 다양한 의뢰인·협업자와의 상호작용. 통계는 '팀 스포츠'이며, 특히 연구 기획 단계에서 분야 목표를 통계 계획으로 번역하는 능력이 필요하다(캡스톤에서 프로젝트 관리 교육 가능)."
+    },
+    {
+      "area": "Ethics and professional conduct",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "윤리 문제를 프로그램 전반에 통합하고(인간·동물 대상 윤리, 데이터 품질 보증, 적절한 분석, 편향 없는 결과 보고 등), 전문가 행동 규범과 윤리 교육을 교수법에 포함하라고 권고했다."
+    },
+    {
+      "area": "Discipline-specific (domain) knowledge",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "연구 질문을 통계 질문으로 번역하고 분야별 청중에 맞게 결과를 전달하는 능력. 통계는 방법론 학문이므로 응용 분야 학습(복수전공·연계전공·부전공 등)을 권장했다."
+    },
+    {
+      "area": "Practice in context: internships, capstones, consulting, research",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "가능하면 인턴십, 4학년 캡스톤, 컨설팅 경험, 연구 경험 또는 그 조합을 학부 경험에 포함하라고 권고했다(DataFest, REU 등 예시). 통계학자로 일하는 연습 기회를 교과과정에 충분히 마련해야 한다."
+    },
+    {
+      "area": "Real data and 'thinking with data' (pedagogy)",
+      "source": "ASA (2014) Curriculum Guidelines for Undergraduate Programs in Statistical Science",
+      "summary_ko": "실제 데이터와 실질적 응용을 교과과정 전반에 배치하고, 계산·데이터 기술을 일찍 그리고 자주 경험하게 하며, 이론·방법·계산·응용의 통합, 팀 작업, 실제 피드백을 주는 정기 평가를 권고했다. 2000년 지침 이후 가장 큰 변화로 '데이터로 생각하기'를 꼽았다."
+    },
+    {
+      "area": "Mathematical foundations",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "가설 검증과 모형이 실패하는 지점을 판단하는 데 필요한 수학(선형대수, 확률, 최적화 등)."
+    },
+    {
+      "area": "Computational foundations",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "프로그래밍, 알고리즘적 사고, 데이터 접근·조직을 위한 계산 기술."
+    },
+    {
+      "area": "Statistical foundations",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "추론, 표본·비표본 오차, 교란, 인과적 추론, 모형 평가 등 통계적 기초."
+    },
+    {
+      "area": "Data management and curation",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "데이터 저장·준비·정제·문서화, 출처(provenance)와 프라이버시 관리."
+    },
+    {
+      "area": "Data description and visualization",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "데이터 요약과 그래픽을 이용한 탐색·점검·전달."
+    },
+    {
+      "area": "Data modeling and assessment",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "기계학습을 포함한 모형의 선택·구축·평가·해석."
+    },
+    {
+      "area": "Workflow and reproducibility",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "분석을 반복·신뢰할 수 있도록 문서화되고 공유 가능한 파이프라인 구축."
+    },
+    {
+      "area": "Communication and teamwork",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "비전문가에게 결과를 설명하고 학제 간 팀에서 효과적으로 협업하는 능력."
+    },
+    {
+      "area": "Domain-specific considerations",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "적용 분야에 대한 지식을 바탕으로 데이터과학을 활용하는 능력."
+    },
+    {
+      "area": "Ethical problem solving",
+      "source": "NASEM (2018) Data Science for Undergraduates: Opportunities and Options, Finding 2.3 (data acumen)",
+      "summary_ko": "데이터과학 수명주기 전 단계에서 프라이버시·공정성·오용·책임 문제를 다루는 능력. 권고 2.4는 윤리를 교육과정 처음부터 끝까지 엮으라고, 권고 2.5는 데이터과학 공동체의 윤리강령 채택을 권고했다."
+    }
+  ]
+}

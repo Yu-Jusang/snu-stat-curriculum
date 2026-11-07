@@ -1,0 +1,502 @@
+{
+  "items": [
+    {
+      "name": "통계학 학사학위 논문(졸업논문) 제출",
+      "level": "department",
+      "category": "research",
+      "description": "통계학과 학부 졸업예정자는 졸업 학기에 학과 서식에 따라 서론부터 결론까지 18장 이상의 통계학 학사학위 논문을 작성하여 카피킬러 표절검사(표절률 20% 이하 권장)를 거쳐 학과에 제출해야 한다(2027년 2월 졸업예정자 마감 2026.12.1.). 공개된 공지 요약에서는 학점 부여, 지도교수 배정, 심사 절차가 확인되지 않으며, 교과목 이수규정 페이지에는 이 요건이 명시되어 있지 않다.",
+      "url": "https://stat.snu.ac.kr/32538/",
+      "verified": true,
+      "recent_change": "2026-1학기 공지는 카피킬러와 GPT킬러 검사를 모두 요구했으나, 2026-2학기 공지는 AI생성검사 서비스 계약 종료로 해당 검사를 요구하지 않음."
+    },
+    {
+      "name": "통계학과 졸업이수학점 및 전공 이수규정(2025학번 이후)",
+      "level": "department",
+      "category": "other",
+      "description": "졸업학점 130, 교양 46, 주전공 60학점이며 전공필수 5과목(확률의 개념 및 응용, 전산통계 및 실험, 수리통계 1·2, 회귀분석 및 실습)과 학과 개설 전공선택 5과목 이상을 이수해야 하고, 수리과학부·컴퓨터공학부 전 교과목과 학과장 사전승인 교과목(최대 9학점)을 전공선택으로 인정한다. 이수규정에는 졸업시험, 인턴십, 연구학점, 캡스톤 교과목 요건이 없고 영어진행강좌는 권장 사항이다.",
+      "url": "https://stat.snu.ac.kr/교과과정/학사과정/교과목-이수규정/2026학번/",
+      "verified": true,
+      "recent_change": "2025학번부터 수리과학부 개설 전공필수(해석개론 1, 선형대수학 1) 요건이 삭제됨(2023~2024학번 규정과 비교). 2026학번부터 자연과학대학 기초수학과학 학습역량 진단평가 기준 성적 취득 시 해당 교양 수강의무 면제."
+    },
+    {
+      "name": "통계학과 주관 교과인증과정(데이터 애널리틱스, 데이터 컴퓨팅)",
+      "level": "department",
+      "category": "interdisciplinary_major",
+      "description": "학부생 대상 12학점(4과목) 마이크로 교과과정으로, 데이터 애널리틱스는 '컴퓨팅 응용: 데이터사이언스의 기초', 자료분석 및 실습, 자료분석 심화방법론 및 실습과 선택 1과목을, 데이터 컴퓨팅은 프로그래밍 기초·알고리즘 계열과 통계 전산 과목을 이수하고 평점 2.0 이상이면 졸업증명서와 성적증명서에 기재된다(2022-2 개설). 학생당 2개 과정까지 이수할 수 있고 주전공 등과 과정당 3학점까지 중복 인정된다.",
+      "url": "https://stat.snu.ac.kr/교과과정/학사과정/교과인증과정/",
+      "verified": true
+    },
+    {
+      "name": "통계학과 교과맞춤형(전공) 피어튜터링",
+      "level": "department",
+      "category": "peer_teaching",
+      "description": "학부대학 피어튜터링 사업의 교과맞춤형(전공) 분과로, 통계학과가 매 학기 전공과목(예: 2024-2학기 수리통계 2)에 대한 튜터와 튜티를 모집하여 우수 선배가 후배의 전공 이수와 학교 적응을 돕도록 운영한다. 신청은 학기 초 학과 공지로 받는다(2026-2학기 마감 9.11.).",
+      "url": "https://stat.snu.ac.kr/32618/",
+      "verified": true,
+      "recent_change": "2024년 공지는 운영 주체를 기초교육원으로, 2026년 공지는 학부대학으로 표기함(2025.3. 학부대학 출범에 따른 이관)."
+    },
+    {
+      "name": "기초과학(통계학 분야) 피어튜터링",
+      "level": "department",
+      "category": "peer_teaching",
+      "description": "교양 통계학 및 생명과학을 위한 통계학 수강생을 튜티로 하고, 해당 교과목을 수강한 성적 우수 2학년 이상 학부 재학생(휴학생 제외)을 튜터로 선발하여 학기 단위로 운영한다. 통계학과가 학부대학 피어튜터링 기초과학 분과의 통계학 분야 모집을 담당한다.",
+      "url": "https://stat.snu.ac.kr/32299/",
+      "verified": true
+    },
+    {
+      "name": "자연대 학부생연구인턴십의 통계학과 배정 선발 및 교수 연구실 모집",
+      "level": "department",
+      "category": "research",
+      "description": "자연과학대학 학부생연구인턴십의 학과 배정 인원을 통계학과가 자체 기준으로 선발하며, 2026학년도 배정은 상반기 학부생연구인턴십 17명·LX 2명, 하반기 12명·LX 1명이다. 교수 연구실이 주제를 제시하여 인턴을 직접 모집하기도 한다(예: 2026-2학기 장원철 교수 연구실의 '최고 100선' 순위 산정 프로젝트).",
+      "url": "https://stat.snu.ac.kr/30152/",
+      "verified": true
+    },
+    {
+      "name": "통계상담 및 실습(대학원 교과목)",
+      "level": "department",
+      "category": "consulting_practicum",
+      "description": "대학원 전공선택 교과목(326.517A, 3학점)으로, 수강생이 통계학과에 의뢰된 실제 통계상담을 담당교수 감독하에 수행하고 결과를 발표한다. 학부 교육과정에는 상응 교과목이 없으며 학부생 수강 허용 여부는 확인되지 않았다.",
+      "url": "https://stat.snu.ac.kr/교과과정/대학원과정/교과목-개요/",
+      "verified": true
+    },
+    {
+      "name": "학과세미나·특별세미나",
+      "level": "department",
+      "category": "seminar",
+      "description": "학과가 외부 연사를 초청하는 학과세미나와 특별세미나를 운영하며 일정과 Zoom 링크를 홈페이지에 공개 게시한다(예: 2026.10.30. 하이브리드 개최). 학과세미나는 석사과정 필수 이수 교과목(2025-1 입학생부터 1회 이상)이며, 학부생 참석에 관한 별도 안내나 학부 학점은 확인되지 않는다.",
+      "url": "https://stat.snu.ac.kr/32381/",
+      "verified": true,
+      "recent_change": "대학원 학과세미나 이수 요건이 2회 이상(2024-2 입학생까지)에서 1회 이상(2025-1 입학생부터)으로 완화됨(2026.10.20. 개정 내규)."
+    },
+    {
+      "name": "통계학과 취업정보 게시판",
+      "level": "department",
+      "category": "career",
+      "description": "학과 홈페이지 '취업정보' 게시판에 기업 채용, 인턴, 산학장학, 외부 교육과정, 데이터 경진대회 공고를 상시 게시한다. 학과가 직접 주관하는 진로 행사는 홈페이지에서 확인되지 않는다.",
+      "url": "https://stat.snu.ac.kr/category/board-18-GN-4n79A6rb-20210204014612/",
+      "verified": true
+    },
+    {
+      "name": "통계학과 학생회 활동 및 세미나실 예약",
+      "level": "department",
+      "category": "community",
+      "description": "학과 홈페이지에 학생회 행사(2026년 총 MT, 신년회)가 소개되며, 학과 세미나실(208·209·210·405·406호)은 SNU 통합계정으로 로그인하여 온라인 예약할 수 있다. 학생 학회에 대한 학과 차원의 지원 제도는 홈페이지에서 확인되지 않는다.",
+      "url": "https://stat.snu.ac.kr/",
+      "verified": true
+    },
+    {
+      "name": "자연과학대학 학부생 연구인턴십",
+      "level": "college",
+      "category": "research",
+      "description": "자연대 및 타 단과대·타 대학 2~4학년 재학생이 지도교수 추천을 받아 학부(과) 선발을 거치면 연구실에서 유형1(방학 8주, 장려금 60만원) 또는 유형2(학기 16주, 장려금 90만원) 인턴십을 수행한다. 안전환경교육 이수와 출석부·결과보고서(3~5쪽, 지도교수 서명) 제출 시 수료증과 장려금이 지급되며, 안내 페이지에 학점 인정에 관한 언급은 없다.",
+      "url": "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+      "verified": true,
+      "recent_change": "2026학년도 동계(유형1)는 연수비 지원 대상을 본교 재학생으로 한정하여 타 대학·국외대학 학생 선발 불가."
+    },
+    {
+      "name": "LX Science Fellowship 학부생 연구인턴십",
+      "level": "college",
+      "category": "research",
+      "description": "2025년 9월 LX그룹이 출연한 기금으로 2026학년도에 신설되어 학부생연구인턴십과 함께 학과별 배정 인원(통계학과 학기당 1~2명)으로 선발한다. 2026.9.17. 장학생 연구결과 발표 및 시상식을 개최하였다.",
+      "url": "https://science.snu.ac.kr/newsroom/view/2/3/1365",
+      "verified": true,
+      "recent_change": "2026학년도 신설."
+    },
+    {
+      "name": "자연과학대학 학사·석사 연계과정(통계학과 모집단위)",
+      "level": "college",
+      "category": "combined_degree",
+      "description": "자연과학대학 학사·석사연계과정 운영 내규에 따라 학과별로 선발하며, 2027학년도 전기에는 통계학과 4명을 포함해 10개 모집단위에서 모집하였다(서류 접수 2026.10.12.~16., 학과별 전형). 선발 기준과 제출서류는 모집단위별로 다르다.",
+      "url": "https://science.snu.ac.kr/news/announcement?md=v&bbsidx=5570",
+      "verified": true,
+      "recent_change": "자연대 연계과정은 2008.5. 승인 후 2024.2. 내규 신설, 2026.7.7. 내규 일부개정, 2026.8. 변경 승인(첨단융합학부 포함)."
+    },
+    {
+      "name": "GLEAP(자연과학대학 공인 학부 우수학생단체)",
+      "level": "college",
+      "category": "community",
+      "description": "자연과학대학이 2012년 설립한 학부생 Honor Society로 매년 3월 10여 명을 선발하며, 학술 세미나·저널클럽, 관악구 고교생 멘토링(GLEAMING), 자연과학 콘서트 등을 자치적으로 운영한다.",
+      "url": "https://science.snu.ac.kr/campus-life/activity/gleap",
+      "verified": true
+    },
+    {
+      "name": "자연과학대학 학생 동아리 지원 사업",
+      "level": "college",
+      "category": "community",
+      "description": "자연과학대학 동아리연합회에 정식 등록된 학생 동아리를 대상으로 여가 및 자율 학습 동아리 활동을 지원하며, 동아리 대표가 학생행정실에 신청서류를 제출한다(2026학년도 시행).",
+      "url": "https://stat.snu.ac.kr/31372/",
+      "verified": true
+    },
+    {
+      "name": "자연과학대학 자체 발전기금 장학금(꿈의 사다리, 운초)",
+      "level": "college",
+      "category": "other",
+      "description": "학자금지원구간 4구간 이하이고 누적 평점 2.4 이상인 2~4학년 재학 학부생을 대상으로 자연대 자체 발전기금 장학생을 선발한다(규정학기 초과자·휴학자·학사경고자 제외).",
+      "url": "https://stat.snu.ac.kr/33179/",
+      "verified": true
+    },
+    {
+      "name": "자연대 학생기자단 자:몽",
+      "level": "college",
+      "category": "community",
+      "description": "자연과학대학 학생기자단으로 자연대 뉴스룸에 행사·연구 기사를 작성한다(2026년 8기 활동 확인).",
+      "url": "https://science.snu.ac.kr/campus-life/activity/reporter",
+      "verified": true
+    },
+    {
+      "name": "학사·대학원 연계과정 제도(대학 공통 기준)",
+      "level": "university",
+      "category": "combined_degree",
+      "description": "4개 학기 이상 등록, 전체 평점 3.3 이상(또는 직전 2개 학기 3.5 이상), 지도교수·학과장 추천을 갖추면 지원할 수 있으며, 수업연한은 6년 이상이되 학사 1학기·석사 2학기 범위에서 단축 가능하다. 학사 재학 중 학기당 24학점 신청과 대학원 전공 교과 12학점 이내 이수가 허용되고, 졸업논문 면제 가능, 대학원 무시험 입학, 입학금 면제, 연구프로젝트 참여 기회 등의 특례가 있다.",
+      "url": "https://advising.snu.ac.kr/resources_901/",
+      "verified": true
+    },
+    {
+      "name": "학생설계전공",
+      "level": "university",
+      "category": "interdisciplinary_major",
+      "description": "소속 전공 외 교과목으로 학생이 학제적 교과과정을 직접 구성하여 학생설계전공위원회 승인을 받아 이수하는 제도로, 2개 정규학기 이상·33학점 이상 이수, 전체 평점 3.3 이상, 자유전공학부 개설 '전공설계2' 이수가 신청 요건이다.",
+      "url": "https://advising.snu.ac.kr/resources_601/",
+      "verified": true
+    },
+    {
+      "name": "연합전공 인공지능(통계학과 참여)",
+      "level": "university",
+      "category": "interdisciplinary_major",
+      "description": "공과대학(전기·정보공학부, 컴퓨터공학부) 주관으로 통계학과 등이 참여하며, AI 코어·시스템·응용 교과목을 복수전공 수준으로 이수하고 인공지능 기업체 또는 대학 연구실 인턴을 필수로 수행한다.",
+      "url": "https://advising.snu.ac.kr/resources_410/",
+      "verified": true
+    },
+    {
+      "name": "연합전공 계산과학",
+      "level": "university",
+      "category": "interdisciplinary_major",
+      "description": "학부대학 주관으로 수리과학부·물리천문학부·컴퓨터공학부 등 14개 학과(부)가 참여하여 수치적 방법과 컴퓨터 계산을 통한 문제 해결을 교육하는 연합전공이다(통계학과는 참여학과 명단에 없음).",
+      "url": "https://advising.snu.ac.kr/resources_404/",
+      "verified": true
+    },
+    {
+      "name": "연계전공 금융경제(통계학과 참여)",
+      "level": "university",
+      "category": "interdisciplinary_major",
+      "description": "사회과학대학 경제학부 주관으로 경영학과·수리과학부·통계학과·농경제사회학부가 참여하여 금융 관련 교과목을 체계적으로 제공하는 연계전공이다.",
+      "url": "https://advising.snu.ac.kr/resources_509/",
+      "verified": true
+    },
+    {
+      "name": "연계전공 금융수학(통계학과 참여)",
+      "level": "university",
+      "category": "interdisciplinary_major",
+      "description": "자연과학대학 수리과학부 주관으로 경영학과·산업공학과·컴퓨터공학부·통계학과가 참여하여 파생상품 가격결정·위험관리 등 금융수학 이론과 IT 실무를 교육하는 연계전공이다.",
+      "url": "https://advising.snu.ac.kr/resources_511/",
+      "verified": true
+    },
+    {
+      "name": "연계전공 인문데이터과학",
+      "level": "university",
+      "category": "interdisciplinary_major",
+      "description": "인문대학(언어학과) 주관으로 인문학과 데이터과학의 학제 교육을 제공하는 연계전공이며 통계학과는 참여학과 명단에 없다.",
+      "url": "https://advising.snu.ac.kr/resources_505/",
+      "verified": true
+    },
+    {
+      "name": "데이터사이언스대학원 교과인증과정(초급·중급·고급)",
+      "level": "university",
+      "category": "interdisciplinary_major",
+      "description": "데이터사이언스 및 수학·통계·컴퓨팅 기초를 다루는 대학원 교과목 기반 인증과정으로 대상은 대학원생이며, 학부생은 해당 교과목 교수 승인을 받아 대학원 과목을 수강하는 방식으로 이수할 수 있다(평점 3.0 이상).",
+      "url": "https://gsds.snu.ac.kr/academics/micro_degree/",
+      "verified": true
+    },
+    {
+      "name": "데이터사이언스연구소 데이터사이언스 Bootcamp",
+      "level": "university",
+      "category": "other",
+      "description": "방학 중 온라인으로 운영되는 유료(강좌당 30만원) 비학점 강좌로 전공·소속과 무관하게 누구나 수강할 수 있으며, 특정 강좌 우등 수료 시 데이터사이언스대학원 입학 후 논문제출자격 요건 일부를 수료한 것으로 간주한다(정규 학점 불인정).",
+      "url": "https://gsds.snu.ac.kr/2026-summer-bootcamp/",
+      "verified": true
+    },
+    {
+      "name": "SNU Data Science Career Workshop",
+      "level": "university",
+      "category": "career",
+      "description": "데이터사이언스대학원이 Google ExploreCSR Workshop Series의 일환으로 학부생을 대상으로 개최한 진로 워크숍으로, 학계·산업계 전문가 강연과 멘토링, 교수진·대학원생 네트워킹을 제공한다(2026.6. 공지).",
+      "url": "https://gsds.snu.ac.kr/snu-data-science-career-workshop-개최-안내/",
+      "verified": true,
+      "recent_change": "2026년 개최."
+    },
+    {
+      "name": "학생자율교육(SDE) 학부생연구지원프로그램 유형1(독립연구)",
+      "level": "university",
+      "category": "research",
+      "description": "학생자율교육프로그램 운영실이 학부생 독립연구 참여자를 공모하여 연구경비를 지원하는 프로그램으로, mySNU 비교과 메뉴에서 연구계획 서식과 경비 집행 계획을 제출해 신청한다(2026학년도 마감 4.13.).",
+      "url": "https://science.snu.ac.kr/news/announcement?md=v&bbsidx=5424",
+      "verified": true
+    },
+    {
+      "name": "학생자율세미나·학생자율연구 교과목(지성의 확장-자율과 창의)",
+      "level": "university",
+      "category": "research",
+      "description": "공통교육과정 '자율과 창의' 영역에 학생자율세미나(주제, 거주와 배움; 1학점)와 학생자율연구(탐구, 심화; 2학점)가 개설되어 학생 주도 세미나와 연구를 교양 학점으로 이수할 수 있다.",
+      "url": "https://snuc.snu.ac.kr/영역별-소개/지성의-확장/자율과-창의/",
+      "verified": true
+    },
+    {
+      "name": "학부생 세미나(신입생 세미나 등) 및 신입생 분반 제도 학부생 멘토",
+      "level": "university",
+      "category": "mentoring_advising",
+      "description": "공통교육과정 '학부생 세미나' 영역에 신입생 세미나, 창의와 도전, 주제 세미나, 글쓰기 세미나(각 1학점) 등이 개설되어 있고, 2026-2학기 시범운영하는 신입생 분반 제도에서는 3학기 이상 등록한 학부생 멘토가 신입생 세미나 외 분반 활동과 대학생활 면담을 맡는다(월 20시간 내외, 활동비 학기당 180만원).",
+      "url": "https://science.snu.ac.kr/news/announcement?md=v&bbsidx=5509",
+      "verified": true,
+      "recent_change": "신입생 분반 제도 2026-2학기 시범운영 시작."
+    },
+    {
+      "name": "학부대학 피어튜터링",
+      "level": "university",
+      "category": "peer_teaching",
+      "description": "우수한 선배가 튜터가 되어 튜티 1~5명에게 교과목 이수와 학교 적응을 지도하는 학기 단위 프로그램으로, 인문사회·기초과학·교과맞춤형·통합형 분과별 자격과 기준에 따라 연 2회 선발한다.",
+      "url": "https://snuc.snu.ac.kr/학부생-프로그램/",
+      "verified": true
+    },
+    {
+      "name": "글쓰기지원센터 프로그램(글쓰기 튜터링, SNU-WAC, 리포트 집중지도 등)",
+      "level": "university",
+      "category": "writing_communication",
+      "description": "학부대학 글쓰기지원센터가 상시 일대일 글쓰기 튜터링(대면·Zoom·이메일), 전공 교과목 연계 글쓰기 지도(SNU-WAC), 학기당 2회 리포트 집중지도, 방학 중 글쓰기 능력향상 프로그램, 온라인 글쓰기 교실(OWL), 우수 리포트 공모대회 등을 운영한다. 신청은 SNU 비교과관리시스템(extra.snu.ac.kr)에서 한다.",
+      "url": "https://snuc.snu.ac.kr/학부생-프로그램/",
+      "verified": true
+    },
+    {
+      "name": "교수학습개발센터 학습지원(학습상담, 학습클리닉, 워크숍)",
+      "level": "university",
+      "category": "mentoring_advising",
+      "description": "학부대학 산하 교수학습개발센터가 전문상담사의 일대일 학습상담, 학사경고·저학점자 우선 학습클리닉(방학 연 2회), 학습전략·IT 역량 워크숍, SNU 학습유형검사와 핵심역량진단을 제공한다.",
+      "url": "https://snuc.snu.ac.kr/학생지원-프로그램/",
+      "verified": true,
+      "recent_change": "2021년 기초교육원과 통합, 2025.3. 학부대학 출범으로 학부대학 산하 기구가 됨(ctl.snu.ac.kr 독립 도메인은 이번 조사에서 접속되지 않음)."
+    },
+    {
+      "name": "의사소통 역량 프로그램(SNU 창의적 프레젠테이션 과정, SNU 토론한마당)",
+      "level": "university",
+      "category": "writing_communication",
+      "description": "학부대학이 핵심역량향상 프로그램의 '의사소통' 영역으로 창의적 프레젠테이션 과정과 토론한마당, 벼리캠프 등을 운영한다.",
+      "url": "https://snuc.snu.ac.kr/학생지원-프로그램/",
+      "verified": true
+    },
+    {
+      "name": "전공설계지원센터(전공설계 상담, 전공박람회, 간담회, 다전공 수기 공모전)",
+      "level": "university",
+      "category": "mentoring_advising",
+      "description": "전공상담교수의 개인·그룹 전공설계 상담을 상시 제공하고, 3월 전공박람회(학과 포스터 전시·다전공 간담회), 다전공 경험자 간담회(All about My Majors), 다전공 수기 공모전을 운영한다.",
+      "url": "https://advising.snu.ac.kr/about_us_401/",
+      "verified": true
+    },
+    {
+      "name": "학부대학 국내·해외 현장체험 비교과 프로그램",
+      "level": "university",
+      "category": "other",
+      "description": "학부생(석사과정생 포함 가능) 4~8인 팀이 탐방계획서(PT 영상)를 SNU 비교과 시스템에 제출하여 선정되면 국내·해외 현장체험을 지원받는 공모형 프로그램이다(2026학년도 상반기 유형III 공모).",
+      "url": "https://science.snu.ac.kr/news/announcement?md=v&bbsidx=5488",
+      "verified": true
+    },
+    {
+      "name": "학부대학 동계/하계 현장실습(자유전공학부생 대상)",
+      "level": "university",
+      "category": "industry_placement",
+      "description": "방학 중 스타트업 기업과 국제기구에 학부생 인턴을 파견하고 장학금과 학점 인정을 제공하는 프로그램으로, 대상은 자유전공학부생에 한정된다.",
+      "url": "https://snuc.snu.ac.kr/도전혁신/",
+      "verified": true
+    },
+    {
+      "name": "경력개발센터 진로·취업 교과목",
+      "level": "university",
+      "category": "career",
+      "description": "학부생 진로탐색 교과목 '직업세계의 이해와 진로설계'(2학점, 선택교양)와 국내외 인턴십 준비 역량을 기르는 '글로벌 인턴십1'(1학점, 선택교양)을 운영한다.",
+      "url": "https://www.snu.ac.kr/campuslife/aid/career",
+      "verified": true
+    },
+    {
+      "name": "경력개발센터 진로상담·취업지원 프로그램",
+      "level": "university",
+      "category": "career",
+      "description": "개인진로상담과 진로검사(STRONG, MBTI), 자기탐색 집단 심리상담, 1:1 취업컨설팅, 매년 3월·9월 우수인재 채용박람회, SNU 커리어기자단, AI 진로캠프, 진로주간, SNU 진로콘서트, 기업탐방, 취업캠프 등을 제공한다.",
+      "url": "https://www.snu.ac.kr/campuslife/aid/career",
+      "verified": true
+    },
+    {
+      "name": "경력개발센터 인턴십 연계·멘토링(주요사업)",
+      "level": "university",
+      "category": "industry_placement",
+      "description": "센터 주요사업으로 해외인턴십 연계, 글로벌 인턴십 교과목, 프로젝트 멘토링·선배초청 워크숍, 기업초청간담회, 인턴십 학점 인정을 제시하며 인턴십 공고 게시판을 운영한다. 인턴십 학점 인정의 세부 기준과 멘토링 상세 페이지는 로그인이 필요하여 확인하지 못했다.",
+      "url": "https://career.snu.ac.kr/center/introduce/primary",
+      "verified": true
+    },
+    {
+      "name": "창업학점제",
+      "level": "university",
+      "category": "other",
+      "description": "창업 관련 학점 인정 제도로 매 학기 신청을 받으며, 대상은 해당 학기 등록하고 2개 정규학기 이상 이수한 재학생 중 위원회가 인정한 창업 관련 교과목을 1개 이상 이수하고 사업자등록증·법인등기부상 대표(또는 위원회가 인정한 공동창업자)인 학생이다(일부 제외업종 있음).",
+      "url": "https://stat.snu.ac.kr/29701/",
+      "verified": true
+    },
+    {
+      "name": "창업지원단 학생창업 지원",
+      "level": "university",
+      "category": "other",
+      "description": "서울대학교 학생 누구나 창업동아리, 창업멘토링, 경진대회, 사업화 지원 프로그램에 신청할 수 있으며 교내 창업보육센터 공간과 기술지주 투자 연계를 지원받을 수 있다.",
+      "url": "https://startup.snu.ac.kr/sub2_2.php",
+      "verified": true
+    },
+    {
+      "name": "본부 해외파견 교환학생",
+      "level": "university",
+      "category": "other",
+      "description": "본부가 학기별로 해외파견 교환학생 후보자를 선발하며 2027학년도 1학기에는 39개국 222개교, 828명 내외를 모집하였다(mySNU 온라인 지원).",
+      "url": "https://stat.snu.ac.kr/31949/",
+      "verified": true
+    },
+    {
+      "name": "사회봉사교과목 1·2·3",
+      "level": "university",
+      "category": "community",
+      "description": "글로벌사회공헌단이 공동체 의식과 사회적 책임 실천을 목표로 운영하는 1학점 S/U 교과목이다(선이수제 폐지).",
+      "url": "https://stat.snu.ac.kr/32565/",
+      "verified": true
+    },
+    {
+      "name": "빅데이터 혁신융합대학 교류수학",
+      "level": "university",
+      "category": "other",
+      "description": "「빅데이터 혁신융합대학」 사업을 통해 본교생이 참여대학(예: 숙명여자대학교)의 계절학기 개설 교과목을 6학점 이내에서 교류 수강할 수 있도록 학과 공지로 안내한다.",
+      "url": "https://stat.snu.ac.kr/29146/",
+      "verified": true
+    },
+    {
+      "name": "빅데이터 핀테크 AI 고급 전문가 과정(K-Digital)",
+      "level": "university",
+      "category": "career",
+      "description": "서울대학교가 주관하는 고용노동부 K-Digital 사업의 비학위 교육과정으로 학사학위 소지자 또는 2년 이내 졸업예정자이면서 국민내일배움카드 발급 대상자가 지원할 수 있다(2024년 제9기 공지 기준이며 2026년 운영 여부는 미확인).",
+      "url": "https://stat.snu.ac.kr/23452/",
+      "verified": true
+    },
+    {
+      "name": "학사과정 전공 이수 규정 교과목 중복인정",
+      "level": "university",
+      "category": "other",
+      "description": "주전공·복수전공·연합전공 간 공통 인정 전공교과목은 최대 3개까지 중복 인정되며, 시행 전 다전공 이수자는 종전 규정(복수전공 공통 전공과목 최대 9학점 등) 적용을 선택할 수 있다. 통계학과 복수전공·부전공 선발은 2개 정규학기·33학점 이상 이수, 평점 3.0 이상을 기준으로 한다.",
+      "url": "https://stat.snu.ac.kr/교과과정/학사과정/다전공/",
+      "verified": true,
+      "recent_change": "「서울대학교 학사과정 전공 이수 규정」 2026.3.1. 시행으로 중복인정 기준 변경."
+    },
+    {
+      "name": "학부대학 출범 및 공통교육과정 개편",
+      "level": "university",
+      "category": "other",
+      "description": "기초교육원, 교수학습개발센터, 글쓰기지원센터, 전공설계지원센터 등을 산하에 둔 학부대학이 2025년 3월 출범하였고, 공통교육과정이 학문의 토대·지성의 열쇠·베리타스·지성의 확장 체제로 개편되었다.",
+      "url": "https://snuc.snu.ac.kr/연혁/",
+      "verified": true,
+      "recent_change": "2024.7.~2025.2. 설립 준비, 2025.3. 출범."
+    }
+  ],
+  "not_found": [
+    {
+      "what": "통계학과 학부 교육과정 내 연구 학점 교과목(독립연구, UROP형, 캡스톤)",
+      "status": "confirmed_absent",
+      "note": "2026학번·2023~2024학번 이수규정과 학부 전공과목 목록에 연구·캡스톤·독립연구 교과목이 없다. 비교 사례로 공과대학은 UROP를 '공학연구의 실습 1·2'(1학점, S/U, 주전공 전공선택)로 학점화하여 운영한다(https://me.snu.ac.kr/학부-공지사항/?mod=document&uid=22004)."
+    },
+    {
+      "what": "통계학과 자체(학과 예산·별도 제도) 학부연구생 프로그램",
+      "status": "undetermined",
+      "note": "학과 홈페이지와 공지에서 별도 제도가 확인되지 않으며, 학부연구는 자연대 학부생연구인턴십 학과 배정 인원과 교수 개별 모집으로만 공지된다. 비공식 학부연구생 운영 여부는 확인할 수 없다."
+    },
+    {
+      "what": "학사과정 졸업시험 및 졸업작품",
+      "status": "undetermined",
+      "note": "이수규정과 공지에서 학사 졸업시험·졸업작품은 확인되지 않았고 '졸업시험' 검색 결과는 대학원 학위논문제출자격시험뿐이다. 졸업 신청 공지 본문은 로그인 제한으로 전문을 읽지 못했다."
+    },
+    {
+      "what": "학부 통계상담 실습 교과목 및 학부생의 통계상담 참여 제도",
+      "status": "confirmed_absent",
+      "note": "학부 전공과목 목록에 상담 실습 교과목이 없고, '통계상담 및 실습'(326.517A)은 대학원 교과목으로만 개설되어 있다."
+    },
+    {
+      "what": "통계연구소(statsri.snu.ac.kr) 통계상담센터의 운영 및 학부생 참여 가능 여부",
+      "status": "undetermined",
+      "note": "statsri.snu.ac.kr가 DNS에서 해석되지 않아 접속하지 못했고, 학과 사이트 검색에서도 통계연구소 관련 게시물이 확인되지 않았다."
+    },
+    {
+      "what": "학부생 대상 세미나·콜로키움 학점 과목 또는 학부생 세미나 참석 요건",
+      "status": "confirmed_absent",
+      "note": "학부 이수규정에 세미나 요건이나 학부 세미나 교과목이 없다. 학과세미나는 대학원 교과목이며, 세미나 공지는 공개 게시되나 학부생 대상 안내는 없다."
+    },
+    {
+      "what": "통계학과 인턴십·현장실습 학점 인정 교과목",
+      "status": "confirmed_absent",
+      "note": "학부 이수규정과 전공과목 목록에 현장실습·인턴십 교과목이 없다. 대학 차원에서는 경력개발센터 주요사업 목록에 '인턴십 학점 인정'이 있으나 세부 기준은 로그인 페이지라 확인하지 못했고, 학부대학 현장실습은 자유전공학부생 전용이다."
+    },
+    {
+      "what": "대학 차원 인턴십 학점 인정 제도의 세부 기준(경력개발센터)",
+      "status": "undetermined",
+      "note": "career.snu.ac.kr의 교과목·인턴십·멘토링 상세 페이지가 로그인으로 리다이렉트되어 내용을 확인하지 못했다."
+    },
+    {
+      "what": "통계학과 자체 장학금",
+      "status": "undetermined",
+      "note": "학과 공지의 장학 게시물은 외부 재단·대학·자연대 장학 위주이며, 학과 발전기금 안내는 기금 용도를 공간·인프라 구축, 고성능 전산장비, 학과 유지보수로만 제시한다."
+    },
+    {
+      "what": "통계학과 선후배·동문 멘토링 및 학부 지도교수 상담 제도",
+      "status": "undetermined",
+      "note": "학과 홈페이지와 공지 검색에서 학과 주관 멘토링이나 학부생 지도교수 배정 안내가 확인되지 않았다(학사·석사 연계과정 학생에 대한 지도교수 배정 규정만 확인)."
+    },
+    {
+      "what": "통계학과 주관 진로 행사(동문 초청 특강, 홈커밍, 진로 간담회)",
+      "status": "undetermined",
+      "note": "학과 공지에는 기업 채용설명회와 외부 행사 전달만 있고 학과 주관 진로 행사는 확인되지 않았다."
+    },
+    {
+      "what": "학과 차원의 학생 학회 지원 제도",
+      "status": "undetermined",
+      "note": "학과 홈페이지에 학생회 행사 소개만 있고 학회 지원 규정은 확인되지 않았다. 자연대 차원의 동아리연합회 등록 동아리 지원 사업은 존재한다."
+    },
+    {
+      "what": "통계학과 학부생 조교(UTA) 제도",
+      "status": "undetermined",
+      "note": "학과 사이트에서 통계학과 학부생 조교 선발 공지는 확인되지 않았고, 2021학년도 수리과학부 딥러닝 과목 학부생 조교 선발 공지만 게시되어 있다."
+    },
+    {
+      "what": "데이터사이언스대학원과의 학사·석사 연계과정(통계학과 학부생 대상)",
+      "status": "confirmed_absent",
+      "note": "전공설계지원센터 학사·석사연계과정 운영현황(2026.8.)상 데이터사이언스대학원 연계 학사과정은 의과대학 의학과, 사범대학, 공과대학 기계공학부, 첨단융합학부뿐이다."
+    },
+    {
+      "what": "응용 데이터사이언스 융합전공의 학부생 이수",
+      "status": "confirmed_absent",
+      "note": "데이터사이언스대학원 주관 융합전공은 석사·박사·석박사통합과정 정원만 두고 있으며(2024-2학기부터 선발), 2026.9.1. 기준 참여학과에 통계학과가 없다."
+    },
+    {
+      "what": "자연과학대학 고유 튜터링 프로그램",
+      "status": "undetermined",
+      "note": "자연대 공지에서 현행 튜터링은 확인되지 않았고 2009~2010년 기초수학 튜터 모집 공지만 검색된다. 현재 기초과학 피어튜터링은 학부대학 사업으로 학과가 분야별 모집을 담당한다."
+    },
+    {
+      "what": "자연과학대학 차원의 진로·취업 프로그램",
+      "status": "undetermined",
+      "note": "자연대 홈페이지 메뉴와 공지 검색에서 자연대 주관 진로·취업 프로그램이 확인되지 않았다(외부 장학·채용 공고 전달 위주)."
+    },
+    {
+      "what": "자연과학대학 차원의 학부생 국제교류 프로그램",
+      "status": "undetermined",
+      "note": "자연대 '글로벌프로그램' 메뉴는 국제처로 연결되고, 자연대 장기해외연수 지원은 박사과정 대상이다. 학부 교환학생은 본부 국제처가 선발한다."
+    },
+    {
+      "what": "교수학습개발센터 독립 홈페이지(ctl.snu.ac.kr)",
+      "status": "undetermined",
+      "note": "도메인이 DNS에서 해석되지 않았다. snu.ac.kr 교수학습지원 페이지는 snuc.snu.ac.kr(학부대학)로 안내하며, 튜터링·학습상담·글쓰기 프로그램은 학부대학 사이트에서 확인하였다."
+    },
+    {
+      "what": "현행(2026) 교육부·한국과학창의재단 학부생 연구프로그램(URP) 교내 공모",
+      "status": "undetermined",
+      "note": "웹 검색에서 연구처 게시판의 2021년 공고만 확인되었고 2026년 공고나 통계학과 참여 사례는 찾지 못했다."
+    }
+  ]
+}
