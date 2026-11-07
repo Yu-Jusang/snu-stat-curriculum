@@ -1,0 +1,984 @@
+{
+ "trends": [
+  {
+   "area": "Causal inference",
+   "area_ko": "인과추론",
+   "signal_ko": "2021년 노벨경제학상이 Angrist·Imbens의 '인과관계 분석의 방법론적 기여'에 수여되었고, arXiv 통계(stat) 분류 제목 'causal' 논문은 2019년 214편에서 2025년 553편으로 2.6배 늘어 같은 조건의 기준어 'regression'(499→631, 1.26배)을 크게 앞섰다. OpenAlex 제목 기준 'causal inference'는 347→1,198편(3.5배), 'double machine learning'은 4→178편이며, NSF Crossroads 보고서와 ASA 2023 성명 모두 인과추론을 핵심 연구·전문성으로 명시했다.",
+   "sources": [
+    {
+     "title": "Nobel Prize in Economic Sciences 2021 press release",
+     "year": 2021,
+     "url_or_doi": "https://www.nobelprize.org/prizes/economic-sciences/2021/press-release/"
+    },
+    {
+     "title": "arXiv advanced search, stat titles 'causal', 2019 (214 results)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=causal&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2019&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "arXiv advanced search, stat titles 'causal', 2025 (553 results)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=causal&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "arXiv advanced search baseline, stat titles 'regression', 2025 (631; 2019: 499)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=regression&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'causal inference', 2025 (1,198; 2019: 347)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22causal%20inference%22,publication_year:2025"
+    },
+    {
+     "title": "Chernozhukov et al., Double/debiased machine learning for treatment and structural parameters, Econometrics Journal 21(1)",
+     "year": 2018,
+     "url_or_doi": "10.1111/ectj.12097"
+    },
+    {
+     "title": "Causal Inference in the Social Sciences, Annual Review of Statistics and Its Application 11",
+     "year": 2024,
+     "url_or_doi": "10.1146/annurev-statistics-033121-114601"
+    },
+    {
+     "title": "Cummiskey et al., Causal Inference in Introductory Statistics Courses, Journal of Statistics Education 28(1)",
+     "year": 2020,
+     "url_or_doi": "10.1080/10691898.2020.1713936"
+    },
+    {
+     "title": "Statistics at a Crossroads: Who is for the Challenge? (He, Madigan, Yu, Wellner; NSF workshop report 2019)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/abs/2503.22945"
+    },
+    {
+     "title": "ASA Statement on The Role of Statistics in Data Science and Artificial Intelligence",
+     "year": 2023,
+     "url_or_doi": "https://www.amstat.org/docs/default-source/amstat-documents/the-role-of-statistics-in-data-science-and-artificial-intelligence.pdf"
+    }
+   ],
+   "strength": "strong",
+   "undergrad_implication_ko": "잠재결과·DAG·성향점수·도구변수·이중차분·DML을 다루는 학부 인과추론 독립 과목을 신설하고, 입문통계에도 인과 다이어그램 단원을 넣는 것이 타당하다(Cummiskey 외 2020 참고)."
+  },
+  {
+   "area": "Conformal prediction and distribution-free uncertainty quantification",
+   "area_ko": "컨포멀 예측·분포무관 불확실성 정량화",
+   "signal_ko": "arXiv stat 분류 제목 'conformal' 논문은 2019년 21편에서 2025년 194편으로 약 9.2배, 'uncertainty quantification'은 39→99편(2.5배) 늘었고, OpenAlex 제목 'conformal prediction'은 25→368편이다. COPSS 회장상 2020(Barber, conformal predictive inference)과 2023(Tibshirani, distribution-free inference) 수상 사유에 직접 포함되었고, RSS 2026 문서는 AI 규제에 불확실성 정량화 요건을 권고했다.",
+   "sources": [
+    {
+     "title": "arXiv advanced search, stat titles 'conformal', 2019 (21 results)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=conformal&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2019&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "arXiv advanced search, stat titles 'conformal', 2025 (194 results)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=conformal&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "arXiv advanced search, stat titles 'uncertainty quantification', 2025 (99; 2019: 39)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22uncertainty+quantification%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'conformal prediction', 2025 (368; 2019: 25)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22conformal%20prediction%22,publication_year:2025"
+    },
+    {
+     "title": "Angelopoulos & Bates, Conformal Prediction: A Gentle Introduction, Foundations and Trends in ML 16(4)",
+     "year": 2023,
+     "url_or_doi": "10.1561/2200000101"
+    },
+    {
+     "title": "COPSS Presidents' Award recipients and citations (2019-2026)",
+     "year": 2026,
+     "url_or_doi": "https://community.amstat.org/copss/awards/presidents"
+    },
+    {
+     "title": "RSS, AI is Statistics: Why statistical thinking is vital for the effective, ethical and safe use of AI",
+     "year": 2026,
+     "url_or_doi": "https://rss.org.uk/RSS/media/File-library/Policy/2026/AI-is-Statistics-FINAL.pdf"
+    }
+   ],
+   "strength": "strong",
+   "undergrad_implication_ko": "통계적 기계학습·회귀 과목에 컨포멀 예측·보정(calibration)·분포 이동 하의 예측구간 단원을 필수로 넣고, 고학년 선택으로 'ML 불확실성 정량화'를 둘 만하다."
+  },
+  {
+   "area": "Statistical machine learning theory and deep learning theory",
+   "area_ko": "통계적 기계학습 이론·딥러닝 이론",
+   "signal_ko": "arXiv 1차 분류 stat.ML 제출은 2022년 1,542편에서 2025년 2,186편(+42%)이고 같은 기간 cs.LG는 13,687→25,747편(+88%)으로, ML 연구의 중심이 CS로 이동하면서도 통계 쪽 이론 수요가 함께 커졌다. Annual Review of Statistics 2025-2026에 딥러닝 통계이론 서베이·랜덤포레스트 이론·operator learning 리뷰가 실렸고, COPSS 회장상 2025(Mackey, ML 이론)·2026(Su, 딥러닝 이론)이 이 분야에서 나왔으며, NeurIPS 본 트랙 제출은 2020년 9,467편에서 2025년 21,575편으로 늘었다.",
+   "sources": [
+    {
+     "title": "arXiv info: Submissions by Category since 2022 (primary-category counts)",
+     "year": 2026,
+     "url_or_doi": "https://info.arxiv.org/about/reports/submission_category_by_year.html"
+    },
+    {
+     "title": "A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models, Annu. Rev. Stat. Appl. 12",
+     "year": 2025,
+     "url_or_doi": "10.1146/annurev-statistics-040522-013920"
+    },
+    {
+     "title": "Theory of Random Forests, Annu. Rev. Stat. Appl. 13",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-112723-034707"
+    },
+    {
+     "title": "Schmidt-Hieber, Nonparametric regression using deep neural networks with ReLU activation function, Annals of Statistics 48(4)",
+     "year": 2020,
+     "url_or_doi": "10.1214/19-AOS1875"
+    },
+    {
+     "title": "NeurIPS 2025 program chairs, Reflections on the 2025 Review Process",
+     "year": 2025,
+     "url_or_doi": "https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/"
+    },
+    {
+     "title": "Nobel Prize in Physics 2024 press release (Hopfield, Hinton)",
+     "year": 2024,
+     "url_or_doi": "https://www.nobelprize.org/prizes/physics/2024/press-release/"
+    },
+    {
+     "title": "COPSS Presidents' Award recipients and citations (2019-2026)",
+     "year": 2026,
+     "url_or_doi": "https://community.amstat.org/copss/awards/presidents"
+    }
+   ],
+   "strength": "strong",
+   "undergrad_implication_ko": "'통계적 기계학습'을 전공 필수로 올리고, 고학년에 일반화·근사 이론과 신경망의 통계적 기초를 다루는 선택과목을 두는 구성이 필요하다."
+  },
+  {
+   "area": "Generative AI, LLMs and statistics (foundation models, AI evaluation)",
+   "area_ko": "생성형 AI·LLM과 통계(파운데이션 모델, AI 평가)",
+   "signal_ko": "arXiv stat 분류 제목 'language model' 논문은 2019년 33편에서 2025년 141편(4.3배)이 되었고, 1차 분류 cs.CL은 2022년 7,106편에서 2025년 16,942편, cs.AI는 2,104편에서 8,391편으로 급증했다. 2026 COPSS 회장상(Su)은 'LLM 워터마킹·정렬·순위화의 통계적 기초'를 사유로 들었고, Annual Review 2026에 생성형 AI 통계방법·RLHF·지식증류 리뷰가 실렸으며, 예측기반추론(PPI, Science 2023)과 RSS 'AI is Statistics'(2026, 9개 권고)가 AI 평가에 통계 프레임워크를 요구했다.",
+   "sources": [
+    {
+     "title": "arXiv advanced search, stat titles 'language model', 2025 (141; 2019: 33)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22language+model%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "arXiv info: Submissions by Category since 2022 (primary-category counts)",
+     "year": 2026,
+     "url_or_doi": "https://info.arxiv.org/about/reports/submission_category_by_year.html"
+    },
+    {
+     "title": "COPSS Presidents' Award recipients and citations (2019-2026)",
+     "year": 2026,
+     "url_or_doi": "https://community.amstat.org/copss/awards/presidents"
+    },
+    {
+     "title": "Statistical Methods in Generative Artificial Intelligence, Annu. Rev. Stat. Appl.",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-042825-121454"
+    },
+    {
+     "title": "Reinforcement Learning from Human Feedback: A Statistical Perspective, Annu. Rev. Stat. Appl.",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-043025-102547"
+    },
+    {
+     "title": "Angelopoulos, Bates, Fannjiang, Jordan, Zrnic, Prediction-powered inference, Science 382",
+     "year": 2023,
+     "url_or_doi": "10.1126/science.adi6000"
+    },
+    {
+     "title": "RSS, AI is Statistics: Why statistical thinking is vital for the effective, ethical and safe use of AI",
+     "year": 2026,
+     "url_or_doi": "https://rss.org.uk/RSS/media/File-library/Policy/2026/AI-is-Statistics-FINAL.pdf"
+    }
+   ],
+   "strength": "strong",
+   "undergrad_implication_ko": "고학년에 'AI 시대의 통계'(생성모형 기초, LLM 평가·벤치마크의 통계, PPI, 분포 이동 진단) 과목을 신설할 근거가 충분하다."
+  },
+  {
+   "area": "AI-assisted data analysis and statistics education with LLMs",
+   "area_ko": "LLM 활용 데이터분석·통계교육 방식 변화",
+   "signal_ko": "Tu·Zou·Su·Zhang(2023)은 LLM이 데이터과학자의 일을 직접 코딩에서 'AI가 수행한 분석의 평가·관리'로 옮긴다고 보고 비판적 사고·LLM 지원 프로그래밍 교육을 제안했고, JSDSE는 2023년 ChatGPT 교육 활용 논문(Ellis·Slade)을 게재한 뒤 생성형 AI 교육 특별 클러스터를 공모했다. Stanford Digital Economy Lab(2026년 8월 개정)은 AI 노출 직종의 22~25세 고용이 비노출 직종 대비 19% 낮으며 주로 신규채용 감소로 나타난다고 보고했다.",
+   "sources": [
+    {
+     "title": "Tu, Zou, Su, Zhang, What Should Data Science Education Do with Large Language Models? (arXiv 2307.02792; HDSR 2024)",
+     "year": 2023,
+     "url_or_doi": "https://arxiv.org/abs/2307.02792"
+    },
+    {
+     "title": "Ellis & Slade, A New Era of Learning: Considerations for ChatGPT as a Tool to Enhance Statistics and Data Science Education, JSDSE 31(2)",
+     "year": 2023,
+     "url_or_doi": "10.1080/26939169.2023.2223609"
+    },
+    {
+     "title": "Taylor & Francis call for papers, Building AI-Powered Learning Experiences (JSDSE)",
+     "year": 2025,
+     "url_or_doi": "https://think.taylorandfrancis.com/special_issues/ai-powered-learning/"
+    },
+    {
+     "title": "Brynjolfsson, Chandar, Chen, Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI (revised Aug 2026)",
+     "year": 2026,
+     "url_or_doi": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "코딩 과제 위주 평가를 'AI 산출물 검증·해석·보고' 중심으로 재설계하고, 단순 분석 자동화로 줄어드는 초급 업무를 대신할 문제정의·인과·불확실성 역량을 강화해야 한다."
+  },
+  {
+   "area": "Reproducibility, selective inference and multiple testing",
+   "area_ko": "재현성·선택적 추론·다중검정",
+   "signal_ko": "The American Statistician 2019 특별호(43편)가 'statistically significant' 용어 사용 중단을 제안했고, ASA 회장 태스크포스(2021)는 p값을 올바르게 쓰자는 원칙을 냈으며, NASEM은 2019년 재현성·반복가능성 보고서를 발간했다. COPSS 회장상 2020(Barber, 선택적 추론·knockoff), 2021(Leek, 재현성·데이터과학 교육), 2023(Tibshirani, 선택 후 추론)이 모두 이 주제를 포함하며, Annual Review 2025에 'Reproducibility in the Classroom'이 실렸다.",
+   "sources": [
+    {
+     "title": "Wasserstein, Schirm, Lazar, Moving to a World Beyond 'p < 0.05', The American Statistician 73(sup1)",
+     "year": 2019,
+     "url_or_doi": "10.1080/00031305.2019.1583913"
+    },
+    {
+     "title": "Benjamini et al., The ASA President's Task Force Statement on Statistical Significance and Replicability, Annals of Applied Statistics 15(3)",
+     "year": 2021,
+     "url_or_doi": "10.1214/21-AOAS1501"
+    },
+    {
+     "title": "NASEM, Reproducibility and Replicability in Science",
+     "year": 2019,
+     "url_or_doi": "10.17226/25303"
+    },
+    {
+     "title": "Reproducibility in the Classroom, Annu. Rev. Stat. Appl. 12",
+     "year": 2025,
+     "url_or_doi": "10.1146/annurev-statistics-112723-034436"
+    },
+    {
+     "title": "COPSS Presidents' Award recipients and citations (2019-2026)",
+     "year": 2026,
+     "url_or_doi": "https://community.amstat.org/copss/awards/presidents"
+    },
+    {
+     "title": "Statistics at a Crossroads: Who is for the Challenge? (He, Madigan, Yu, Wellner; NSF workshop report 2019)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/abs/2503.22945"
+    }
+   ],
+   "strength": "strong",
+   "undergrad_implication_ko": "모든 실습 과목에 재현가능 워크플로(버전관리·동적 문서)를 기본값으로 두고, 회귀·실험 과목에 다중검정·FDR·선택 후 추론 단원을 추가해야 한다."
+  },
+  {
+   "area": "Data science computing, workflow, communication and ethics",
+   "area_ko": "데이터과학 컴퓨팅·워크플로·커뮤니케이션·윤리",
+   "signal_ko": "NASEM(2018)은 데이터 소양(data acumen)을 수학·통계·컴퓨팅 기초, 데이터 수집, 모델링, 관리·큐레이션, 시각화, 워크플로·재현성, 소통·협업, 도메인 고려, 윤리적 문제해결로 정의하고 윤리를 전 교과에 넣으라고 권고했다. NSF Crossroads는 컴퓨팅·커뮤니케이션·윤리를 핵심 교육 영역으로 제시했고, JSDSE 2021 특별호(14편)가 통계 교육과정의 컴퓨팅 통합을 다뤘으며, Stanford는 2022년 데이터과학 BS 전환 시 통계·윤리 과목과 캡스톤을 요구 사항에 넣었다.",
+   "sources": [
+    {
+     "title": "NASEM, Data Science for Undergraduates: Opportunities and Options",
+     "year": 2018,
+     "url_or_doi": "10.17226/25104"
+    },
+    {
+     "title": "ACM Data Science Task Force, Computing Competencies for Undergraduate Data Science Curricula",
+     "year": 2021,
+     "url_or_doi": "https://www.acm.org/media-center/2021/march/data-science-curricula-2021"
+    },
+    {
+     "title": "Hardin, Horton, Nolan, Temple Lang, Computing in the Statistics Curricula: A 10-Year Retrospective, JSDSE 29(sup1)",
+     "year": 2021,
+     "url_or_doi": "10.1080/10691898.2020.1862609"
+    },
+    {
+     "title": "Baumer et al., Integrating Data Science Ethics Into an Undergraduate Major: A Case Study, JSDSE 30(1)",
+     "year": 2022,
+     "url_or_doi": "10.1080/26939169.2022.2038041"
+    },
+    {
+     "title": "Stanford Humanities & Sciences, Stanford launches new data science major",
+     "year": 2022,
+     "url_or_doi": "https://humsci.stanford.edu/feature/stanford-launches-new-data-science-major"
+    },
+    {
+     "title": "Statistics at a Crossroads: Who is for the Challenge? (He, Madigan, Yu, Wellner; NSF workshop report 2019)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/abs/2503.22945"
+    },
+    {
+     "title": "ASA Statement on The Role of Statistics in Data Science and Artificial Intelligence",
+     "year": 2023,
+     "url_or_doi": "https://www.amstat.org/docs/default-source/amstat-documents/the-role-of-statistics-in-data-science-and-artificial-intelligence.pdf"
+    }
+   ],
+   "strength": "strong",
+   "undergrad_implication_ko": "1~2학년에 R/Python·SQL·버전관리를 갖춘 '데이터과학 입문/통계 컴퓨팅'을 필수화하고, 데이터 윤리·소통을 캡스톤 또는 독립 과목으로 묶어야 한다."
+  },
+  {
+   "area": "High-dimensional, robust and modern nonparametric inference",
+   "area_ko": "고차원·강건·현대 비모수 추론",
+   "signal_ko": "COPSS 회장상 2020~2025 수상 사유가 연속으로 고차원 추론(Barber, Witten, Tibshirani, Mackey)과 베이즈 고차원 이론(Ročková)을 포함하고, Annual Review 2025에 현대 강건통계 이론·고차원 텐서 리뷰가 실렸다. OpenAlex 제목 'high-dimensional'은 2019년 1,784편에서 2025년 2,968편(1.66배)으로 전체 문헌 증가(1.40배)보다 빠르다.",
+   "sources": [
+    {
+     "title": "COPSS Presidents' Award recipients and citations (2019-2026)",
+     "year": 2026,
+     "url_or_doi": "https://community.amstat.org/copss/awards/presidents"
+    },
+    {
+     "title": "Wainwright, High-Dimensional Statistics: A Non-Asymptotic Viewpoint (Cambridge UP)",
+     "year": 2019,
+     "url_or_doi": "10.1017/9781108627771"
+    },
+    {
+     "title": "OpenAlex API, title 'high-dimensional', 2025 (2,968; 2019: 1,784)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22high-dimensional%22,publication_year:2025"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "선형모형 후속으로 정규화(라쏘·릿지)·교차검증·고차원 추론을 다루는 고학년 과목을 두어 대학원 과정과 연결해야 한다."
+  },
+  {
+   "area": "Bayesian computation and modern Bayesian workflow",
+   "area_ko": "베이즈 계산·현대 베이즈 워크플로",
+   "signal_ko": "arXiv stat 분류 제목 'Monte Carlo'는 2019년 105편에서 2025년 114편(1.09배)으로 기준어보다 느리고, OpenAlex 제목 기준 MCMC는 198→171편으로 줄어든 반면 변분추론은 131→210편(1.6배)이다. Annual Review 2025 'Neural Methods for Amortized Inference', COPSS 2024(Ročková, 베이즈 계산을 위한 생성적 방법) 등 계산 패러다임이 확장되고 있으며, Dogucu·Hu(2022)는 152개 대학 조사에서 학부 베이즈 과목이 제한적이라고 보고했다.",
+   "sources": [
+    {
+     "title": "arXiv advanced search, stat titles 'Monte Carlo', 2025 (114; 2019: 105)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22Monte+Carlo%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'variational inference', 2025 (210; 2019: 131)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22variational%20inference%22,publication_year:2025"
+    },
+    {
+     "title": "Neural Methods for Amortized Inference, Annu. Rev. Stat. Appl. 12",
+     "year": 2025,
+     "url_or_doi": "10.1146/annurev-statistics-112723-034123"
+    },
+    {
+     "title": "Gelman et al., Bayesian Workflow (arXiv 2011.01808)",
+     "year": 2020,
+     "url_or_doi": "https://arxiv.org/abs/2011.01808"
+    },
+    {
+     "title": "Dogucu & Hu, The Current State of Undergraduate Bayesian Education and Recommendations for the Future, The American Statistician 76(4)",
+     "year": 2022,
+     "url_or_doi": "10.1080/00031305.2022.2089232"
+    },
+    {
+     "title": "COPSS Presidents' Award recipients and citations (2019-2026)",
+     "year": 2026,
+     "url_or_doi": "https://community.amstat.org/copss/awards/presidents"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "학부 베이즈 과목을 정규 선택으로 두되 MCMC 일변도가 아니라 확률적 프로그래밍·진단·변분추론·amortized 추론까지 포함하는 워크플로 중심으로 설계한다."
+  },
+  {
+   "area": "Differential privacy, disclosure limitation and synthetic data",
+   "area_ko": "차분 프라이버시·공개제한·합성데이터",
+   "signal_ko": "미국 센서스국은 2020 센서스 공표에 차분 프라이버시를 적용했으나, 2026년 6월 상무부 명령 DAO 216-26으로 잡음 주입(합성데이터·record swapping 포함)을 금지하고 coarsening·suppression만 쓰기로 해 정책 환경이 크게 바뀌었다. 연구는 계속 커져 OpenAlex 제목 'differential privacy'는 2019년 330편에서 2025년 1,034편(3.1배)이지만 arXiv stat 분류 제목 'privacy'는 113→74편으로 줄어 중심이 CS로 이동했고, Annual Review에 DP(2025)·합성데이터(2026) 리뷰가 실렸으며 한국 국가데이터처는 2026년 가상데이터 자동생성 사업을 편성했다.",
+   "sources": [
+    {
+     "title": "U.S. Census Bureau, Understanding Differential Privacy (2020 Census)",
+     "year": 2021,
+     "url_or_doi": "https://www.census.gov/programs-surveys/decennial-census/decade/2020/planning-management/process/disclosure-avoidance/differential-privacy.html"
+    },
+    {
+     "title": "U.S. Census Bureau Director's blog, Understanding the New Disclosure Avoidance Policy (DAO 216-26)",
+     "year": 2026,
+     "url_or_doi": "https://www.census.gov/newsroom/blogs/director/2026/08/understanding-the-new-disclosure-avoidance-policy.html"
+    },
+    {
+     "title": "OpenAlex API, title 'differential privacy', 2025 (1,034; 2019: 330)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22differential%20privacy%22,publication_year:2025"
+    },
+    {
+     "title": "arXiv advanced search, stat titles 'privacy', 2025 (74; 2019: 113)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=privacy&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "A Statistical Viewpoint on Differential Privacy: Hypothesis Testing, Representation, and Blackwell's Theorem, Annu. Rev. Stat. Appl. 12",
+     "year": 2025,
+     "url_or_doi": "10.1146/annurev-statistics-112723-034158"
+    },
+    {
+     "title": "Synthetic Data: A Tool for Privacy Protection and Model Empowerment, Annu. Rev. Stat. Appl.",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-042925-122848"
+    },
+    {
+     "title": "헤럴드경제, 데이터처 내년 예산 4567억원 확보…AI 활용 통계생산 확대",
+     "year": 2025,
+     "url_or_doi": "https://www.heraldk.com/article/2025120400075651163"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "DP 단독 과목보다는 공공데이터·통계윤리 과목 안에 DP·합성데이터·coarsening/suppression을 비교하는 '공개제한' 단원을 두는 편이 정책 변화에 견고하다."
+  },
+  {
+   "area": "Online experimentation, A/B testing and adaptive experiments",
+   "area_ko": "대규모 온라인 실험·A/B 테스트·적응형 실험",
+   "signal_ko": "Kohavi·Tang·Xu(2020)의 온라인 통제실험 교재와 The American Statistician의 A/B 테스트 방법론 리뷰(Larsen 외, 2023 온라인)가 나왔고, Annual Review 2025에 '적응형 실험 이후의 추론' 리뷰가 실렸다. NSF Crossroads도 관찰연구·실험설계를 기초연구 영역으로 꼽았고, OpenAlex 제목 'A/B testing'은 2019년 28편에서 2025년 73편으로 늘었다.",
+   "sources": [
+    {
+     "title": "Kohavi, Tang, Xu, Trustworthy Online Controlled Experiments (Cambridge UP)",
+     "year": 2020,
+     "url_or_doi": "10.1017/9781108653985"
+    },
+    {
+     "title": "Larsen et al., Statistical Challenges in Online Controlled Experiments: A Review of A/B Testing Methodology, The American Statistician 78(2)",
+     "year": 2023,
+     "url_or_doi": "10.1080/00031305.2023.2257237"
+    },
+    {
+     "title": "Demystifying Inference After Adaptive Experiments, Annu. Rev. Stat. Appl. 12",
+     "year": 2025,
+     "url_or_doi": "10.1146/annurev-statistics-040522-015431"
+    },
+    {
+     "title": "OpenAlex API, title 'A/B testing', 2025 (73; 2019: 28)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22A/B%20testing%22,publication_year:2025"
+    },
+    {
+     "title": "Statistics at a Crossroads: Who is for the Challenge? (He, Madigan, Yu, Wellner; NSF workshop report 2019)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/abs/2503.22945"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "실험계획법 과목을 고전적 요인설계에 더해 온라인 실험(분산감소, 순차검정, 간섭, 적응형 배정) 단원으로 확장해야 한다."
+  },
+  {
+   "area": "Reinforcement learning, bandits and sequential decision-making",
+   "area_ko": "강화학습·밴딧·순차적 의사결정",
+   "signal_ko": "2024년 튜링상이 Barto·Sutton의 강화학습 기초에 수여되었고, OpenAlex 제목 'reinforcement learning'은 2019년 4,355편에서 2025년 20,099편(4.6배)이며 Annual Review 2025-2026에 금융 RL·RLHF 리뷰가 실렸다. 다만 arXiv stat 분류 제목 'bandit'은 192→155편으로 줄어 연구 중심이 CS에 있음을 보여준다.",
+   "sources": [
+    {
+     "title": "ACM, 2024 A.M. Turing Award (Barto, Sutton)",
+     "year": 2025,
+     "url_or_doi": "https://awards.acm.org/about/2024-turing"
+    },
+    {
+     "title": "OpenAlex API, title 'reinforcement learning', 2025 (20,099; 2019: 4,355)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22reinforcement%20learning%22,publication_year:2025"
+    },
+    {
+     "title": "arXiv advanced search, stat titles 'bandit', 2025 (155; 2019: 192)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=bandit&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "Lattimore & Szepesvári, Bandit Algorithms (Cambridge UP)",
+     "year": 2020,
+     "url_or_doi": "10.1017/9781108571401"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "독립 과목보다는 실험설계·통계학습 과목 안에 밴딧·순차적 의사결정 단원을 두고 CS 강화학습 과목과 교차 인정하는 방식이 적절하다."
+  },
+  {
+   "area": "Forecasting and modern time series",
+   "area_ko": "예측 중심 현대 시계열",
+   "signal_ko": "M4 대회(10만 개 시계열, 61개 방법)에서는 순수 ML 6개가 모두 기준 결합법보다 못했고 통계·ML 혼합법이 1위였으나, M5 대회(월마트 42,840개 시계열)에서는 LightGBM 기반 방법이 우승했다. arXiv stat 분류 제목 'time series'는 2019년 256편에서 2025년 290편(1.13배)으로 정체된 반면 OpenAlex 제목 'time series forecasting'은 261→1,988편(7.6배)이며, Annual Review 2026에 예측평가용 proper scoring rule·텐서 시계열·변화점 리뷰가 실렸다.",
+   "sources": [
+    {
+     "title": "Makridakis, Spiliotis, Assimakopoulos, The M4 Competition: 100,000 time series and 61 forecasting methods, IJF 36(1)",
+     "year": 2020,
+     "url_or_doi": "10.1016/j.ijforecast.2019.04.014"
+    },
+    {
+     "title": "Makridakis, Spiliotis, Assimakopoulos, M5 accuracy competition: Results, findings, and conclusions, IJF 38(4)",
+     "year": 2022,
+     "url_or_doi": "10.1016/j.ijforecast.2021.11.013"
+    },
+    {
+     "title": "arXiv advanced search, stat titles 'time series', 2025 (290; 2019: 256)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22time+series%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'time series forecasting', 2025 (1,988; 2019: 261)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22time%20series%20forecasting%22,publication_year:2025"
+    },
+    {
+     "title": "Proper Scoring Rules for Estimation and Forecast Evaluation, Annu. Rev. Stat. Appl. 13",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-042424-050626"
+    },
+    {
+     "title": "Change-Point Detection and Its Modern Applications, Annu. Rev. Stat. Appl. 13",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-041124-044143"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "시계열 과목을 ARIMA/ETS에 더해 전역(global) ML 예측모형, 확률예측·예측평가, 변화점 탐지를 포함하는 '시계열 예측' 과목으로 개편한다."
+  },
+  {
+   "area": "Complex data: spatio-temporal, functional, network, text",
+   "area_ko": "복잡자료(시공간·함수형·네트워크·텍스트)",
+   "signal_ko": "Annual Review of Statistics 2024-2026 목차에 뇌 네트워크·relational event·텍스트 분석·딥 시공간 점과정·공간자료 융합·함수형 자료 학습·텐서 시계열 리뷰가 다수 실렸다. NSF Crossroads는 텍스트·이미지·관계형 자료 등 새로운 자료 유형 분석을 '대도전' 과제로 꼽았고, OpenAlex 제목 기준 'functional data'는 2019년 185편에서 2025년 320편, 'graph neural network'는 235→5,424편이다.",
+   "sources": [
+    {
+     "title": "Statistical Learning for Functional Data, Annu. Rev. Stat. Appl. 13",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-042424-052503"
+    },
+    {
+     "title": "Deep Spatiotemporal Point Processes: Advances and New Directions, Annu. Rev. Stat. Appl. 13",
+     "year": 2026,
+     "url_or_doi": "10.1146/annurev-statistics-042324-040052"
+    },
+    {
+     "title": "OpenAlex API, title 'graph neural network', 2025 (5,424; 2019: 235)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22graph%20neural%20network%22,publication_year:2025"
+    },
+    {
+     "title": "OpenAlex API, title 'functional data', 2025 (320; 2019: 185)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22functional%20data%22,publication_year:2025"
+    },
+    {
+     "title": "Statistics at a Crossroads: Who is for the Challenge? (He, Madigan, Yu, Wellner; NSF workshop report 2019)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/abs/2503.22945"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "개별 고전 과목을 늘리기보다 시공간·함수형·네트워크·텍스트를 순환 주제로 다루는 '복잡자료 분석' 선택과목 묶음을 두는 것이 효율적이다."
+  },
+  {
+   "area": "Optimal transport",
+   "area_ko": "최적수송",
+   "signal_ko": "arXiv stat 분류 제목 'optimal transport'는 2019년 56편에서 2025년 89편(1.6배), OpenAlex 제목 기준 228→785편(3.4배)으로 늘었고 Peyré·Cuturi(2019) 계산 OT 교재가 표준 참고문헌이 되었다. 다만 절대 규모가 작고 대학원 수준 수학이 필요하다.",
+   "sources": [
+    {
+     "title": "arXiv advanced search, stat titles 'optimal transport', 2025 (89; 2019: 56)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22optimal+transport%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'optimal transport', 2025 (785; 2019: 228)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22optimal%20transport%22,publication_year:2025"
+    },
+    {
+     "title": "Peyré & Cuturi, Computational Optimal Transport with Applications to Data Sciences, Foundations and Trends in ML 11(5-6)",
+     "year": 2019,
+     "url_or_doi": "10.1561/2200000073"
+    }
+   ],
+   "strength": "weak",
+   "undergrad_implication_ko": "학부 독립 과목은 시기상조이며 고급 확률·생성모형 과목의 한 단원이나 대학원 연계 과목으로 충분하다."
+  },
+  {
+   "area": "Survey and official statistics modernization, data integration",
+   "area_ko": "조사·공식통계 현대화와 자료통합",
+   "signal_ko": "NASEM(2023)은 설문 중심 연방통계를 다양한 데이터 자산과 결합하는 21세기 국가데이터 인프라를 제안했고, RSS·GSS(2026)는 AI·자동화 대비, 역할 재정의 등 5개 권고를 냈다. 한국은 2025년 10월 1일 통계청을 국무총리 소속 국가데이터처로 승격했고 2026년 예산 4,567억 원에 AI 자동분류·통계 특화 생성형 AI·가상데이터 생성 사업을 넣었으며, OpenAlex 제목 기준 'survey sampling'은 2019년 31편에서 2025년 36편으로 정체인 반면 'small area estimation'은 78→116편이다.",
+   "sources": [
+    {
+     "title": "NASEM, Toward a 21st Century National Data Infrastructure: Mobilizing Information for the Common Good",
+     "year": 2023,
+     "url_or_doi": "10.17226/26688"
+    },
+    {
+     "title": "RSS & GSS, The Future Statistician: vision report",
+     "year": 2026,
+     "url_or_doi": "https://rss.org.uk/RSS/media/File-library/Policy/2026/The-Future-Statistician-vision-report-final.pdf"
+    },
+    {
+     "title": "뉴시스, 국가데이터처 10월1일 공식 출범",
+     "year": 2025,
+     "url_or_doi": "https://mobile.newsis.com/view/NISX20250930_0003350240"
+    },
+    {
+     "title": "헤럴드경제, 데이터처 내년 예산 4567억원 확보…AI 활용 통계생산 확대",
+     "year": 2025,
+     "url_or_doi": "https://www.heraldk.com/article/2025120400075651163"
+    },
+    {
+     "title": "OpenAlex API, title 'survey sampling', 2025 (36; 2019: 31)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22survey%20sampling%22,publication_year:2025"
+    },
+    {
+     "title": "Statistics at a Crossroads: Who is for the Challenge? (He, Madigan, Yu, Wellner; NSF workshop report 2019)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/abs/2503.22945"
+    }
+   ],
+   "strength": "moderate",
+   "undergrad_implication_ko": "표본조사론을 확률표본 이론에 비확률표본 보정·행정자료 결합·소지역추정·공개제한을 더한 '자료수집과 자료통합' 과목으로 재구성한다."
+  }
+ ],
+ "declining": [
+  {
+   "topic_ko": "p값·유의성 검정(NHST) 중심의 추론 교육",
+   "evidence_ko": "The American Statistician 2019 특별호(43편) 사설은 'statistically significant' 용어 사용 중단을 제안했다. ASA 회장 태스크포스(2021)는 p값 폐기에는 반대했지만 실질적 중요성과 구별해 올바르게 쓰라는 원칙을 냈다. 따라서 검정 자체의 퇴출이 아니라 추정·불확실성·재현성 중심으로 비중을 옮기는 재편으로 보는 것이 정확하다.",
+   "sources": [
+    {
+     "title": "Wasserstein, Schirm, Lazar, Moving to a World Beyond 'p < 0.05', The American Statistician 73(sup1)",
+     "year": 2019,
+     "url_or_doi": "10.1080/00031305.2019.1583913"
+    },
+    {
+     "title": "Benjamini et al., The ASA President's Task Force Statement on Statistical Significance and Replicability, AOAS 15(3)",
+     "year": 2021,
+     "url_or_doi": "10.1214/21-AOAS1501"
+    }
+   ]
+  },
+  {
+   "topic_ko": "공식·계산 위주의 전통적 입문통계와 수리 위주 전공 명칭",
+   "evidence_ko": "Stanford는 1970년대부터 운영한 Mathematical and Computational Science 전공의 신규 진입을 2022년 9월 1일 중단하고 통계·윤리 과목과 캡스톤을 요구하는 데이터과학 BS(및 사회시스템 BA)로 대체했다. Berkeley는 2023년 통계학과를 포함하는 College of Computing, Data Science, and Society를 50여 년 만의 신설 단과대로 만들었고, ASA 교육 학술지도 2021년 JSE에서 JSDSE로 개칭했다. 컴퓨팅 통합을 주제로 한 JSDSE 29권 특별호(14편)에는 입문 데이터과학 과목 설계 논문(Çetinkaya-Rundel·Ellison)도 실렸다.",
+   "sources": [
+    {
+     "title": "Stanford Humanities & Sciences, Stanford launches new data science major",
+     "year": 2022,
+     "url_or_doi": "https://humsci.stanford.edu/feature/stanford-launches-new-data-science-major"
+    },
+    {
+     "title": "Berkeley News, UC Regents' vote creates UC Berkeley's first college in 50 years",
+     "year": 2023,
+     "url_or_doi": "https://news.berkeley.edu/2023/05/18/uc-regents-vote-creates-uc-berkeleys-first-college-in-50-years/"
+    },
+    {
+     "title": "ASA, ASA Journal Gets New Name, Mission (JSE to JSDSE)",
+     "year": 2020,
+     "url_or_doi": "https://www.amstat.org/publications/q-and-as/asa-journal-gets-new-name-mission"
+    },
+    {
+     "title": "Çetinkaya-Rundel & Ellison, A Fresh Look at Introductory Data Science, JSDSE 29(sup1)",
+     "year": 2020,
+     "url_or_doi": "10.1080/10691898.2020.1804497"
+    },
+    {
+     "title": "Hardin, Horton, Nolan, Temple Lang, Computing in the Statistics Curricula: A 10-Year Retrospective, JSDSE 29(sup1)",
+     "year": 2021,
+     "url_or_doi": "10.1080/10691898.2020.1862609"
+    }
+   ]
+  },
+  {
+   "topic_ko": "ARIMA 중심의 고전 시계열 단독 과목",
+   "evidence_ko": "arXiv stat 분류 제목 'time series'는 2019년 256편에서 2025년 290편(1.13배)으로 기준어 'regression'(1.26배)보다 느린 반면, OpenAlex 제목 'time series forecasting'은 7.6배 늘었다. M4에서는 통계·ML 혼합법이, M5에서는 LightGBM 기반 방법이 우승해 고전 모형만으로는 실무 예측을 대표하기 어려워졌다. 폐지보다는 예측 중심 과목으로의 확장 근거이다.",
+   "sources": [
+    {
+     "title": "arXiv advanced search, stat titles 'time series', 2019 (256)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22time+series%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2019&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'time series forecasting', 2019 (261)",
+     "year": 2019,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22time%20series%20forecasting%22,publication_year:2019"
+    },
+    {
+     "title": "M4 Competition, IJF 36(1)",
+     "year": 2020,
+     "url_or_doi": "10.1016/j.ijforecast.2019.04.014"
+    },
+    {
+     "title": "M5 accuracy competition, IJF 38(4)",
+     "year": 2022,
+     "url_or_doi": "10.1016/j.ijforecast.2021.11.013"
+    }
+   ]
+  },
+  {
+   "topic_ko": "품질관리(SPC·관리도) 독립 과목",
+   "evidence_ko": "arXiv stat 분류 제목 'control chart'는 2019년과 2025년 모두 5편이고, OpenAlex 제목 기준 'control chart'는 383→393편(1.03배), 'statistical process control'은 140→174편(1.24배)으로 같은 기간 전체 문헌 증가(1.40배)에 못 미쳐 상대적으로 정체되었다. 상위 학과의 공식 폐지 발표는 확인하지 못했으므로 근거는 약하다.",
+   "sources": [
+    {
+     "title": "arXiv advanced search, stat titles 'control chart', 2025 (5; 2019: 5)",
+     "year": 2025,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22control+chart%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2025&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'control chart', 2025 (393; 2019: 383)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22control%20chart%22,publication_year:2025"
+    },
+    {
+     "title": "OpenAlex API, title 'statistical process control', 2025 (174; 2019: 140)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22statistical%20process%20control%22,publication_year:2025"
+    }
+   ]
+  },
+  {
+   "topic_ko": "확률표본 이론만 다루는 고전 표본조사론",
+   "evidence_ko": "OpenAlex 제목 기준 'survey sampling'은 2019년 31편에서 2025년 36편으로 정체되었고, NASEM(2023)은 설문을 다른 데이터 자산과 결합하는 방향을 제시했다. 반면 ASA 2023 성명은 표본설계를 계속 중요한 전통 전문성으로 꼽았고 NSF Crossroads도 모형보조 유한모집단 표본설계를 새 기초연구로 들었으므로, 폐지가 아니라 자료통합 과목으로의 통합이 맞다.",
+   "sources": [
+    {
+     "title": "OpenAlex API, title 'survey sampling', 2025 (36; 2019: 31)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22survey%20sampling%22,publication_year:2025"
+    },
+    {
+     "title": "NASEM, Toward a 21st Century National Data Infrastructure",
+     "year": 2023,
+     "url_or_doi": "10.17226/26688"
+    },
+    {
+     "title": "ASA Statement on The Role of Statistics in Data Science and Artificial Intelligence",
+     "year": 2023,
+     "url_or_doi": "https://www.amstat.org/docs/default-source/amstat-documents/the-role-of-statistics-in-data-science-and-artificial-intelligence.pdf"
+    },
+    {
+     "title": "Statistics at a Crossroads: Who is for the Challenge? (He, Madigan, Yu, Wellner; NSF workshop report 2019)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/abs/2503.22945"
+    }
+   ]
+  },
+  {
+   "topic_ko": "MCMC 일변도의 베이즈 계산",
+   "evidence_ko": "arXiv stat 분류 제목 'Monte Carlo'는 2019년 105편에서 2025년 114편(1.09배)으로 기준어보다 느리고, OpenAlex 제목 기준 MCMC는 198→171편으로 감소한 반면 변분추론은 131→210편으로 늘었다. Annual Review 2025의 amortized 추론 리뷰처럼 계산 도구가 다변화되고 있다.",
+   "sources": [
+    {
+     "title": "arXiv advanced search, stat titles 'Monte Carlo', 2019 (105)",
+     "year": 2019,
+     "url_or_doi": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22Monte+Carlo%22&terms-0-field=title&classification-statistics=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2019&date-date_type=submitted_date_first&abstracts=hide&size=25&order=-announced_date_first"
+    },
+    {
+     "title": "OpenAlex API, title 'Markov chain Monte Carlo', 2025 (171; 2019: 198)",
+     "year": 2025,
+     "url_or_doi": "https://api.openalex.org/works?filter=title.search:%22Markov%20chain%20Monte%20Carlo%22,publication_year:2025"
+    },
+    {
+     "title": "Neural Methods for Amortized Inference, Annu. Rev. Stat. Appl. 12",
+     "year": 2025,
+     "url_or_doi": "10.1146/annurev-statistics-112723-034123"
+    }
+   ]
+  }
+ ],
+ "reports": [
+  {
+   "title": "Statistics at a Crossroads: Who is for the Challenge?",
+   "org": "NSF (DMS-1840278; rapporteurs X. He, D. Madigan, B. Yu, J. Wellner)",
+   "year": 2019,
+   "url": "https://arxiv.org/abs/2503.22945",
+   "key_points_ko": [
+    "통계학은 데이터과학을 포용·주도해 번성하거나 쇠퇴해 무의미해지는 갈림길에 있다고 진단했다.",
+    "6대 권고: 실천(practice) 중심, 영향력 중심 평가, 인과분석·의존성·이질성을 반영한 기초연구, 새 자료유형(텍스트·이미지·관계형) 대도전, 안정성·재현성·공정성 등 넓은 방법론 평가 기준, 비판적 사고·모델링·컴퓨팅·소통 훈련.",
+    "핵심 교육 영역으로 통계 기초, 컴퓨팅(재현성·DB·클라우드), 소통, 데이터 중심 비판적 사고, 표본추출·실험설계 기초, 인과추론, 측정, 윤리(프라이버시·알고리즘 편향), 협업을 제시했고 필수과목 확대 대신 선택과목 확대를 권했다.",
+    "2019년 11월 NSF 제출, 2021년 ASA 공개, 2025년 arXiv 게시."
+   ]
+  },
+  {
+   "title": "Data Science for Undergraduates: Opportunities and Options",
+   "org": "National Academies of Sciences, Engineering, and Medicine",
+   "year": 2018,
+   "url": "https://doi.org/10.17226/25104",
+   "key_points_ko": [
+    "데이터 소양(data acumen) 영역: 수학·통계·컴퓨팅 기초, 데이터 수집, 모델링, 관리·큐레이션, 시각화, 워크플로·재현성, 소통·협업, 도메인 고려, 윤리적 문제해결.",
+    "권고 2.1~2.5: 데이터과학 전공·부전공 설립, 다양한 경로 제공, 모든 학부생 기초 소양, 윤리를 교과 전반에 통합, 데이터과학 윤리강령 채택.",
+    "권고 5.1: 프로그램을 유연하게 운영하고 학과 간 과목·교수 공유."
+   ]
+  },
+  {
+   "title": "ASA Statement on The Role of Statistics in Data Science and Artificial Intelligence",
+   "org": "American Statistical Association",
+   "year": 2023,
+   "url": "https://www.amstat.org/docs/default-source/amstat-documents/the-role-of-statistics-in-data-science-and-artificial-intelligence.pdf",
+   "key_points_ko": [
+    "통계학은 ML·딥러닝에서 중심 역할을 하며 통계가와 컴퓨팅의 경계가 흐려져 통계가에게 더 넓은 기술이 필요하다고 명시했다.",
+    "교육은 알고리즘 설명을 넘어 연구질문 설정·수집·전처리·방법 선택·해석·소통의 전 과정 맥락에서 이뤄져야 한다고 했다.",
+    "불확실성 정량화, 표본설계, 인과추론을 계속 제공해야 할 전통적 전문성으로 꼽고 데이터 엔지니어링·MLOps 전문가와의 협업을 요구했다."
+   ]
+  },
+  {
+   "title": "Computing Competencies for Undergraduate Data Science Curricula",
+   "org": "ACM Data Science Task Force",
+   "year": 2021,
+   "url": "https://www.acm.org/media-center/2021/march/data-science-curricula-2021",
+   "key_points_ko": [
+    "데이터과학에 대한 컴퓨팅의 기여와 컴퓨팅 특화 역량을 정의한 최종 보고서(2021년 1월, 3월 발표).",
+    "2023년 ACM 교육위원회가 이를 다학제 역량으로 확장하는 후속 태스크포스를 꾸렸다."
+   ]
+  },
+  {
+   "title": "Moving to a World Beyond 'p < 0.05' (editorial to TAS special issue 'Statistical Inference in the 21st Century')",
+   "org": "The American Statistician / ASA",
+   "year": 2019,
+   "url": "https://doi.org/10.1080/00031305.2019.1583913",
+   "key_points_ko": [
+    "43편 특별호의 사설로 'statistically significant' 용어 사용 중단을 제안했다.",
+    "p값 하나로 효과의 존재·중요성을 판단할 수 없다는 점을 강조했다."
+   ]
+  },
+  {
+   "title": "The ASA President's Task Force Statement on Statistical Significance and Replicability",
+   "org": "ASA President's Task Force (Annals of Applied Statistics)",
+   "year": 2021,
+   "url": "https://doi.org/10.1214/21-AOAS1501",
+   "key_points_ko": [
+    "p값과 유의성 검정은 올바르게 적용·해석하면 버려서는 안 될 도구라는 입장을 밝혔다.",
+    "p값은 표본변동 대비 결과를 측정할 뿐 실질적 중요성과 같지 않다는 원칙을 제시했다."
+   ]
+  },
+  {
+   "title": "Reproducibility and Replicability in Science",
+   "org": "National Academies of Sciences, Engineering, and Medicine",
+   "year": 2019,
+   "url": "https://doi.org/10.17226/25303",
+   "key_points_ko": [
+    "연구의 엄밀성과 투명성 향상을 위한 권고를 연구자·대학·학술지·연구비 기관에 제시한 합의 보고서.",
+    "재현 실패가 경우에 따라 과학적 발견을 돕기도 한다는 등 반복가능성 기대를 세분화했다."
+   ]
+  },
+  {
+   "title": "Toward a 21st Century National Data Infrastructure: Mobilizing Information for the Common Good",
+   "org": "National Academies of Sciences, Engineering, and Medicine",
+   "year": 2023,
+   "url": "https://doi.org/10.17226/26688",
+   "key_points_ko": [
+    "수십 년간 설문 응답에 의존한 연방통계를 넘어 다양한 데이터 자산을 기존 설문과 결합하는 새 국가데이터 인프라 비전을 제시했다.",
+    "엄격한 프라이버시 보호를 전제로 한 데이터 활용을 강조했다."
+   ]
+  },
+  {
+   "title": "The Future Statistician: vision report",
+   "org": "Royal Statistical Society & UK Government Statistical Service",
+   "year": 2026,
+   "url": "https://rss.org.uk/RSS/media/File-library/Policy/2026/The-Future-Statistician-vision-report-final.pdf",
+   "key_points_ko": [
+    "향후 10년 통계가의 차별점을 '엄밀한 추론, 비례적 분석, 신뢰받는 번역(소통)'으로 정의했다.",
+    "5대 권고: R1 기술 변화(AI 리더십) 대비 훈련, R2 직무·역량 프레임워크 갱신, R3 단계별 CPD, R4 조직 내 통계가 통합, R5 허위정보 대응·소통 역량.",
+    "통계가의 역할이 데이터 생산자에서 조언자·해석자로 이동한다는 의견이 자문 결과의 핵심 주제였다."
+   ]
+  },
+  {
+   "title": "AI is Statistics: Why statistical thinking is vital for the effective, ethical and safe use of AI",
+   "org": "Royal Statistical Society (AI Task Force)",
+   "year": 2026,
+   "url": "https://rss.org.uk/RSS/media/File-library/Policy/2026/AI-is-Statistics-FINAL.pdf",
+   "key_points_ko": [
+    "LLM은 복잡한 통계모형이므로 AI를 효과적·윤리적으로 쓰려면 모두가 통계가처럼 사고해야 한다는 주장(2026년 3월 2일).",
+    "9개 권고 중 학교 디지털 소양에 통계적 사고·평가 포함, AI 평가를 위한 새 통계적 방법 투자, 고위험 AI의 분포 이동 하 성능 증거 요구, 규제기관의 공통 통계 평가 프레임워크(불확실성 정량화·하위집단 분석·강건성 검정)를 제시했다.",
+    "인과추론 도구로 AI가 인과관계를 학습했는지 평가할 필요를 강조했다."
+   ]
+  },
+  {
+   "title": "What Should Data Science Education Do with Large Language Models?",
+   "org": "Tu, Zou, Su, Zhang (arXiv 2023; Harvard Data Science Review 2024)",
+   "year": 2023,
+   "url": "https://arxiv.org/abs/2307.02792",
+   "key_points_ko": [
+    "LLM이 데이터과학자의 역할을 직접 코딩·정형 분석에서 AI 분석의 평가·관리로 옮긴다고 보았다.",
+    "교육은 창의성·비판적 사고·LLM 지원 프로그래밍·학제 지식을 강조하고 LLM을 대화형 튜터로 활용하되 인간 전문성을 중심에 두어야 한다고 제안했다."
+   ]
+  },
+  {
+   "title": "A New Era of Learning: Considerations for ChatGPT as a Tool to Enhance Statistics and Data Science Education",
+   "org": "Ellis & Slade, Journal of Statistics and Data Science Education 31(2)",
+   "year": 2023,
+   "url": "https://doi.org/10.1080/26939169.2023.2223609",
+   "key_points_ko": [
+    "ChatGPT를 통계·데이터과학 수업 자료 개발과 학습에 활용하는 예시와 학생의 책임 있는 사용 지도 방안을 제시했다.",
+    "계산기 도입 때의 경계 사례에 비추어 생성형 AI를 교육 도구로 수용할 것을 주장했다."
+   ]
+  },
+  {
+   "title": "Future Shock: Grappling With the Generative AI Revolution (HDSR Special Issue 5)",
+   "org": "Harvard Data Science Review",
+   "year": 2024,
+   "url": "https://doi.org/10.1162/99608f92.fad6d25c",
+   "key_points_ko": [
+    "데이터과학 학술지가 생성형 AI 혁명을 주제로 특별호를 구성했다(편집 서문 Leslie·Meng)."
+   ]
+  },
+  {
+   "title": "IMS Presidential Address: Statistics at the Crossroads: Challenges and Opportunities in the Age of AI (T. Tony Cai, JSM 2025)",
+   "org": "Institute of Mathematical Statistics",
+   "year": 2025,
+   "url": "https://imstat.org/2025/11/15/ims-presidential-address-statistics-at-the-crossroads-challenges-and-opportunities-in-the-age-of-ai/",
+   "key_points_ko": [
+    "통계학이 AI 시대를 주도할지 뒤처질지를 핵심 질문으로 제기했다.",
+    "정규화·불확실성 정량화 같은 통계 원리가 AI의 중심에 있으며 통계가가 AI 활용 과학의 기준을 세워야 한다고 주장했다(전문은 IMS 사이트 봇 차단으로 검색 발췌로만 확인)."
+   ]
+  },
+  {
+   "title": "JSM 2025 theme: Statistics, Data Science, and AI Enriching Society",
+   "org": "American Statistical Association",
+   "year": 2025,
+   "url": "https://ww2.amstat.org/meetings/jsm/2025/program.cfm",
+   "key_points_ko": [
+    "세계 최대 통계학회 JSM이 2025년 대회 주제에 AI를 명시했다(2025년 8월 2~7일)."
+   ]
+  },
+  {
+   "title": "ACM/IMS Journal of Data Science launches with inaugural issues",
+   "org": "ACM & Institute of Mathematical Statistics",
+   "year": 2024,
+   "url": "https://www.eurekalert.org/news-releases/1039305",
+   "key_points_ko": [
+    "통계·ML·컴퓨터 시스템·데이터과학의 사회적 함의를 아우르는 골드 OA 학술지 창간(2024년 3월 27일, 편집장 Bradic·Idreos·Lafferty)."
+   ]
+  },
+  {
+   "title": "Annual Review of Statistics and Its Application, Vols. 11-13 and 2026 reviews in advance (table of contents via Crossref)",
+   "org": "Annual Reviews",
+   "year": 2026,
+   "url": "https://api.crossref.org/journals/2326-8298/works?filter=from-pub-date:2024-01-01",
+   "key_points_ko": [
+    "2025-2026 리뷰 주제에 생성형 AI 통계방법, RLHF, 지식증류(LLM 확장), 합성데이터, 딥러닝 통계이론, 차분 프라이버시, amortized 추론, 적응형 실험 후 추론, 랜덤포레스트 이론, operator learning, 예측평가 scoring rule이 포함되어 연구 무게중심이 AI 인접 영역으로 이동했음을 보여준다.",
+    "같은 기간 'Reproducibility in the Classroom'(2025) 등 교육 관련 리뷰도 실렸다."
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "source": "U.S. BLS Occupational Outlook Handbook: Mathematicians and Statisticians (last modified 2026-10-29)",
+   "year": 2026,
+   "url": "https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm",
+   "point_ko": "미국 통계가(statistician) 일자리는 2025년 31,300개에서 2035년 34,700개로 11% 증가 전망이며 중위임금은 10만 5,650달러(2025년 5월)이다. 일반적 진입학력은 석사이고 일부 학사 진입이 가능하며, 비전문가에게 기술 개념을 설명하는 소통 역량을 중요 자질로 든다."
+  },
+  {
+   "source": "U.S. BLS Occupational Outlook Handbook: Data Scientists (last modified 2026-08-27)",
+   "year": 2026,
+   "url": "https://www.bls.gov/ooh/math/data-scientists.htm",
+   "point_ko": "데이터과학자는 2025년 275,600개 일자리, 2025~2035년 35% 증가(연평균 24,800개 채용 수요), 중위임금 12만 230달러이며 진입학력은 학사이다. 직무 서술에 머신러닝·통계 방법·데이터 지향 프로그래밍 언어가 명시되어 있다."
+  },
+  {
+   "source": "World Economic Forum, The Future of Jobs Report 2025",
+   "year": 2025,
+   "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025",
+   "point_ko": "1,000개 이상 기업 조사에서 2030년까지 증가율 기준 가장 빠르게 성장할 직무로 빅데이터 전문가·핀테크 엔지니어·AI/ML 전문가를 꼽았고, 가장 빠르게 성장하는 기술은 'AI와 빅데이터'이며 분석적 사고는 핵심 역량으로 남는다고 보았다."
+  },
+  {
+   "source": "ASA tabulation of NCES IPEDS completions: Statistics degrees 1987-2025",
+   "year": 2026,
+   "url": "https://www.amstat.org/docs/default-source/amstat-documents/statsdegrees1987-2023.pdf",
+   "point_ko": "미국 통계학 학사 학위는 2010년 849개에서 2019년 4,386개로 급증한 뒤 2023년 5,463개, 2024년 5,240개, 2025년 5,696개로 증가세가 둔화(정체)되었다."
+  },
+  {
+   "source": "Amstat News degree data reports (2022 data: data science bachelor's)",
+   "year": 2023,
+   "url": "https://magazine.amstat.org/blog/2023/12/01/degreesstats2022/",
+   "point_ko": "미국 데이터과학 학사 학위는 2020년 84개, 2021년 165개, 2022년 897개로 급증했고 ASA는 2024~2025년에도 통계·생물통계 학위는 정체, 데이터과학·분석 학위는 급성장이라고 요약했다(본문은 봇 차단으로 검색 발췌로 확인)."
+  },
+  {
+   "source": "Stanford Digital Economy Lab, Canaries in the Coal Mine? (revised 2026-08-12)",
+   "year": 2026,
+   "url": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/",
+   "point_ko": "ADP 급여자료 분석 결과 AI 노출 직종의 22~25세 고용이 비노출 직종 추세 대비 19% 낮고 주로 신규채용 감소로 나타나며, AI가 대체보다 보완하는 직종에서는 고용이 유지·증가했다. 초급 정형 분석 업무의 자동화 위험을 시사한다."
+  },
+  {
+   "source": "국가데이터처 출범 및 2026년 예산 보도(뉴시스, 헤럴드경제)",
+   "year": 2025,
+   "url": "https://mobile.newsis.com/view/NISX20250930_0003350240",
+   "point_ko": "통계청이 2025년 10월 1일 국무총리 소속 국가데이터처로 승격되어 범정부 데이터 총괄·연계 기능을 맡았고, 2026년 예산 4,567억 원에 AI 자동분류·통계 특화 생성형 AI·가상데이터 생성 사업을 편성해 국내 공공부문에서 데이터 통합·AI 활용 통계 역량 수요가 커지고 있다."
+  }
+ ],
+ "_meta": {
+  "compiled": "2026-11-07",
+  "notes_ko": [
+   "arXiv 검색 수치는 arXiv 고급검색(제목, Statistics 분류, 교차게재 포함, 최초 제출일 기준) 결과이며 기준어 'regression'은 2019년 499편→2025년 631편(1.26배)이다.",
+   "arXiv 1차 분류 수치(2022~2025)는 info.arxiv.org 'Submissions by Category since 2022' 페이지의 내장 데이터에서 연도별 합산했고 2026년은 9월까지의 부분 연도이다: stat 전체 4,889→6,916, stat.ME 2,267→3,245, stat.ML 1,542→2,186, math.ST 922→1,148, cs.LG 13,687→25,747, cs.CL 7,106→16,942, cs.AI 2,104→8,391, arXiv 전체 184,830→283,120.",
+   "OpenAlex 수치는 title.search 정확구 검색과 publication_year 필터로 2026-11-07에 조회한 값이며, 같은 기간 OpenAlex 전체 문헌은 10,263,118→14,361,616건(1.40배)이다. 색인 범위 차이로 절대값보다 상대 증가율만 해석해야 한다.",
+   "비모수통계 과목의 부트스트랩·재표집 중심 재편은 근거를 찾지 못해 제외했다(arXiv stat 제목 'bootstrap'은 39→48편으로 기준어와 비슷한 증가)."
+  ]
+ }
+}
